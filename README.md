@@ -48,10 +48,20 @@ TPM generates a file, `tpm.d.ts` which references all your dependencies. To refe
 All Commands
 ------------
 
-    tpm init                # creates tpm.json with default values
+    # creates tpm.json with default values
+    tpm init                    
 
-    tpm install             # installs all dependencies listed in tpm.json
-    tpm install --prod      # uses the CDN to edit your index.html
+    # installs all dependencies listed in tpm.json
+    tpm install                 
+
+    # uses the CDN to edit your index.html
+    tpm install --prod          
+
+    # installs jquery and saves to `tpm.json`
+    tpm install jquery          
+
+    # installs a dependency at a particular version 
+    tpm install jquery@2.0.3    
 
 
 Configuration
@@ -63,7 +73,7 @@ The dependencies and settings for a project or folder can be specified in `tpm.j
         "name":"my project",
         "main":"index.html",
         "dependencies":{
-            "angularjs": "~1.0.8",
+            "jquery": "~2.0.3",
         },
     }
 

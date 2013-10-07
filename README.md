@@ -1,7 +1,7 @@
 TPM: Typescript Package Manager
 ===============================
 
-**Note:** This is only a proposal. I am seeking feedback before building it.
+**Note:** This is only a proposal. I am seeking feedback before building it. Also see "An Alternative" below.
 
 TPM makes using dependencies on a Typescript project as easy as `tpm install somepackage`. It reduces the following to one step:
 
@@ -104,6 +104,11 @@ Is managing the html file useful? If not, how do you source all those dependenci
 Should we bother adding a production setting that links to the CDN versions of things, and concatenates all other dependencies? People tend to have very different opinions about deployment, but it would be nice to have a workable default. 
 
 How to manage the repository? It would be better if people could add entries without having to go through a gatekeeper, and to let the community edit them somehow (like, if there is a better source for a definition file somewhere).
+
+An Alternative
+--------------
+
+A tool that reads package.json and bower.json, and installs the correct version of the definitely typed files automatically. 
 
 TODO
 ----

@@ -1,14 +1,14 @@
 TPM: Typescript Package Manager
 ===============================
 
-TPM makes `tpm install somepackage` "just work" for client-side dependencies by reducing the following to one step:
+TPM makes using dependencies on a Typescript project as easy as `tpm install somepackage`. It reduces the following to one step:
 
 1. Install the Javascript code using [Bower][bower]
 2. Install the [Typescript definition files from DefinitelyTyped][definitelyTyped]
 3. Load the Javascript code at runtime
 4. Reference all Typescript definition files from your app
 
-TPM makes this simple by providing a few conventions, and by generating code whenever you `tpm install`.
+TPM makes this simple by establishing a few conventions, and by generating code whenever you `tpm install`.
 
 Using TPM on your project
 -------------------------
@@ -25,7 +25,7 @@ Install a dependency
 
     tpm install jquery
 
-TPM will automatically add all the dependencies to the bottom of your `index.html` file, making them available at runtime. 
+If you specify an `"index"` in the configuration, TPM will automatically add and remove dependencies at the bottom of your html file, making them available at runtime. 
 
         ...
 
@@ -42,6 +42,8 @@ TPM generates a file, `tpm.d.ts` which references all your dependencies. To refe
     /// <reference path="../tpm.d.ts" />
 
     $("body").fadeOut()
+
+When you want to deploy to production
     
 
 
@@ -54,7 +56,8 @@ All Commands
     # installs all dependencies listed in tpm.json
     tpm install                 
 
-    # uses the CDN to edit your index.html
+    # uses the CDN to edit your index.html. 
+    # dependencies without a CDN will be compiled into a single file
     tpm install --prod          
 
     # installs jquery and saves to `tpm.json`
@@ -72,8 +75,14 @@ The dependencies and settings for a project or folder can be specified in `tpm.j
     {
         "name":"someProject",
         "description":"",
+
+        // Where the dependencies are installed. 
         "directory":"public/components/",
-        "main":"public/index.html",
+
+        // optionally specify an html file to add dependencies too
+        "index":"public/index.html",
+
+
         "dependencies":{
             "jquery": "~2.0.3",
         },
@@ -85,6 +94,14 @@ Adding a Dependency
 If a dependency is not found in the repository, please help us out by adding it! 
 
 
+Open Questions
+--------------
+
+Is managing the html file useful? If not, how do you source all those dependencies? One of the major problems with client-side development is the huge burden it is to import small dependencies (performance-wise, annoyance, potential for error).
+
+Should we bother adding a production setting that links to the CDN versions of things, and concatenates all other dependencies? People tend to have very different opinions about deployment, but it would be nice to have a workable default. 
+
+How to manage the repository? It would be better if people could add entries without having to go through a gatekeeper, and to let the community edit them somehow (like, if there is a better source for a definition file somewhere).
 
 TODO
 ----
@@ -93,7 +110,9 @@ Install a package from git. From git/subfolder? Or it just references
 
 Easily add a new package. 
 
+Support node/servers as well (a simpler problem).
 
 [typescript]: http://typescriptlang.org/
 [definitelyTyped]: https://github.com/borisyankov/DefinitelyTyped
 [bower]: http://bower.io/
+[npm]: https://npmjs.org/

@@ -61,7 +61,7 @@ All Commands
     tpm install jquery          
 
     # installs a dependency at a particular version 
-    tpm install jquery@2.0.3    
+    tpm install jquery#2.0.3    
 
 
 Configuration
@@ -70,8 +70,10 @@ Configuration
 The dependencies and settings for a project or folder can be specified in `tpm.json`. The command `tpm init` will generate one with defaults for you to change. 
 
     {
-        "name":"my project",
-        "main":"index.html",
+        "name":"someProject",
+        "description":"",
+        "directory":"public/components/",
+        "main":"public/index.html",
         "dependencies":{
             "jquery": "~2.0.3",
         },
@@ -83,6 +85,13 @@ Adding a Dependency
 If a dependency is not found in the repository, please help us out by adding it! 
 
 
+
+TODO
+----
+
+Install a package from git. From git/subfolder? Or it just references 
+
+Easily add a new package. 
 
 
 [typescript]: http://typescriptlang.org/

@@ -1,6 +1,8 @@
 TPM: Typescript Package Manager
 ===============================
 
+**Note:** This is only a proposal. I am seeking feedback before building it.
+
 TPM makes using dependencies on a Typescript project as easy as `tpm install somepackage`. It reduces the following to one step:
 
 1. Install the Javascript code using [Bower][bower]

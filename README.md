@@ -1,7 +1,7 @@
 TPM: Typescript Package Manager
 ===============================
 
-The goal: to make `tpm install somepackage` "just work" for client-side dependencies. It strives to reduce the following process to one step:
+TPM makes `tpm install somepackage` "just work" for client-side dependencies by reducing the following to one step:
 
 1. Install the Javascript code using [Bower][bower]
 2. Install the [Typescript definition files from DefinitelyTyped][definitelyTyped]

@@ -1,16 +1,11 @@
 TPM: Typescript Package Manager
 ===============================
 
-**Note:** This is only a proposal. I am seeking feedback before building it. Also see "An Alternative" below.
+**Note:** This is only a proposal. I am seeking feedback before building it.
 
-TPM makes using dependencies on a Typescript project as easy as `tpm install somepackage`. It reduces the following to one step:
+It is currently difficult to use 3rd party dependencies on a client-side Typescript project. Using bower, you can include Javascript dependencies, but then you must also import definition files from somewhere (usually [DefinitelyTyped][definitelytyped]). 
 
-1. Install the Javascript code using [Bower][bower]
-2. Install the [Typescript definition files from DefinitelyTyped][definitelyTyped]
-3. Load the Javascript code at runtime
-4. Reference all Typescript definition files from your app
-
-TPM makes this simple by establishing a few conventions, and by generating code whenever you `tpm install`.
+TPM simplifies using dependencies on a Typescript project. By running `tpm install` it will read the dependencies listed in `bower.json` or `package.json`, download the definition files, and create a file that references all of them for easy including. 
 
 Using TPM on your project
 -------------------------
@@ -19,107 +14,36 @@ Install the `tpm` command-line tools
     
     npm install -g tpm
 
-Create a configuration and dependencies file, `tpm.json`. See "Coniguration" below for options
+Install bower dependencies
 
-    tpm init
+    bower install jquery --save
 
-Install a dependency
+Install definitions to `bower_components/dt/...`
 
-    tpm install jquery
+    tpm install
 
-If you specify an `"index"` in the configuration, TPM will automatically add and remove dependencies at the bottom of your html file, making them available at runtime. 
+Include a dependency in your project
 
-        ...
-
-        <!-- TPM start -->
-        <script src="/components/jquery/jquery.min.js"></script>
-        <!-- TPM end -->
-
-        <script src="main.js"></script>
-
-    </body>
-    
-TPM generates a file, `tpm.d.ts` which references all your dependencies. To reference them from your code, simply add a tag like this with a relative path to the root project file
-
-    /// <reference path="../tpm.d.ts" />
+    /// <reference path="../bower_components/dt/jquery/jquery.d.ts" />
 
     $("body").fadeOut()
 
-When you want to deploy to production
-    
+TPM generates a file, `bower_components/dt/index.d.ts` which references all your dependencies. To reference them from your code, simply add a reference to it in your root project file
+
+    /// <reference path="../bower_components/dt/index.d.ts" />
+
+    $("body").fadeOut()
 
 
-All Commands
-------------
+Specifying Definitions
+----------------------
 
-    # creates tpm.json with default values
-    tpm init                    
+Definitions are specified per bower package and version range, and consist of the following:
 
-    # installs all dependencies listed in tpm.json
-    tpm install                 
+- A github repository
+- A path to a file within the repository
+- A commit, tag, or branch name to target
 
-    # uses the CDN to edit your index.html. 
-    # dependencies without a CDN will be compiled into a single file
-    tpm install --prod          
-
-    # installs jquery and saves to `tpm.json`
-    tpm install jquery          
-
-    # installs a dependency at a particular version 
-    tpm install jquery#2.0.3    
-
-
-Configuration
--------------
-
-The dependencies and settings for a project or folder can be specified in `tpm.json`. The command `tpm init` will generate one with defaults for you to change. 
-
-    {
-        "name":"someProject",
-        "description":"",
-
-        // Where the dependencies are installed. 
-        "directory":"public/components/",
-
-        // optionally specify an html file to add dependencies too
-        "index":"public/index.html",
-
-
-        "dependencies":{
-            "jquery": "~2.0.3",
-        },
-    }
-
-Adding a Dependency
--------------------
-
-If a dependency is not found in the repository, please help us out by adding it! 
-
-
-Open Questions
---------------
-
-Is managing the html file useful? If not, how do you source all those dependencies? One of the major problems with client-side development is the huge burden it is to import small dependencies (performance-wise, annoyance, potential for error).
-
-Should we bother adding a production setting that links to the CDN versions of things, and concatenates all other dependencies? People tend to have very different opinions about deployment, but it would be nice to have a workable default. 
-
-How to manage the repository? It would be better if people could add entries without having to go through a gatekeeper, and to let the community edit them somehow (like, if there is a better source for a definition file somewhere).
-
-An Alternative
---------------
-
-A tool that reads package.json and bower.json, and installs the correct version of the definitely typed files automatically. TPM is still a good name
-    
-    tpm install # reads bower.json, package.json in this folder. Creates a references.d.ts in the same folder which has all the dependencies. Cool
-
-TODO
-----
-
-Install a package from git. From git/subfolder? Or it just references 
-
-Easily add a new package. 
-
-Support node/servers as well (a simpler problem).
 
 [typescript]: http://typescriptlang.org/
 [definitelyTyped]: https://github.com/borisyankov/DefinitelyTyped

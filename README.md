@@ -44,6 +44,16 @@ Definitions are specified per bower package and version range, and consist of th
 - A path to a file within the repository
 - A commit, tag, or branch name to target
 
+We automatically ingest [DefinitelyTyped][definitelytyped], and it serves as the default location for packages. In addition, we can specify other definition files, or version-specific information using the web tool. 
+
+Feedback
+--------
+
+Please provide feedback in one of these threads, or in an issue in this repository. 
+
+- https://github.com/borisyankov/DefinitelyTyped/issues/428
+- https://typescript.codeplex.com/discussions/461449#post1104904
+
 
 [typescript]: http://typescriptlang.org/
 [definitelyTyped]: https://github.com/borisyankov/DefinitelyTyped

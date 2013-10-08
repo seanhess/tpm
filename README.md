@@ -108,7 +108,9 @@ How to manage the repository? It would be better if people could add entries wit
 An Alternative
 --------------
 
-A tool that reads package.json and bower.json, and installs the correct version of the definitely typed files automatically. 
+A tool that reads package.json and bower.json, and installs the correct version of the definitely typed files automatically. TPM is still a good name
+    
+    tpm install # reads bower.json, package.json in this folder. Creates a references.d.ts in the same folder which has all the dependencies. Cool
 
 TODO
 ----

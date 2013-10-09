@@ -16,6 +16,11 @@
     "q": "~0.9.7",
     "lodash": "~2.2.1",
     "underscore": "~1.5.2",
-    "request": "~2.27.0"
+    "request": "~2.27.0",
+    "q-io": "~1.10.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "typescript": "~0.9.1-1"
   }
 }

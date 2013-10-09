@@ -19,12 +19,6 @@ var RENAMES = {
 }
 
 
-function debug(stuff) { console.log("[DEBUG]", stuff)}
-function error(stuff) { console.log("[ERROR]", stuff)}
-
-// dt.generateRepo()
-// .then(debug, error)
-
 
 // returns DefinitelyTyped as a respository of type files
 export function loadDefinitelyTyped():Q.IPromise<IDefinition[]> {
@@ -72,7 +66,7 @@ function mapAddDefinition(map:IDefinitionMap, def:IDefinition) {
 
 
 
-var parseJSON = (data:NodeBuffer) => JSON.parse(data.toString())
+// var parseJSON = (data:NodeBuffer) => JSON.parse(data.toString())
 
 
 // Command-line tool: will read bower.json and package.json
@@ -132,3 +126,8 @@ curl https://api.github.com/repos/borisyankov/DefinitelyTyped/contents/
 // .then(function(stuff) {
 //     console.log("HELLO", stuff)
 // })
+
+
+
+// function debug(stuff) { console.log("[DEBUG]", stuff)}
+// function error(stuff) { console.log("[ERROR]", stuff)}

@@ -7,5 +7,7 @@ GOAL: An API/service that returns the correct definitely typed file for a given 
 [x] Create an API
 [x] Load Definitely Typed on start
 [x] API returns the correct package for a given node module name
-    - if static name override exists
+
+[ ] Search
+[ ] 
 

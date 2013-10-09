@@ -4,7 +4,9 @@ GOAL: An API/service that returns the correct definitely typed file for a given 
 :: no web interface to start
 :: no interface at all to start, it's just hard-coded
 
-[ ] Create an API
-[ ] Load Definitely Typed on start
-[ ] Support static name overrides
+[x] Create an API
+[x] Load Definitely Typed on start
+[ ] API returns the correct package for a given node module name
+    - direct match
+    - if static name override exists
 

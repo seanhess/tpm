@@ -33,6 +33,19 @@ export function loadDefinitelyTyped():Q.IPromise<IDefinition[]> {
     return dt.generateRepo()
 }
 
+export function findDefinition(map:IDefinitionMap, name:string):IDefinition {
+    return map[name]
+}
+
+export function definitionMap(definitions:IDefinition[]):IDefinitionMap {
+    return definitions.reduce(mapAddDefinition, {})
+}
+
+function mapAddDefinition(map:IDefinitionMap, def:IDefinition) {
+    map[def.name] = def
+    return map
+}
+
 
 // function readDependenciesIfExists(path:string):Q.IPromise<IDependency[]> {
 //     // I need to return / exist early... how?

@@ -51,6 +51,12 @@ app.get("/dt", function(req, res) {
     res.json(dtcache.definitions)
 })
 
+app.get('/dt/:name', function(req, res) {
+    var def = tpm.findDefinition(dtcache.map, req.params.name)
+    if (!def) res.send(404)
+    res.json(def)
+})
+
 // TODO: make this trigger automatically, whenever expired, or whatever
 app.post("/dt/reload", function(req, res) {
     dtcache.loadAndCache()

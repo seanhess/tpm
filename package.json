@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git://github.com/seanhess/TPM.git"
   },
-  "main":"server/server.js",
+  "main": "server/server.js",
   "author": "Sean Hess",
   "license": "MIT",
   "bugs": {
@@ -17,7 +17,8 @@
     "underscore": "~1.5.2",
     "request": "~2.27.0",
     "express": "~3.4.0",
-    "connect": "~2.9.0"
+    "connect": "~2.9.0",
+    "express-promise": "~0.1.9"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

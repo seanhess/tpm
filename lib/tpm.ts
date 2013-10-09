@@ -5,21 +5,19 @@ import path = require('path')
 import Q = require('q')
 import _ = require('underscore')
 import dt = require('./definitelyTyped')
+import request = require('./q-request')
+
+var API_URL = "http://tpm.orbit.al:3244"
 
 
-// var options = process.argv.slice(2)
-// var workingDir = process.cwd()
+// We can map names to definitely typed without having to do anything else manually
+// later we could use a command-line or web interface and a database
+var RENAMES = {
+    "angularjs": "angular",
+    "jquery-browserify": "jquery",
+    "angular-browserify": "angular",
+}
 
-// console.log(workingDir, options)
-
-// // check for package.json and bower.json
-// var bowerPath = path.join(workingDir, "bower.json")
-// var packagePath = path.join(workingDir, "package.json")
-
-// readDependenciesIfExists(packagePath)
-// .then(function(stuff) {
-//     console.log("HELLO", stuff)
-// })
 
 function debug(stuff) { console.log("[DEBUG]", stuff)}
 function error(stuff) { console.log("[ERROR]", stuff)}
@@ -34,6 +32,8 @@ export function loadDefinitelyTyped():Q.IPromise<IDefinition[]> {
 }
 
 export function findDefinition(map:IDefinitionMap, name:string):IDefinition {
+    if (RENAMES[name])
+        name = RENAMES[name]
     return map[name]
 }
 
@@ -45,6 +45,8 @@ function mapAddDefinition(map:IDefinitionMap, def:IDefinition) {
     map[def.name] = def
     return map
 }
+
+
 
 
 // function readDependenciesIfExists(path:string):Q.IPromise<IDependency[]> {
@@ -115,6 +117,18 @@ curl https://api.github.com/repos/borisyankov/DefinitelyTyped/contents/
 
 
 
-
-
 */
+
+// var options = process.argv.slice(2)
+// var workingDir = process.cwd()
+
+// console.log(workingDir, options)
+
+// // check for package.json and bower.json
+// var bowerPath = path.join(workingDir, "bower.json")
+// var packagePath = path.join(workingDir, "package.json")
+
+// readDependenciesIfExists(packagePath)
+// .then(function(stuff) {
+//     console.log("HELLO", stuff)
+// })

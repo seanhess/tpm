@@ -69,6 +69,10 @@ app.get('/info', function(req, res) {
     res.send("AngularJS Bootstrap")
 })
 
+app.get('/', function(req, res) {
+    res.send("<h3>TPM</h3><div><a href='/dt'>/dt</a></div><div><a href='/dt/angular'>/dt/:name</a></div>")
+})
+
 // Send the Angular app for everything under /admin
 // Be careful not to accidentally send it for 404 javascript files, or data routes
 // app.get(/\/[\w\/\-]*$/, function(req, res) {

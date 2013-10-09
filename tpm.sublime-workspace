@@ -1,0 +1,2235 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"MediaTy",
+				"MediaQueryList:MediaQueryList"
+			],
+			[
+				"rg",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"publication",
+				"publicationService:publicationService"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"thumbn",
+				"thumbnailUrl:string"
+			],
+			[
+				"newPu",
+				"newPublication:IPublication"
+			],
+			[
+				"semiRan",
+				"setTimeout(handler: any, timeout?: any, ...args: any[]): number"
+			],
+			[
+				"open",
+				"open(url?: string, target?: string, features?: string, replace?: boolean): Window"
+			],
+			[
+				"ope",
+				"open(url?: string, target?: string, features?: string, replace?: boolean): Window"
+			],
+			[
+				"Jquer",
+				"JQuery:JQuery"
+			],
+			[
+				"elemen",
+				"element:JQuery"
+			],
+			[
+				"elemne",
+				"element:JQuery"
+			],
+			[
+				"intal",
+				"install-prod"
+			],
+			[
+				"clearInt",
+				"clearInterval(handle: number): void"
+			],
+			[
+				"else",
+				"execScript(code: string, language?: string): any"
+			],
+			[
+				"pub",
+				"publication:any"
+			],
+			[
+				"PocketLayoutTy",
+				"Pocket(type: any, layout: any): { type: any; layout: any; }"
+			],
+			[
+				"rightMed",
+				"rightMediaPocket:IPocket"
+			],
+			[
+				"leftText",
+				"leftTextPocket:IPocket"
+			],
+			[
+				"bottomText",
+				"bottomTextPocket:IPocket"
+			],
+			[
+				"Text",
+				"TextBody:PocketType"
+			],
+			[
+				"topMedi",
+				"topMediaPocket:IPocket"
+			],
+			[
+				"PocketTy",
+				"PocketLayoutType:PocketLayoutType"
+			],
+			[
+				"IPageLay",
+				"IPageLayout:IPageLayout"
+			],
+			[
+				"public",
+				"publicationService:publicationService"
+			],
+			[
+				"IPub",
+				"IPublication:IPublication"
+			],
+			[
+				"IPublic",
+				"IPublication:IPublication"
+			],
+			[
+				"routeP",
+				"$routeParams:IPublication"
+			],
+			[
+				"RestangularEle",
+				"RestangularCollection:RestangularCollection"
+			],
+			[
+				"rou",
+				"$routeParams:IPublication"
+			],
+			[
+				"routePa",
+				"$routeParams:IPublication"
+			],
+			[
+				"rout",
+				"$routeProvider:ng.IRouteProvider"
+			],
+			[
+				"design",
+				"designFrame:designFrame"
+			],
+			[
+				"mchenry",
+				"mchenry:any"
+			],
+			[
+				"mchen",
+				"msIsStaticHTML(html: string): boolean"
+			],
+			[
+				"mche",
+				"msIsStaticHTML(html: string): boolean"
+			],
+			[
+				"ang",
+				"angular:ng.IAngularStatic"
+			],
+			[
+				"angul",
+				"angular:ng.IAngularStatic"
+			],
+			[
+				"build_er",
+				"build_errors"
+			],
+			[
+				"is_inline",
+				"is_inline_disabled"
+			],
+			[
+				"build_err",
+				"build_errors_by_file"
+			],
+			[
+				"is_inll",
+				"is_inline_set_false"
+			],
+			[
+				"typesc",
+				"typescript_inline"
+			],
+			[
+				"extra",
+				"extra_lines"
+			],
+			[
+				"file",
+				"file_regex"
+			],
+			[
+				"is_com",
+				"is_completion_function"
+			],
+			[
+				"on_typescript",
+				"on_typescript_completions"
+			],
+			[
+				"current",
+				"current_view"
+			],
+			[
+				"load_comp",
+				"load_completions_view"
+			],
+			[
+				"invalid",
+				"invalidate_completions"
+			],
+			[
+				"if",
+				"ifel	If Else"
+			],
+			[
+				"full",
+				"fullSymbolName"
+			],
+			[
+				"TYPE",
+				"TYPE_PREFIXES"
+			],
+			[
+				"curr",
+				"current_view"
+			],
+			[
+				"tex",
+				"TextCommand"
+			],
+			[
+				"check_errors",
+				"check_errors_delay"
+			],
+			[
+				"check_er",
+				"check_errors"
+			],
+			[
+				"check_",
+				"check_errors_delay"
+			],
+			[
+				"check_err",
+				"check_errors_delay"
+			],
+			[
+				"Typesc",
+				"TypescriptToolService"
+			],
+			[
+				"Typescr",
+				"TypescriptProjectManager"
+			],
+			[
+				"Typescri",
+				"TypescriptToolsService"
+			],
+			[
+				"render",
+				"render_error_status"
+			],
+			[
+				"check",
+				"checkErrors"
+			],
+			[
+				"starts",
+				"startswith"
+			],
+			[
+				"start",
+				"startswith"
+			],
+			[
+				"que",
+				"queue_next"
+			],
+			[
+				"text",
+				"text_point"
+			],
+			[
+				"sublime",
+				"sublime_plugin"
+			],
+			[
+				"update",
+				"  updateFileUrls (book: IBook): IBook"
+			],
+			[
+				"clid",
+				"clientIdIndex"
+			],
+			[
+				"dis",
+				"disposition"
+			],
+			[
+				"disp",
+				"dispositions"
+			],
+			[
+				"Di",
+				"Disposition"
+			],
+			[
+				"disposi",
+				"dispositionPopup"
+			],
+			[
+				"Write",
+				"Writeable"
+			],
+			[
+				"clie",
+				"clientId"
+			],
+			[
+				"conn",
+				"connectdb"
+			],
+			[
+				"cur",
+				"cursorCb"
+			],
+			[
+				"obj",
+				"objectCb"
+			],
+			[
+				"name",
+				"namesCb"
+			],
+			[
+				"Ad",
+				"AdminResult"
+			],
+			[
+				"Obje",
+				"ObjectExpression"
+			],
+			[
+				"super",
+				"superhero"
+			],
+			[
+				"Curs",
+				"CursorOperation"
+			],
+			[
+				"valu",
+				"ValueExpression"
+			],
+			[
+				"Objec",
+				"ObjectExpression"
+			],
+			[
+				"Obj",
+				"ObjectExpression"
+			],
+			[
+				"RQLFun",
+				"RQLFunctionResult"
+			],
+			[
+				"RQL",
+				"RQLValue"
+			],
+			[
+				"Query",
+				"QueryObject"
+			],
+			[
+				"Q",
+				"QueryObject"
+			],
+			[
+				"error",
+				"Error"
+			],
+			[
+				"Sele",
+				"SelectIndex"
+			],
+			[
+				"IConn",
+				"IConnectionCb"
+			],
+			[
+				"route",
+				"routeProvider"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "todo.txt",
+			"settings":
+			{
+				"buffer_size": 267,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 2194,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "all.d.ts",
+			"settings":
+			{
+				"buffer_size": 187,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server/server.ts",
+			"settings":
+			{
+				"buffer_size": 1370,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 926,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 618,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 223.0,
+		"selected_items":
+		[
+			[
+				"typescript",
+				"Typescript: Open Error Panel"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"relo",
+				"Typescript: Reload"
+			],
+			[
+				"reload",
+				"Typescript: Reload"
+			],
+			[
+				"package control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"set syntax: html",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntax: html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"typesc",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"syntax: type",
+				"Set Syntax: TypeScript Build Outputssss"
+			],
+			[
+				"typescr",
+				"Set Syntax: TypeScript Build Output"
+			],
+			[
+				"syntax: typ",
+				"Set Syntax: TypeScript Build Output"
+			],
+			[
+				"start",
+				"Typescript: Start"
+			],
+			[
+				"star",
+				"Typescript: Start"
+			],
+			[
+				"sta",
+				"Typescript: Start"
+			],
+			[
+				"test",
+				"Typescript: Start"
+			],
+			[
+				"typ",
+				"Typescript: Start"
+			],
+			[
+				"type",
+				"Typescript: Start"
+			],
+			[
+				"typescri",
+				"Typescript: Start"
+			],
+			[
+				"types",
+				"Typescript: Start"
+			],
+			[
+				"ty",
+				"Typescript: Start"
+			],
+			[
+				"tyepscri",
+				"Typescript: Start"
+			],
+			[
+				"typescrip",
+				"Typescript: Start"
+			],
+			[
+				"Type",
+				"Typescript: Open Error Panel"
+			],
+			[
+				"add fo",
+				"Project: Add Folder"
+			],
+			[
+				"add fol",
+				"Project: Add Folder"
+			],
+			[
+				"open e",
+				"Typescript: Open Error Panel"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 346.0,
+		"history":
+		[
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"sublime.log_commands(False)",
+			"sublime.log_commands(True)",
+			"view.run_command(\"typescript_start\")",
+			"view.run_command(\"hello_world\")",
+			"view.run_command(\"hello-world\")",
+			"view.run_command('typescript_error_panel', {\"characters\": \"\"})",
+			"view.run_command('typescript_error_panel')",
+			"view.run_command('typescript')",
+			"view.run_command('prefixr')",
+			"view.run_command('example')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/seanhess/projects/angularjs-bootstrap/public/app/all.d.ts",
+		"/Users/seanhess/projects/angularjs-bootstrap/ref/jquery/jquery.d.ts",
+		"/Users/seanhess/projects/angularjs-bootstrap/ref/underscore/underscore.d.ts",
+		"/Users/seanhess/projects/angularjs-bootstrap/server/all.d.ts",
+		"/Users/seanhess/projects/angularjs-bootstrap/public/app/views/example_control.ts",
+		"/Users/seanhess/projects/angularjs-bootstrap/Gruntfile.js",
+		"/Users/seanhess/projects/angularjs-bootstrap/angularjs-bootstrap.sublime-project",
+		"/Users/seanhess/projects/angularjs-bootstrap/server/server.js",
+		"/Users/seanhess/projects/angularjs-bootstrap/public/index.html",
+		"/Users/seanhess/projects/angularjs-bootstrap/public/app/app.ts",
+		"/Users/seanhess/projects/angularjs-bootstrap/public/app/views/example.less",
+		"/Users/seanhess/projects/angularjs-bootstrap/public/css/bob.less",
+		"/Users/seanhess/projects/angularjs-bootstrap/public/css/main.css",
+		"/Users/seanhess/projects/angularjs-bootstrap/public/css/main.less",
+		"/Users/seanhess/projects/angularjs-bootstrap/public/app/directives/dispositionChart.less",
+		"/Users/seanhess/projects/angularjs-bootstrap/public/app/filters/position.ts",
+		"/Users/seanhess/Dropbox/Sean Documents/todo.md",
+		"/Users/seanhess/projects/tpm/README.md",
+		"/Users/seanhess/projects/tpm/.gitignore",
+		"/Users/seanhess/projects/tpm/server/server.ts",
+		"/Users/seanhess/projects/tpm/bin/tpm.ts",
+		"/Users/seanhess/projects/tpm/bin/lib/github.ts",
+		"/Users/seanhess/projects/tpm/bin/lib/definitelyTyped.ts",
+		"/Users/seanhess/projects/tpm/bin/types.ts",
+		"/Users/seanhess/projects/cards2/public/app/index.html",
+		"/Users/seanhess/projects/cards2/public/app/publications.html",
+		"/Users/seanhess/projects/cards2/public/app/d.ts/underscore/underscore-tests.ts",
+		"/Users/seanhess/projects/cards2/public/app/lib/typular.ts",
+		"/Users/seanhess/projects/cards2/public/app/app.ts",
+		"/Users/seanhess/projects/shipit/bin/nginx_configure.sh",
+		"/Users/seanhess/projects/shipit/bin/setup.sh",
+		"/Users/seanhess/Dropbox/Sean Documents/log.md",
+		"/Users/seanhess/projects/seanhess.github.io/_posts/2013-10-03-why-launch-game-open-source.md",
+		"/Users/seanhess/Downloads/urban shadows.md",
+		"/Users/seanhess/projects/seanhess.github.com/index.html",
+		"/Users/seanhess/projects/WizardWar/README.md",
+		"/Users/seanhess/projects/seanhess.github.com/.gitignore",
+		"/Users/seanhess/projects/seanhess.github.com/_layouts/default.html",
+		"/Users/seanhess/projects/WizardWar/LICENSE.md",
+		"/Users/seanhess/projects/WizardWar/index.html",
+		"/Users/seanhess/clients/citizendish/Web/public/app/views/canvas.html",
+		"/Users/seanhess/clients/citizendish/Web/public/app/services/layout-service.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/services/vimeo-service.ts",
+		"/Users/seanhess/clients/citizendish/Web/server/server.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/drag-files.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/css/utilities.less",
+		"/Users/seanhess/clients/citizendish/Web/public/app/app.ts",
+		"/Users/seanhess/clients/citizendish/Web/citizendish.sublime-project",
+		"/Users/seanhess/clients/citizendish/Web/public/app/types.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/views/canvas.less",
+		"/Users/seanhess/clients/citizendish/Web/public/app/views/canvas.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/modal.ts",
+		"/Users/seanhess/clients/citizendish/Web/citizendish.md",
+		"/Users/seanhess/clients/citizendish/Web/public/index.html",
+		"/Users/seanhess/clients/citizendish/Web/public/app/views/test.html",
+		"/Users/seanhess/clients/citizendish/Web/server/d.ts/angularjs/angular.d.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/bower/bootstrap/less/variables.less",
+		"/Users/seanhess/clients/citizendish/Web/public/bower/font-awesome/src/_includes/icons/text-editor.html",
+		"/Users/seanhess/clients/citizendish/Web/public/bower/font-awesome/src/_plugins/icon_page_generator.rb",
+		"/Users/seanhess/clients/citizendish/Web/public/app/d.ts/jquery/jquery.d.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/text-editable.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/views/publications.less",
+		"/Users/seanhess/clients/citizendish/Web/bower.json",
+		"/Users/seanhess/clients/citizendish/Web/public/app/services/publication-service.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/views/publications.html",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/sortable.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/ng-blur.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/dispositionSelector.html",
+		"/Users/seanhess/clients/citizendish/Web/public/app/views/publications.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/css/main.less",
+		"/Users/seanhess/clients/citizendish/Web/public/lib/todo/less/app.less",
+		"/Users/seanhess/clients/citizendish/Web/public/lib/todo/js/app.data.js",
+		"/Users/seanhess/clients/citizendish/Web/public/lib/todo/less/app.utilities.less",
+		"/Users/seanhess/clients/citizendish/Web/public/lib/todo/less/app.mixins.less",
+		"/Users/seanhess/clients/citizendish/Web/config/deploy.sh",
+		"/Users/seanhess/clients/citizendish/Web/Makefile",
+		"/Users/seanhess/clients/citizendish/Web/.gitignore",
+		"/Users/seanhess/clients/citizendish/Web/config/server.upstart.conf",
+		"/etc/hosts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/dispositionSelector.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/slideshow.ts",
+		"/Users/seanhess/clients/citizendish/Web/config/exclude.txt",
+		"/Users/seanhess/clients/citizendish/Web/config/nginx.conf",
+		"/Users/seanhess/clients/citizendish/Web/README.md",
+		"/Users/seanhess/clients/citizendish/Web/config/setup.sh",
+		"/Users/seanhess/sources/subtype/theme/typescript.tmPreferences",
+		"/Users/seanhess/clients/citizendish/Web/Gruntfile.js",
+		"/Users/seanhess/clients/citizendish/Web/public/app/services/file-service.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/lib/angular.js",
+		"/Users/seanhess/clients/citizendish/Web/public/app/references.d.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/types-old.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/views/design-platform.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/dragUpload.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/bower/bootstrap/less/component-animations.less",
+		"/Users/seanhess/clients/citizendish/Web/public/app/services/image-service.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/services/dish-service.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/blur.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/filters/canvas-element-styler.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/lib/todo/less/app.layout.less",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/active.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/utils.ts",
+		"/Users/seanhess/clients/citizendish/Web/main.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/types-enum.ts",
+		"/Users/seanhess/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/seanhess/clients/citizendish/Web/public/lib/todo/less/app.colors.less",
+		"/Users/seanhess/clients/citizendish/Web/public/bower/bootstrap/less/input-groups.less",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/nav-items.html",
+		"/Users/seanhess/clients/citizendish/Web/public/app/d.ts/restangular/restangular.d.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/services/promises.ts",
+		"/Users/seanhess/clients/citizendish/Web/server/d.ts/angularjs/angular-resource.d.ts",
+		"/Users/seanhess/clients/citizendish/Web/server/references.d.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/services/SomeService.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/filters/font-awesome-iconifier.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/dispositionChart.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/user-asset.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/d.ts/angular.d.ts",
+		"/Users/seanhess/clients/citizendish/Web/server/server.js",
+		"/Users/seanhess/clients/citizendish/Web/public/lib/todo/portlet.html",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/nav.less",
+		"/Users/seanhess/clients/citizendish/Web/.bowerrc",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/nav.html",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/nav-user.html",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/nav.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/lib/todo/less/app.nav.less",
+		"/Users/seanhess/clients/citizendish/Web/public/bower/bootstrap/getting-started.html",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/navigation.ts",
+		"/Users/seanhess/clients/citizendish/Web/public/app/partials/navigation.html",
+		"/Users/seanhess/clients/citizendish/Web/public/app/directives/navigation.html"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 91.0,
+		"where_history":
+		[
+			"",
+			"*.less",
+			"",
+			"*.less",
+			"*.css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"JQueryEventObject",
+			"body",
+			"rawUrl",
+			"https:",
+			"$locationProvider",
+			"Firebase",
+			"footer",
+			"orbital labs ",
+			"orbital",
+			"orbital labs llc",
+			"macu",
+			"selectPage",
+			"IMedia",
+			"HOORAY",
+			"MediaType",
+			"media-content",
+			"figure",
+			"ng-click=",
+			"ng-click",
+			"pocketClear",
+			"clear",
+			"icon-film",
+			"editPocket",
+			"editTemplate",
+			".data-toggle",
+			"data-toggle",
+			"toggle",
+			"uploadingPocket",
+			"selectLayout",
+			"border",
+			"enabled",
+			"class=\"media",
+			"selectPage",
+			"#0F0",
+			"@brand-info",
+			"btn-info-bg",
+			".btn-primary",
+			"icon-film",
+			".placeholder",
+			"linear-gradient",
+			"border",
+			"ng-click",
+			" Delete",
+			"page-settings",
+			"delete",
+			"deletePage",
+			"color:white",
+			"color: white",
+			".t-l",
+			"t-l",
+			"pages =",
+			"\"LAYOUT",
+			"text-editable",
+			"length",
+			"Element",
+			"interface Element",
+			"pocketContent",
+			".btn-primary",
+			"btn-primary",
+			"$scope.edit",
+			"$scope.edit =",
+			".select2(",
+			".select2",
+			"plugin",
+			"todo",
+			"plugin",
+			"2x2.png",
+			"select",
+			"inline-block",
+			"done(",
+			"$locaiton",
+			"publicationsHash",
+			"transition(",
+			"transition:",
+			"removeClass",
+			"angularjs boostrap",
+			"app",
+			"libros",
+			"metaKey",
+			"BaseJQuery",
+			"$apply",
+			"$parse",
+			"$eval =",
+			".$eval",
+			"btn-primary",
+			"Ummm",
+			"dimensionsWidth",
+			"scroll",
+			"scroll-x:",
+			"scrollbar:",
+			"scroll:",
+			".scrollable",
+			".fixed-",
+			"hbox",
+			"vbox",
+			".vbox",
+			"scrollable",
+			"text-align: center",
+			".thumb-md",
+			"ILayout",
+			".input-sm",
+			".form-control",
+			"input.",
+			".wrapper{",
+			"padding:",
+			"border-color:",
+			"border-color",
+			".bg-light",
+			".b-b{",
+			".vbox{",
+			"vbox",
+			"bg-red",
+			"overflow-",
+			"overflow",
+			"pos-rlt",
+			"pos-abs",
+			"-rlt",
+			"bg-red",
+			"types",
+			"types.",
+			"../types",
+			"IRoute",
+			".header",
+			"header ",
+			"header p",
+			".bg-light",
+			"background",
+			".b-r"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "todo.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								265
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								680,
+								680
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "all.d.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/subtype/theme/typescript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "server/server.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								767,
+								767
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/subtype/theme/typescript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 926,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								870,
+								870
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437,
+								437
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 194.0
+	},
+	"output.typescript":
+	{
+		"height": 98.0
+	},
+	"output.typescript-errors":
+	{
+		"height": 0.0
+	},
+	"output.typescript_build":
+	{
+		"height": 201.0
+	},
+	"output.typescript_errors":
+	{
+		"height": 211.0
+	},
+	"project": "tpm.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"todo",
+				"todo.txt"
+			],
+			[
+				"example.html",
+				"public/app/views/example.html"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"index.",
+				"public/index.html"
+			],
+			[
+				"examplecont",
+				"public/app/views/example_control.ts"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"underscore.d.ts",
+				"ref/underscore/underscore.d.ts"
+			],
+			[
+				"jquery.d.ts",
+				"ref/jquery/jquery.d.ts"
+			],
+			[
+				"all.d.",
+				"public/app/all.d.ts"
+			],
+			[
+				"alld.",
+				"server/all.d.ts"
+			],
+			[
+				"app.ts",
+				"public/app/app.ts"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"server.ts",
+				"server/server.ts"
+			],
+			[
+				"server.js",
+				"server/server.js"
+			],
+			[
+				"main.less",
+				"public/css/main.less"
+			],
+			[
+				"example.less",
+				"public/app/views/example.less"
+			],
+			[
+				"main",
+				"public/css/main.less"
+			],
+			[
+				"somes",
+				"public/app/services/SomeService.ts"
+			],
+			[
+				"example_",
+				"public/app/views/example_control.ts"
+			],
+			[
+				"type",
+				"bin/types.ts"
+			],
+			[
+				"githu",
+				"bin/lib/github.ts"
+			],
+			[
+				"types",
+				"public/app/types.ts"
+			],
+			[
+				"req",
+				"bin/def/request.d.ts"
+			],
+			[
+				"tpm",
+				"bin/tpm.ts"
+			],
+			[
+				"packag",
+				"package.json"
+			],
+			[
+				"index.html",
+				"public/index.html"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"drag-files",
+				"public/app/directives/drag-files.ts"
+			],
+			[
+				"serv",
+				"server/server.ts"
+			],
+			[
+				"canvas.html",
+				"public/app/views/canvas.html"
+			],
+			[
+				"uti",
+				"public/css/utilities.less"
+			],
+			[
+				"layout-ser",
+				"public/app/services/layout-service.ts"
+			],
+			[
+				"canvas.ts",
+				"public/app/views/canvas.ts"
+			],
+			[
+				"angular.d.ts",
+				"server/d.ts/angularjs/angular.d.ts"
+			],
+			[
+				"canvas.less",
+				"public/app/views/canvas.less"
+			],
+			[
+				"text",
+				"public/bower/font-awesome/src/_includes/icons/text-editor.html"
+			],
+			[
+				"drag",
+				"public/app/directives/drag-files.ts"
+			],
+			[
+				"publication.less",
+				"public/app/views/publications.less"
+			],
+			[
+				"publication",
+				"public/app/views/publications.html"
+			],
+			[
+				"serve",
+				"server/server.ts"
+			],
+			[
+				"publication-ser",
+				"public/app/services/publication-service.ts"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"publications.ts",
+				"public/app/views/publications.ts"
+			],
+			[
+				"utilities",
+				"public/css/utilities.less"
+			],
+			[
+				"pub",
+				"public/app/views/publications.html"
+			],
+			[
+				"in",
+				"public/index.html"
+			],
+			[
+				"bowe",
+				"bower.json"
+			],
+			[
+				"app.less",
+				"public/lib/todo/less/app.less"
+			],
+			[
+				"main.les",
+				"public/css/main.less"
+			],
+			[
+				"util",
+				"public/lib/todo/less/app.utilities.less"
+			],
+			[
+				"publicationser",
+				"public/app/services/publication-service.ts"
+			],
+			[
+				"server",
+				"server/server.ts"
+			],
+			[
+				"citi",
+				"citizendish.md"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"depl",
+				"config/deploy.sh"
+			],
+			[
+				"deploy",
+				"config/deploy.sh"
+			],
+			[
+				"slide",
+				"public/app/directives/slideshow.ts"
+			],
+			[
+				"types.ts",
+				"public/app/types.ts"
+			],
+			[
+				"fileser",
+				"public/app/services/file-service.ts"
+			],
+			[
+				"makef",
+				"Makefile"
+			],
+			[
+				"gruntf",
+				"Gruntfile.js"
+			],
+			[
+				"can",
+				"public/app/views/canvas.html"
+			],
+			[
+				"file-ser",
+				"public/app/services/file-service.ts"
+			],
+			[
+				"animate",
+				"public/bower/bootstrap/less/component-animations.less"
+			],
+			[
+				"publication.les",
+				"public/app/views/publications.less"
+			],
+			[
+				"publications.html",
+				"public/app/views/publications.html"
+			],
+			[
+				"design-plat",
+				"public/app/views/design-platform.ts"
+			],
+			[
+				"types-od",
+				"public/app/types-old.ts"
+			],
+			[
+				"refer",
+				"public/app/references.d.ts"
+			],
+			[
+				"layout-service",
+				"public/app/services/layout-service.ts"
+			],
+			[
+				"layout",
+				"public/app/services/layout-service.ts"
+			],
+			[
+				"ty",
+				"public/app/types.ts"
+			],
+			[
+				"app",
+				"public/app/app.ts"
+			],
+			[
+				"ut",
+				"public/css/utilities.less"
+			],
+			[
+				"dish",
+				"public/app/services/dish-service.ts"
+			],
+			[
+				"image",
+				"public/app/services/image-service.ts"
+			],
+			[
+				"image-se",
+				"public/app/services/image-service.ts"
+			],
+			[
+				"appt",
+				"public/app/app.ts"
+			],
+			[
+				"jquery.d.",
+				"public/app/d.ts/jquery/jquery.d.ts"
+			],
+			[
+				"publications.less",
+				"public/app/views/publications.less"
+			],
+			[
+				"layou",
+				"public/app/services/layout-service.ts"
+			],
+			[
+				"publications.htm",
+				"public/app/views/publications.html"
+			],
+			[
+				"publications",
+				"public/app/services/publication-service.ts"
+			],
+			[
+				"canvas",
+				"public/app/views/canvas.ts"
+			],
+			[
+				"dish-ser",
+				"public/app/services/dish-service.ts"
+			],
+			[
+				"publi",
+				"public/app/views/publications.html"
+			],
+			[
+				"utilit",
+				"public/lib/todo/less/app.utilities.less"
+			],
+			[
+				"ser",
+				"server/server.ts"
+			],
+			[
+				"canv",
+				"public/app/views/canvas.ts"
+			],
+			[
+				"nav-ite",
+				"public/app/directives/nav-items.html"
+			],
+			[
+				"main.ts",
+				"main.ts"
+			],
+			[
+				"restan",
+				"public/app/d.ts/restangular/restangular.d.ts"
+			],
+			[
+				"publicationserv",
+				"public/app/services/publication-service.ts"
+			],
+			[
+				"gitignore",
+				".gitignore"
+			],
+			[
+				"utils",
+				"public/app/directives/utils.ts"
+			],
+			[
+				"referends",
+				"server/references.d.ts"
+			],
+			[
+				"image-ser",
+				"public/app/services/image-service.ts"
+			],
+			[
+				"user-ass",
+				"public/app/directives/user-asset.ts"
+			],
+			[
+				"publication.ts",
+				"public/app/views/publications.ts"
+			],
+			[
+				"canvas-ele",
+				"public/app/filters/canvas-element-styler.ts"
+			],
+			[
+				"font-awesome",
+				"public/app/filters/font-awesome-iconifier.ts"
+			],
+			[
+				"someser",
+				"public/app/services/SomeService.ts"
+			],
+			[
+				"restangular.d.ts",
+				"public/app/d.ts/restangular/restangular.d.ts"
+			],
+			[
+				"angular-reso",
+				"server/d.ts/angularjs/angular-resource.d.ts"
+			],
+			[
+				"public",
+				"public/app/views/publications.html"
+			],
+			[
+				"angular-res",
+				"server/d.ts/angularjs/angular-resource.d.ts"
+			],
+			[
+				"nav.less",
+				"public/app/directives/nav.less"
+			],
+			[
+				"p",
+				"public/lib/todo/portlet.html"
+			],
+			[
+				"nav.html",
+				"public/app/directives/nav.html"
+			],
+			[
+				"main.l",
+				"public/css/main.less"
+			],
+			[
+				"main.",
+				"public/css/main.less"
+			],
+			[
+				"navi",
+				"public/app/partials/navigation.html"
+			],
+			[
+				"animate.css",
+				"public/lib/todo/css/animate.css"
+			],
+			[
+				"plugin.less",
+				"public/lib/todo/less/app.plugin.less"
+			],
+			[
+				"index.h",
+				"public/index.html"
+			],
+			[
+				"header",
+				"public/app/partials/header.html"
+			],
+			[
+				"port",
+				"public/lib/todo/portlet.html"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"some",
+				"public/app/services/SomeService.ts"
+			],
+			[
+				"notes",
+				"notes.md"
+			],
+			[
+				"test",
+				"test/test_code.ts"
+			],
+			[
+				"test_co",
+				"test/test_code.ts"
+			],
+			[
+				"test_",
+				"test/test_code.ts"
+			],
+			[
+				"command",
+				"typescript.sublime-commands"
+			],
+			[
+				"file.ts",
+				"model/File.ts"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+		],
+		"width": 378.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

@@ -1,0 +1,10 @@
+
+GOAL: An API/service that returns the correct definitely typed file for a given npm module. 
+
+:: no web interface to start
+:: no interface at all to start, it's just hard-coded
+
+[ ] Create an API
+[ ] Load Definitely Typed on start
+[ ] Support static name overrides
+

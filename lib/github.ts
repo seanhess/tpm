@@ -1,9 +1,10 @@
+/// <reference path="../all.d.ts" />
 
-import request = require('lib/q-request')
+import request = require('./q-request')
 import Q = require('q')
 import path = require('path')
 
-export interface ITree {
+export interface ITreeItem {
     path:string;
     type:TreeType; // blob or tree
     sha:string;
@@ -24,10 +25,15 @@ export interface IFile {
     type:string; // dir
 }
 
+export interface ITreeResponse {
+    url: string;
+    sha: string;
+    tree: ITreeItem[];
+}
 
 
 
-export function trees(repoPath:string):Q.IPromise<ITree[]> {
+export function trees(repoPath:string):Q.IPromise<ITreeResponse> {
     var url = "https://api.github.com" + path.join("/repos", repoPath, "git/trees/master?recursive=1")
     return request.get({url:url, json: true})
 }

@@ -1,44 +1,39 @@
-/// <reference path="../def/request.d.ts" />
-/// <reference path="../def/q.d.ts" />
-/// <reference path="../def/underscore.d.ts" />
-/// <reference path="../types.ts" />
+/// <reference path="../all.d.ts" />
 
 
-
-
-
-import Q = require('q')
 import path = require('path')
 import _ = require('underscore')
 import github = require('./github')
+import fs = require('./q-fs')
+import Q = require('q')
 
 var DEFINITELY_TYPED_PATH = "borisyankov/DefinitelyTyped"
 var REPO_URL = "https://github.com/borisyankov/DefinitelyTyped"
 
-export function generateRepo():Q.IPromise<IRepositoryVersion[]> {
+export function generateRepo():Q.IPromise<IDefinition[]> {
     return github.trees(DEFINITELY_TYPED_PATH)
-    .then(function(trees) {
-        return trees
+    .then(function(response) {
+        // console.log("TREE", response)
+        return response.tree
         .filter(isDefinitionFile)
         .map(repoVersion)
     })
 }
 
-function isDefinitionFile(file:github.ITree):boolean {
-    return path.extname(file.path) == "d.ts"
+function isDefinitionFile(file:github.ITreeItem):boolean {
+    return !!file.path.match(".d.ts")
 }
 
-function repoVersion(file:github.ITree):IRepositoryVersion {
-
+function repoVersion(file:github.ITreeItem):IDefinition {
     var url = github.rawUrl(DEFINITELY_TYPED_PATH, file.path)
     return {
-        name: path.basename(file.path, "d.ts"),
+        name: path.basename(file.path, ".d.ts"),
         repo: REPO_URL,
         path: file.path,
-        url: url,
-        version: "*"
+        url: url
     }
 }
+
 
 
 

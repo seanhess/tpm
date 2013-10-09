@@ -1,6 +1,8 @@
 TPM: Typescript Package Manager
 ===============================
 
+OUT OF DATE README BELOW
+
 **Note:** This is only a proposal. I am seeking feedback before building it.
 
 It is currently difficult to use 3rd party dependencies on a client-side Typescript project. Using bower, you can include Javascript dependencies, but then you must also import definition files from somewhere (usually [DefinitelyTyped][definitelytyped]). 

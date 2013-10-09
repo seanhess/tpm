@@ -1,4 +1,5 @@
-/// <reference path="../def/node/node.d.ts" />
+/// <reference path="../all.d.ts" />
+
 var fs = require('fs')
 var Q = require('q')
 
@@ -11,4 +12,5 @@ export function exists(path:string) {
 }
 
 export var readFile:(path:string)=>Q.IPromise<NodeBuffer> = Q.nfbind(fs.readFile);
+export var writeFile:(path:string, data:any)=>Q.IPromise<void> = Q.nfbind(fs.writeFile);
 

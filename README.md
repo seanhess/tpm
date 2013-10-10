@@ -15,7 +15,7 @@ Load and return the entire map. This is constructed from the most recent data av
 
     var tpm = require('tpm')
     var cachedMap
-    tpm.loadAll().then(function(map) {
+    tpm.loadMap().then(function(map) {
         cachedMap = map
     })  
 

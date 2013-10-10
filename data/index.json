@@ -1,0 +1,1700 @@
+{
+    "created": "2013-10-10T22:53:36.644Z",
+    "definitions": [
+        {
+            "name": "lib",
+            "aliases": [],
+            "path": "_infrastructure/tests/typescript/lib.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "ace",
+            "aliases": [],
+            "path": "ace/ace.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "AmCharts",
+            "aliases": [],
+            "path": "amcharts/AmCharts.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "amplifyjs",
+            "aliases": [],
+            "path": "amplifyjs/amplifyjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "angular-cookies",
+            "aliases": [],
+            "path": "angularjs/angular-cookies.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "angular-mocks",
+            "aliases": [],
+            "path": "angularjs/angular-mocks.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "angular-resource",
+            "aliases": [],
+            "path": "angularjs/angular-resource.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "angular-sanitize",
+            "aliases": [],
+            "path": "angularjs/angular-sanitize.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "angular-scenario",
+            "aliases": [],
+            "path": "angularjs/angular-scenario.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "angular",
+            "aliases": [
+                "angular-browserify",
+                "angularjs"
+            ],
+            "path": "angularjs/angular.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "appframework",
+            "aliases": [],
+            "path": "appframework/appframework.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "Arbiter",
+            "aliases": [],
+            "path": "arbiter/Arbiter.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "async",
+            "aliases": [],
+            "path": "async/async.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "AzureMobileServicesClient",
+            "aliases": [],
+            "path": "azure-mobile-services-client/AzureMobileServicesClient.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "backbone-relational",
+            "aliases": [],
+            "path": "backbone-relational/backbone-relational.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "backbone",
+            "aliases": [],
+            "path": "backbone/backbone.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "backgrid",
+            "aliases": [],
+            "path": "backgrid/backgrid.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "typescript.bgiframe",
+            "aliases": [],
+            "path": "bgiframe/typescript.bgiframe.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "bootbox",
+            "aliases": [],
+            "path": "bootbox/bootbox.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "bootstrap-notify",
+            "aliases": [],
+            "path": "bootstrap-notify/bootstrap-notify.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "bootstrap.datepicker",
+            "aliases": [],
+            "path": "bootstrap.datepicker/bootstrap.datepicker.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "bootstrap.paginator",
+            "aliases": [],
+            "path": "bootstrap.paginator/bootstrap.paginator.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "bootstrap.timepicker",
+            "aliases": [],
+            "path": "bootstrap.timepicker/bootstrap.timepicker.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "bootstrap",
+            "aliases": [],
+            "path": "bootstrap/bootstrap.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "box2dweb",
+            "aliases": [],
+            "path": "box2d/box2dweb.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "breeze-1.0",
+            "aliases": [],
+            "path": "breeze/breeze-1.0.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "breeze-1.2",
+            "aliases": [],
+            "path": "breeze/breeze-1.2.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "breeze",
+            "aliases": [],
+            "path": "breeze/breeze.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "browser-harness",
+            "aliases": [],
+            "path": "browser-harness/browser-harness.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "browserify",
+            "aliases": [],
+            "path": "browserify/browserify.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "camljs",
+            "aliases": [],
+            "path": "camljs/camljs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "casperjs",
+            "aliases": [],
+            "path": "casperjs/casperjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "chai-fuzzy-assert",
+            "aliases": [],
+            "path": "chai-fuzzy/chai-fuzzy-assert.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "chai-jquery",
+            "aliases": [],
+            "path": "chai-jquery/chai-jquery.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "chai-assert",
+            "aliases": [],
+            "path": "chai/chai-assert.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "chai",
+            "aliases": [],
+            "path": "chai/chai.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "cheerio",
+            "aliases": [],
+            "path": "cheerio/cheerio.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "chosen.jquery",
+            "aliases": [],
+            "path": "chosen/chosen.jquery.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "chrome-app",
+            "aliases": [],
+            "path": "chrome/chrome-app.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "chrome",
+            "aliases": [],
+            "path": "chrome/chrome.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "codemirror",
+            "aliases": [],
+            "path": "codemirror/codemirror.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "colors",
+            "aliases": [],
+            "path": "colors/colors.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "cometd",
+            "aliases": [],
+            "path": "cometd/cometd.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "commander",
+            "aliases": [],
+            "path": "commander/commander.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "convert-source-map",
+            "aliases": [],
+            "path": "convert-source-map/convert-source-map.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "crossroads",
+            "aliases": [],
+            "path": "crossroads/crossroads.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "d3",
+            "aliases": [],
+            "path": "d3/d3.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "d3.superformula",
+            "aliases": [],
+            "path": "d3/plugins/d3.superformula.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "docCookies",
+            "aliases": [],
+            "path": "docCookies/docCookies.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "domo",
+            "aliases": [],
+            "path": "domo/domo.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "dropzone",
+            "aliases": [],
+            "path": "dropzone/dropzone.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "durandal-1.x",
+            "aliases": [],
+            "path": "durandal/durandal-1.x.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "durandal",
+            "aliases": [],
+            "path": "durandal/durandal.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "dustjs-linkedin",
+            "aliases": [],
+            "path": "dustjs-linkedin/dustjs-linkedin.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "easeljs",
+            "aliases": [],
+            "path": "easeljs/easeljs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "ember",
+            "aliases": [],
+            "path": "ember/ember.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "epiceditor",
+            "aliases": [],
+            "path": "epiceditor/epiceditor.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "expect.js",
+            "aliases": [],
+            "path": "expect.js/expect.js.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "express-validator",
+            "aliases": [],
+            "path": "express-validator/express-validator.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "express",
+            "aliases": [],
+            "path": "express/express.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "ExtJS-4.2.0",
+            "aliases": [],
+            "path": "extjs/ExtJS-4.2.0.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "ExtJS",
+            "aliases": [],
+            "path": "extjs/ExtJS.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "fabricjs",
+            "aliases": [],
+            "path": "fabricjs/fabricjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "fancybox",
+            "aliases": [],
+            "path": "fancybox/fancybox.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "filesystem",
+            "aliases": [],
+            "path": "filesystem/filesystem.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "filewriter",
+            "aliases": [],
+            "path": "filewriter/filewriter.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "firebase",
+            "aliases": [],
+            "path": "firebase/firebase.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "firefox",
+            "aliases": [],
+            "path": "firefox/firefox.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "flexSlider",
+            "aliases": [],
+            "path": "flexSlider/flexSlider.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.flot",
+            "aliases": [],
+            "path": "flot/jquery.flot.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "foundation",
+            "aliases": [],
+            "path": "foundation/foundation.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "FPSMeter",
+            "aliases": [],
+            "path": "fpsmeter/FPSMeter.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "fullCalendar",
+            "aliases": [],
+            "path": "fullCalendar/fullCalendar.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "gae.channel.api",
+            "aliases": [],
+            "path": "gae.channel.api/gae.channel.api.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "gamepad",
+            "aliases": [],
+            "path": "gamepad/gamepad.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "gamequery",
+            "aliases": [],
+            "path": "gamequery/gamequery.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "gapi.pagespeedonline",
+            "aliases": [],
+            "path": "gapi.pagespeedonline/gapi.pagespeedonline.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "gapi.translate",
+            "aliases": [],
+            "path": "gapi.translate/gapi.translate.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "gapi.urlshortener",
+            "aliases": [],
+            "path": "gapi.urlshortener/gapi.urlshortener.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "gapi.youtube",
+            "aliases": [],
+            "path": "gapi.youtube/gapi.youtube.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "gapi.youtubeAnalytics",
+            "aliases": [],
+            "path": "gapi.youtubeAnalytics/gapi.youtubeAnalytics.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "gapi",
+            "aliases": [],
+            "path": "gapi/gapi.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "gldatepicker",
+            "aliases": [],
+            "path": "gldatepicker/gldatepicker.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "globalize",
+            "aliases": [],
+            "path": "globalize/globalize.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "goJS",
+            "aliases": [],
+            "path": "goJS/goJS.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "ga",
+            "aliases": [],
+            "path": "google.analytics/ga.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "google.feed.api",
+            "aliases": [],
+            "path": "google.feeds/google.feed.api.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "google.geolocation",
+            "aliases": [],
+            "path": "google.geolocation/google.geolocation.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "google.maps",
+            "aliases": [],
+            "path": "googlemaps/google.maps.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "greensock",
+            "aliases": [],
+            "path": "greensock/greensock.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "gruntjs",
+            "aliases": [],
+            "path": "gruntjs/gruntjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "hammerjs",
+            "aliases": [],
+            "path": "hammerjs/hammerjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "handlebars",
+            "aliases": [],
+            "path": "handlebars/handlebars.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "highcharts",
+            "aliases": [],
+            "path": "highcharts/highcharts.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "highlightjs",
+            "aliases": [],
+            "path": "highlightjs/highlightjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "history",
+            "aliases": [],
+            "path": "history/history.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "humane",
+            "aliases": [],
+            "path": "humane/humane.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "i18next",
+            "aliases": [],
+            "path": "i18next/i18next.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "icheck",
+            "aliases": [],
+            "path": "icheck/icheck.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "impress",
+            "aliases": [],
+            "path": "impress/impress.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "iscroll-lite",
+            "aliases": [],
+            "path": "iscroll/iscroll-lite.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "iscroll",
+            "aliases": [],
+            "path": "iscroll/iscroll.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jake",
+            "aliases": [],
+            "path": "jake/jake.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jasmine-jquery",
+            "aliases": [],
+            "path": "jasmine-jquery/jasmine-jquery.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jasmine-matchers",
+            "aliases": [],
+            "path": "jasmine-matchers/jasmine-matchers.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jasmine",
+            "aliases": [],
+            "path": "jasmine/jasmine.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jointjs",
+            "aliases": [],
+            "path": "jointjs/jointjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jqrangeslider",
+            "aliases": [],
+            "path": "jqrangeslider/jqrangeslider.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.address",
+            "aliases": [],
+            "path": "jquery.address/jquery.address.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.are-you-sure",
+            "aliases": [],
+            "path": "jquery.are-you-sure/jquery.are-you-sure.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.autosize",
+            "aliases": [],
+            "path": "jquery.autosize/jquery.autosize.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.bbq",
+            "aliases": [],
+            "path": "jquery.bbq/jquery.bbq.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.bootstrap.wizard",
+            "aliases": [],
+            "path": "jquery.bootstrap.wizard/jquery.bootstrap.wizard.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.clientSideLogging",
+            "aliases": [],
+            "path": "jquery.clientSideLogging/jquery.clientSideLogging.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.colorbox",
+            "aliases": [],
+            "path": "jquery.colorbox/jquery.colorbox.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.contextMenu",
+            "aliases": [],
+            "path": "jquery.contextMenu/jquery.contextMenu.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.cookie",
+            "aliases": [],
+            "path": "jquery.cookie/jquery.cookie.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.cycle",
+            "aliases": [],
+            "path": "jquery.cycle/jquery.cycle.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.dataTables",
+            "aliases": [],
+            "path": "jquery.dataTables/jquery.dataTables.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.dynatree",
+            "aliases": [],
+            "path": "jquery.dynatree/jquery.dynatree.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.elang",
+            "aliases": [],
+            "path": "jquery.elang/jquery.elang.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.form",
+            "aliases": [],
+            "path": "jquery.form/jquery.form.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "gridster",
+            "aliases": [],
+            "path": "jquery.gridster/gridster.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.jnotify",
+            "aliases": [],
+            "path": "jquery.jnotify/jquery.jnotify.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.livestampjs",
+            "aliases": [],
+            "path": "jquery.livestampjs/jquery.livestampjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.menuaim",
+            "aliases": [],
+            "path": "jquery.menuaim/jquery.menuaim.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.noty",
+            "aliases": [],
+            "path": "jquery.noty/jquery.noty.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.payment",
+            "aliases": [],
+            "path": "jquery.payment/jquery.payment.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.pickadate",
+            "aliases": [],
+            "path": "jquery.pickadate/jquery.pickadate.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.scrollTo",
+            "aliases": [],
+            "path": "jquery.scrollTo/jquery.scrollTo.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.simplePagination",
+            "aliases": [],
+            "path": "jquery.simplePagination/jquery.simplePagination.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.sortElement",
+            "aliases": [],
+            "path": "jquery.sortElements/jquery.sortElement.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.superLink",
+            "aliases": [],
+            "path": "jquery.superLink/jquery.superLink.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.tagsmanager",
+            "aliases": [],
+            "path": "jquery.tagsmanager/jquery.tagsmanager.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.timeago",
+            "aliases": [],
+            "path": "jquery.timeago/jquery.timeago.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.timepicker",
+            "aliases": [],
+            "path": "jquery.timepicker/jquery.timepicker.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.tinycarousel",
+            "aliases": [],
+            "path": "jquery.tinycarousel/jquery.tinycarousel.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.tinyscrollbar",
+            "aliases": [],
+            "path": "jquery.tinyscrollbar/jquery.tinyscrollbar.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.transit",
+            "aliases": [],
+            "path": "jquery.transit/jquery.transit.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.ui.layout",
+            "aliases": [],
+            "path": "jquery.ui.layout/jquery.ui.layout.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.validation",
+            "aliases": [],
+            "path": "jquery.validation/jquery.validation.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.watermark",
+            "aliases": [],
+            "path": "jquery.watermark/jquery.watermark.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery",
+            "aliases": [],
+            "path": "jquery/jquery.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquerymobile",
+            "aliases": [],
+            "path": "jquerymobile/jquerymobile.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jqueryui",
+            "aliases": [],
+            "path": "jqueryui/jqueryui.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "fixtures",
+            "aliases": [],
+            "path": "js-fixtures/fixtures.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "js-signals",
+            "aliases": [],
+            "path": "js-signals/js-signals.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jscrollpane",
+            "aliases": [],
+            "path": "jscrollpane/jscrollpane.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jsdeferred",
+            "aliases": [],
+            "path": "jsdeferred/jsdeferred.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jsfl",
+            "aliases": [],
+            "path": "jsfl/jsfl.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "xJSFL",
+            "aliases": [],
+            "path": "jsfl/xJSFL.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jsoneditoronline",
+            "aliases": [],
+            "path": "jsoneditoronline/jsoneditoronline.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jquery.jsPlumb",
+            "aliases": [],
+            "path": "jsplumb/jquery.jsPlumb.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jstorage",
+            "aliases": [],
+            "path": "jstorage/jstorage.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jszip",
+            "aliases": [],
+            "path": "jszip/jszip.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "jwplayer",
+            "aliases": [],
+            "path": "jwplayer/jwplayer.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "keyboardjs",
+            "aliases": [],
+            "path": "keyboardjs/keyboardjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "knockback",
+            "aliases": [],
+            "path": "knockback/knockback.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "knockout.deferred.updates",
+            "aliases": [],
+            "path": "knockout.deferred.updates/knockout.deferred.updates.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "ko.editables",
+            "aliases": [],
+            "path": "knockout.editables/ko.editables.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "knockout.es5",
+            "aliases": [],
+            "path": "knockout.es5/knockout.es5.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "knockout.mapper",
+            "aliases": [],
+            "path": "knockout.mapper/knockout.mapper.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "knockout.mapping",
+            "aliases": [],
+            "path": "knockout.mapping/knockout.mapping.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "knockout-postbox",
+            "aliases": [],
+            "path": "knockout.postbox/knockout-postbox.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "knockout.validation",
+            "aliases": [],
+            "path": "knockout.validation/knockout.validation.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "knockout.viewmodel",
+            "aliases": [],
+            "path": "knockout.viewmodel/knockout.viewmodel.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "knockout.amd",
+            "aliases": [],
+            "path": "knockout/knockout.amd.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "knockout",
+            "aliases": [],
+            "path": "knockout/knockout.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "kolite",
+            "aliases": [],
+            "path": "kolite/kolite.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "ladda",
+            "aliases": [],
+            "path": "ladda/ladda.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "leaflet",
+            "aliases": [],
+            "path": "leaflet/leaflet.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "LeapMotionTS",
+            "aliases": [],
+            "path": "leapmotionTS/LeapMotionTS.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "less",
+            "aliases": [],
+            "path": "less/less.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "levelup",
+            "aliases": [],
+            "path": "levelup/levelup.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "libxmljs",
+            "aliases": [],
+            "path": "libxmljs/libxmljs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "linq.3.0.3-Beta4",
+            "aliases": [],
+            "path": "linq/linq.3.0.3-Beta4.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "linq",
+            "aliases": [],
+            "path": "linq/linq.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "linq.jquery",
+            "aliases": [],
+            "path": "linq/linq.jquery.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "logg",
+            "aliases": [],
+            "path": "logg/logg.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "mCustomScrollbar",
+            "aliases": [],
+            "path": "mCustomScrollbar/mCustomScrollbar.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "marionette",
+            "aliases": [],
+            "path": "marionette/marionette.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "marked",
+            "aliases": [],
+            "path": "marked/marked.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "meteor",
+            "aliases": [],
+            "path": "meteor/meteor.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "mocha",
+            "aliases": [],
+            "path": "mocha/mocha.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "modernizr",
+            "aliases": [],
+            "path": "modernizr/modernizr.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "moment",
+            "aliases": [],
+            "path": "moment/moment.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "mongodb",
+            "aliases": [],
+            "path": "mongodb/mongodb.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "mousetrap",
+            "aliases": [],
+            "path": "mousetrap/mousetrap.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "msnodesql",
+            "aliases": [],
+            "path": "msnodesql/msnodesql.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "mustache",
+            "aliases": [],
+            "path": "mustache/mustache.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "noVNC",
+            "aliases": [],
+            "path": "noVNC/noVNC.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "azure",
+            "aliases": [],
+            "path": "node-azure/azure.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "node-ffi",
+            "aliases": [],
+            "path": "node-ffi/node-ffi.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "node-fibers",
+            "aliases": [],
+            "path": "node-fibers/node-fibers.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "node-0.8.8",
+            "aliases": [],
+            "path": "node/node-0.8.8.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "node",
+            "aliases": [],
+            "path": "node/node.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "node_redis",
+            "aliases": [],
+            "path": "node_redis/node_redis.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "zmq",
+            "aliases": [],
+            "path": "node_zeromq/zmq.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "nodemailer",
+            "aliases": [],
+            "path": "nodemailer/nodemailer.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "numeraljs",
+            "aliases": [],
+            "path": "numeraljs/numeraljs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "parallel",
+            "aliases": [],
+            "path": "parallel/parallel.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "pdf",
+            "aliases": [],
+            "path": "pdf/pdf.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "persona",
+            "aliases": [],
+            "path": "persona/persona.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "phantomjs",
+            "aliases": [],
+            "path": "phantomjs/phantomjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "phonegap",
+            "aliases": [],
+            "path": "phonegap/phonegap.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "pixi",
+            "aliases": [],
+            "path": "pixi/pixi.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "webgl",
+            "aliases": [],
+            "path": "pixi/webgl.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "platform",
+            "aliases": [],
+            "path": "platform/platform.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "popcorn",
+            "aliases": [],
+            "path": "popcorn/popcorn.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "pouch",
+            "aliases": [],
+            "path": "pouchDB/pouch.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "preloadjs",
+            "aliases": [],
+            "path": "preloadjs/preloadjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "pubsub",
+            "aliases": [],
+            "path": "pubsubjs/pubsub.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "Q",
+            "aliases": [],
+            "path": "q/Q.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "qunit",
+            "aliases": [],
+            "path": "qunit/qunit.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "raphael",
+            "aliases": [],
+            "path": "raphael/raphael.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "ravenjs",
+            "aliases": [],
+            "path": "ravenjs/ravenjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "require",
+            "aliases": [],
+            "path": "requirejs/require.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "restangular",
+            "aliases": [],
+            "path": "restangular/restangular.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "restify",
+            "aliases": [],
+            "path": "restify/restify.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "reveal",
+            "aliases": [],
+            "path": "reveal/reveal.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "rickshaw",
+            "aliases": [],
+            "path": "rickshaw/rickshaw.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "routie",
+            "aliases": [],
+            "path": "routie/routie.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "royalslider",
+            "aliases": [],
+            "path": "royalslider/royalslider.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "rx.js.aggregates",
+            "aliases": [],
+            "path": "rx.js/rx.js.aggregates.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "rx.js.binding",
+            "aliases": [],
+            "path": "rx.js/rx.js.binding.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "rx.js.coincidence",
+            "aliases": [],
+            "path": "rx.js/rx.js.coincidence.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "rx.js",
+            "aliases": [],
+            "path": "rx.js/rx.js.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "rx.js.joinpatterns",
+            "aliases": [],
+            "path": "rx.js/rx.js.joinpatterns.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "rx.js.jquery",
+            "aliases": [],
+            "path": "rx.js/rx.js.jquery.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "rx.js.time",
+            "aliases": [],
+            "path": "rx.js/rx.js.time.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "sammyjs",
+            "aliases": [],
+            "path": "sammyjs/sammyjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "easyscroller",
+            "aliases": [],
+            "path": "scroller/easyscroller.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "scroller",
+            "aliases": [],
+            "path": "scroller/scroller.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "select2",
+            "aliases": [],
+            "path": "select2/select2.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "SenchaTouch",
+            "aliases": [],
+            "path": "sencha_touch/SenchaTouch.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "SharePoint",
+            "aliases": [],
+            "path": "sharepoint/SharePoint.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "should",
+            "aliases": [],
+            "path": "should/should.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "siesta",
+            "aliases": [],
+            "path": "siesta/siesta.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "signalr",
+            "aliases": [],
+            "path": "signalr/signalr.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "sinon-chai",
+            "aliases": [],
+            "path": "sinon-chai/sinon-chai.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "sinon",
+            "aliases": [],
+            "path": "sinon/sinon.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "SlickGrid",
+            "aliases": [],
+            "path": "slickgrid/SlickGrid.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "socket.io",
+            "aliases": [],
+            "path": "socket.io/socket.io.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "sockjs",
+            "aliases": [],
+            "path": "sockjs/sockjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "soundjs",
+            "aliases": [],
+            "path": "soundjs/soundjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "spin",
+            "aliases": [],
+            "path": "spin/spin.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "state-machine",
+            "aliases": [],
+            "path": "state-machine/state-machine.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "storejs",
+            "aliases": [],
+            "path": "storejs/storejs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "stripe",
+            "aliases": [],
+            "path": "stripe/stripe.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "sugar",
+            "aliases": [],
+            "path": "sugar/sugar.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "superagent",
+            "aliases": [],
+            "path": "superagent/superagent.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "supertest",
+            "aliases": [],
+            "path": "supertest/supertest.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "swiper",
+            "aliases": [],
+            "path": "swiper/swiper.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "swipeview",
+            "aliases": [],
+            "path": "swipeview/swipeview.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "teechart",
+            "aliases": [],
+            "path": "teechart/teechart.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "three-r55",
+            "aliases": [],
+            "path": "threejs/three-r55.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "three",
+            "aliases": [],
+            "path": "threejs/three.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "through",
+            "aliases": [],
+            "path": "through/through.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "toastr",
+            "aliases": [],
+            "path": "toastr/toastr.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "trunk8",
+            "aliases": [],
+            "path": "trunk8/trunk8.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "tween.js",
+            "aliases": [],
+            "path": "tween.js/tween.js.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "tweenjs",
+            "aliases": [],
+            "path": "tweenjs/tweenjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "underscore-ko",
+            "aliases": [],
+            "path": "underscore-ko/underscore-ko.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "underscore.string",
+            "aliases": [],
+            "path": "underscore.string/underscore.string.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "underscore",
+            "aliases": [],
+            "path": "underscore/underscore.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "unity-webapi",
+            "aliases": [],
+            "path": "unity-webapi/unity-webapi.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "URI",
+            "aliases": [],
+            "path": "urijs/URI.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "UUID",
+            "aliases": [],
+            "path": "uuid/UUID.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "videojs",
+            "aliases": [],
+            "path": "videojs/videojs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "viewporter",
+            "aliases": [],
+            "path": "viewporter/viewporter.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "froogaloop",
+            "aliases": [],
+            "path": "vimeo/froogaloop.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "waa-20120802",
+            "aliases": [],
+            "path": "webaudioapi/waa-20120802.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "waa-nightly",
+            "aliases": [],
+            "path": "webaudioapi/waa-nightly.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "waa",
+            "aliases": [],
+            "path": "webaudioapi/waa.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "MediaStream",
+            "aliases": [],
+            "path": "webrtc/MediaStream.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "RTCPeerConnection",
+            "aliases": [],
+            "path": "webrtc/RTCPeerConnection.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "when",
+            "aliases": [],
+            "path": "when/when.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "winjs",
+            "aliases": [],
+            "path": "winjs/winjs.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "winrt",
+            "aliases": [],
+            "path": "winrt/winrt.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "youtube",
+            "aliases": [],
+            "path": "youtube/youtube.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "zepto",
+            "aliases": [],
+            "path": "zepto/zepto.d.ts",
+            "version": "*"
+        },
+        {
+            "name": "zeroclipboard",
+            "aliases": [],
+            "path": "zeroclipboard/zeroclipboard.d.ts",
+            "version": "*"
+        }
+    ]
+}

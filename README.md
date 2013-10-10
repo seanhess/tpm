@@ -58,6 +58,11 @@ For example: `angular-browserify` should map to the `angular` definition. To spe
         "version": "",      // optional
     }
 
+Open Questions
+--------------
+
+Is it possible that an npm/bower/component package might need more than one definition file? I don't want to do any dependency resolution, but do they ever split definitions into multiple files in DT?
+
 
 Feedback
 --------

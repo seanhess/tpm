@@ -31,6 +31,7 @@ Definitions are returned in the following format
         "aliases": ["angularjs", "angular-browserify"],
         "repo": "borisyankov/DefinitelyTyped",
         "path": "angularjs/angular.d.ts",
+        "sha": "master",
         "url": "https://github.com/borisyankov/DefinitelyTyped/angularjs/angular.d.ts/raw/master",
         "version": "*",
     }
@@ -42,7 +43,7 @@ Default Definition Names
 
 The [DefinitelyTyped][dt] repository is read dynamically. This repository hosts corrections and aliases to it in the `data` directory. We do not need an alias for every package. We only need them if they differ from the name of the file on [DefinitelyTyped][dt]. 
 
-The name of the definition file without extension is used as the default name. For example, on [DefinitelyTyped][dt], the [AngularJS][angular] definition file is stored at `/angularjs/angular.d.ts'. It's name is `angular`.  `angular-resource` is the name of the definition file at `/angularjs/angular-resource.d.ts`. 
+The name of the definition file is used as the default name. For example, on [DefinitelyTyped][dt], the [AngularJS][angular] definition file is stored at `/angularjs/angular.d.ts'. It's name is `angular`.  `angular-resource` is the name of the definition file at `/angularjs/angular-resource.d.ts`. 
 
 Aliases
 -------

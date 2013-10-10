@@ -81,7 +81,7 @@ module.exports = function(grunt) {
   })
 
 
-  grunt.registerTask('publish', ['typescript', 'build', 'exec:public'])
+  grunt.registerTask('publish', ['typescript', 'build', 'exec:publish'])
 
   // Default task(s).
   grunt.registerTask('default', ['typescript'])

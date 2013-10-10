@@ -2,6 +2,7 @@
 GOAL: statically build a map, create a tool that downloads it and provides the information. 
 
 [ ] Compile additions + DT into a static map. (Grunt task will do it well)
+    [ ] make a grunt plugin to call the function
 [ ] Publish that map to a URL (github pages, so it doesn't get committed)
 [ ] Library: downloads the map
 [ ] Library: provides the full object specified

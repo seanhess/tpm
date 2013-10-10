@@ -46,5 +46,5 @@ export function directory(repoPath:string):Q.IPromise<IFile[]> {
 export function rawUrl(repo:string, filepath:string):string {
     // https://github.com/borisyankov/DefinitelyTyped/raw/master/angularjs/angular.d.ts
     // https://raw.github.com/borisyankov/DefinitelyTyped/master/angularjs/angular.d.ts
-    return path.join("https://raw.github.com/", repo, "master", filepath)
+    return "https://" + path.join("raw.github.com/", repo, "master", filepath)
 }

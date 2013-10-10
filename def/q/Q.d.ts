@@ -8,10 +8,10 @@ declare function Q<T>(promise: Q.IPromise<T>): Q.Promise<T>;
 
 declare module Q {
     interface IPromise<T> {
-        then<U>(onFulfill: (value: T) => U, onReject?: (reason) => U): IPromise<U>;
+        then<U>(onFulfill: (value: T) => IPromise<U>, onReject?: (reason) => IPromise<U>): IPromise<U>;
         then<U>(onFulfill: (value: T) => IPromise<U>, onReject?: (reason) => U): IPromise<U>;
         then<U>(onFulfill: (value: T) => U, onReject?: (reason) => IPromise<U>): IPromise<U>;
-        then<U>(onFulfill: (value: T) => IPromise<U>, onReject?: (reason) => IPromise<U>): IPromise<U>;
+        then<U>(onFulfill: (value: T) => U, onReject?: (reason) => U): IPromise<U>;
     }
 
     interface Deferred<T> {

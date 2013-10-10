@@ -11,32 +11,34 @@ Installation
 API
 ---
 
-Load and return the entire map. This is constructed from the most recent data available online. 
+First, download the index. This is constructed from the most recent data available online. Save this and then use it to get definitions. 
 
-    var tpm = require('tpm')
-    var cachedMap
-    tpm.loadMap().then(function(map) {
-        cachedMap = map
+    import tpm = require('tpm')
+    var cachedIndex
+    tpm.loadIndex().then(function(index) {
+        cachedIndex = index
     })  
 
-Return a single mapping from a map
+Do not read the index directly. Instead use `findDefinitions` to read from a cached index. This is synchronous, as it just uses the cached index. 
 
-    var definition = tpm.findDefinition(cachedMap, packageName, [version])
-    console.log(definition)
+    var definitions:IDefinition[] = tpm.findDefinitions(cachedIndex, packageName)
+    console.log(definitions)
 
-Definitions are returned in the following format
+This would return an array of definitions, one per version if there are more. Usually it will just return 1. If the 
 
-    {
-        "names": "angular",
-        "aliases": ["angularjs", "angular-browserify"],
-        "repo": "borisyankov/DefinitelyTyped",
-        "path": "angularjs/angular.d.ts",
-        "sha": "master",
-        "url": "https://github.com/borisyankov/DefinitelyTyped/angularjs/angular.d.ts/raw/master",
-        "version": "*",
-    }
+    [
+        {
+            "name": "angular",
+            "aliases": ["angularjs", "angular-browserify"],
+            "path": "angularjs/angular.d.ts",
+        }
+    ]
 
-Please do not try to download the map and parse it directly, but instead use this library to get definitions. 
+Get the url of the definition file for downloading
+
+    var url = tpm.definitionUrl(definition)
+
+
 
 Default Definition Names
 ------------------------
@@ -54,15 +56,13 @@ For example: `angular-browserify` should map to the `angular` definition. To spe
     {
         "alias": "angular-browserify",
         "name": "angular",  // the default DT name
-        "sha": "master",    // optional
-        "version": "",      // optional
     }
 
-Open Questions
---------------
 
-Is it possible that an npm/bower/component package might need more than one definition file? I don't want to do any dependency resolution, but do they ever split definitions into multiple files in DT?
+Later
+-----
 
+Versioning: more information in alias files, matching up versions in `generateFullIndex`
 
 Feedback
 --------

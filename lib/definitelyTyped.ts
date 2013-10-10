@@ -1,19 +1,31 @@
 /// <reference path="../all.d.ts" />
 
 
+// information about a definition on DefinitelyTyped
+export interface IDefinition {
+    name: string;       // angularjs
+    // repo: string;       // borisyankov/DefinitelyTyped
+    path: string;       // angularjs/angular.d.ts
+    // commit: string;
+    // url: string;        // https://github.com/borisyankov/DefinitelyTyped/angularjs/angular.d.ts/raw/master
+}
+
+export interface IDefinitionMap {
+    [key: string]: IDefinition;
+}
+
 import path = require('path')
 import _ = require('underscore')
 import github = require('./github')
 import fs = require('./q-fs')
 import Q = require('q')
 
-var DEFINITELY_TYPED_PATH = "borisyankov/DefinitelyTyped"
-var REPO_URL = "https://github.com/borisyankov/DefinitelyTyped"
+export var REPO_PATH = "borisyankov/DefinitelyTyped"
+export var REPO_URL = "https://github.com/" + REPO_PATH
 
 export function generateRepo():Q.IPromise<IDefinition[]> {
-    return github.trees(DEFINITELY_TYPED_PATH)
+    return github.trees(REPO_PATH)
     .then(function(response) {
-        // console.log("TREE", response)
         return response.tree
         .filter(isDefinitionFile)
         .map(repoVersion)
@@ -25,15 +37,23 @@ function isDefinitionFile(file:github.ITreeItem):boolean {
 }
 
 function repoVersion(file:github.ITreeItem):IDefinition {
-    var url = github.rawUrl(DEFINITELY_TYPED_PATH, file.path)
+    var url = github.rawUrl(REPO_PATH, file.path)
     return {
         name: path.basename(file.path, ".d.ts"),
-        repo: REPO_URL,
+        repo: REPO_PATH,
         path: file.path,
         url: url
     }
 }
 
+// export function map(definitions:IDefinition[]):IDefinitionMap {
+//     return definitions.reduce(mapAddDefinition, {})
+// }
+
+// function mapAddDefinition(map:IDefinitionMap, def:IDefinition) {
+//     map[def.name] = def
+//     return map
+// }
 
 
 

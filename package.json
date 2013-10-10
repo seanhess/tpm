@@ -15,10 +15,7 @@
   "dependencies": {
     "q": "~0.9.7",
     "underscore": "~1.5.2",
-    "request": "~2.27.0",
-    "express": "~3.4.0",
-    "connect": "~2.9.0",
-    "express-promise": "~0.1.9"
+    "request": "~2.27.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

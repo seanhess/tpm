@@ -6,9 +6,29 @@ import Q = require('q')
 import _ = require('underscore')
 import dt = require('./definitelyTyped')
 import request = require('./q-request')
+import github = require('./github')
+import fs = require('./q-fs')
+import alias = require('../data/alias')
 
 var API_URL = "http://tpm.orbit.al:3244"
+var INDEX_URL = ""
 
+export interface IDefinitionVersion {
+    name: string;
+    aliases: string[];
+    path: string;
+    version: string;    
+    // commit: string;
+}
+
+
+
+// the object that gets cached and downloaded
+// might as well pre-process everything
+export interface IDefinitionIndex {
+    created:Date;
+    definitions:IDefinitionVersion[];
+}
 
 // We can map names to definitely typed without having to do anything else manually
 // later we could use a command-line or web interface and a database
@@ -21,25 +41,80 @@ var RENAMES = {
 
 
 // returns DefinitelyTyped as a respository of type files
-export function loadDefinitelyTyped():Q.IPromise<IDefinition[]> {
+
+// PUBLIC API ///////////////////////////////
+
+/**
+ * Download the generated index from TPM's server, so it can be cached and used to find definitions with findDefinitions, below. 
+ * @param index - A cached definition index 
+ * @param name - the name of the package on npm, bower, etc
+ * @return - a promise for the index
+ */
+export function loadIndex():Q.IPromise<IDefinitionIndex> {
+    return request.get({url: INDEX_URL, json: true})
+}
+
+/**
+ * Once you have an index, read it to find the definitions matching the package name
+ * @param index - A cached definition index 
+ * @param name - the name of the package on npm, bower, etc
+ * @return - an array of matching definitions, usually 1
+ */
+export function findDefinitions(index:IDefinitionIndex, name:string):IDefinitionVersion[] {
+    // Keep it simple for the first version
+    return index.definitions.filter(function(def:IDefinitionVersion) {
+        return def.name == name || _.contains(def.aliases, name)
+    })
+}
+
+/**
+ * Returns the raw data URL for a given definition
+ * @param {IDefinitionVersion} definition - A definition returned by findDefinitions
+ */
+export function definitionUrl(definition:IDefinitionVersion):string {
+    return github.rawUrl(dt.REPO_PATH, definition.path)
+}
+
+
+// PRIVATE API //////////////////////////////
+
+function dtLoadFromGithub():Q.IPromise<dt.IDefinition[]> {
     return dt.generateRepo()
 }
 
-export function findDefinition(map:IDefinitionMap, name:string):IDefinition {
-    if (RENAMES[name])
-        name = RENAMES[name]
-    return map[name]
+function loadAlias(filepath:string):Q.IPromise<alias.IAlias> {
+    return fs.readFile(filepath)
+    .then((data) => JSON.parse(data.toString()))
 }
 
-export function definitionMap(definitions:IDefinition[]):IDefinitionMap {
-    return definitions.reduce(mapAddDefinition, {})
+function generateFullIndex(definitions:dt.IDefinition[], aliases:alias.IAlias[]):IDefinitionIndex {
+    
+    var defaultDefinitions = definitions.map(function(def:dt.IDefinition) {
+        var aliasNames = aliases
+        .filter((alias) => alias.name == def.name) 
+        .map((alias) => alias.alias)
+
+        return {
+            name: def.name,
+            aliases: aliasNames,
+            path: def.path,
+            version: "*",
+        }
+    })
+
+    // TODO duplicate and add a new version if the version is specified and different
+
+    return {
+        created: new Date(),
+        definitions: defaultDefinitions,
+    }
 }
 
-function mapAddDefinition(map:IDefinitionMap, def:IDefinition) {
-    map[def.name] = def
-    return map
+// grunt should be able to handle the rest of this
+export function loadDtAndBuildIndex():Q.IPromise<IDefinitionIndex> {
+    return dtLoadFromGithub()
+    .then((defs) => generateFullIndex(defs, alias.all))
 }
-
 
 
 

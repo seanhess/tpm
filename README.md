@@ -1,52 +1,62 @@
-TPM: Typescript Package Manager
-===============================
+Package to Typescript Definition Mapping
+========================================
 
-OUT OF DATE README BELOW
+This tool provides a mapping of NPM, bower, and/or generic packages to the corresponding Typescript definition file (from [DefinitelyTyped][dt]). This will allow tools to install the definition corresponding to any dependency automatically. 
 
-**Note:** This is only a proposal. I am seeking feedback before building it.
+Installation
+------------
 
-It is currently difficult to use 3rd party dependencies on a client-side Typescript project. Using bower, you can include Javascript dependencies, but then you must also import definition files from somewhere (usually [DefinitelyTyped][definitelytyped]). 
+    npm install tpm
 
-TPM simplifies using dependencies on a Typescript project. By running `tpm install` it will read the dependencies listed in `bower.json` or `package.json`, download the definition files, and create a file that references all of them for easy including. 
+API
+---
 
-Using TPM on your project
--------------------------
+Load and return the entire map. This is constructed from the most recent data available online. 
 
-Install the `tpm` command-line tools
-    
-    npm install -g tpm
+    var tpm = require('tpm')
+    var cachedMap
+    tpm.loadAll().then(function(map) {
+        cachedMap = map
+    })  
 
-Install bower dependencies
+Return a single mapping from a map
 
-    bower install jquery --save
+    var definition = tpm.findDefinition(cachedMap, packageName, [version])
+    console.log(definition)
 
-Install definitions to `bower_components/dt/...`
+Definitions are returned in the following format
 
-    tpm install
+    {
+        "names": "angular",
+        "aliases": ["angularjs", "angular-browserify"],
+        "repo": "borisyankov/DefinitelyTyped",
+        "path": "angularjs/angular.d.ts",
+        "url": "https://github.com/borisyankov/DefinitelyTyped/angularjs/angular.d.ts/raw/master",
+        "version": "*",
+    }
 
-Include a dependency in your project
+Please do not try to download the map and parse it directly, but instead use this library to get definitions. 
 
-    /// <reference path="../bower_components/dt/jquery/jquery.d.ts" />
+Default Definition Names
+------------------------
 
-    $("body").fadeOut()
+The [DefinitelyTyped][dt] repository is read dynamically. This repository hosts corrections and aliases to it in the `data` directory. We do not need an alias for every package. We only need them if they differ from the name of the file on [DefinitelyTyped][dt]. 
 
-TPM generates a file, `bower_components/dt/index.d.ts` which references all your dependencies. To reference them from your code, simply add a reference to it in your root project file
+The name of the definition file without extension is used as the default name. For example, on [DefinitelyTyped][dt], the [AngularJS][angular] definition file is stored at `/angularjs/angular.d.ts'. It's name is `angular`.  `angular-resource` is the name of the definition file at `/angularjs/angular-resource.d.ts`. 
 
-    /// <reference path="../bower_components/dt/index.d.ts" />
+Aliases
+-------
 
-    $("body").fadeOut()
+For example: `angular-browserify` should map to the `angular` definition. To specify an alias, create the file `data/angular-browserify.json` with the following contents, then send us a pull request.
 
+    // data/angular-browserify.json
+    {
+        "alias": "angular-browserify",
+        "name": "angular",  // the default DT name
+        "sha": "master",    // optional
+        "version": "",      // optional
+    }
 
-Specifying Definitions
-----------------------
-
-Definitions are specified per bower package and version range, and consist of the following:
-
-- A github repository
-- A path to a file within the repository
-- A commit, tag, or branch name to target
-
-We automatically ingest [DefinitelyTyped][definitelytyped], and it serves as the default location for packages. In addition, we can specify other definition files, or version-specific information using the web tool. 
 
 Feedback
 --------
@@ -58,6 +68,7 @@ Please provide feedback in one of these threads, or in an issue in this reposito
 
 
 [typescript]: http://typescriptlang.org/
-[definitelyTyped]: https://github.com/borisyankov/DefinitelyTyped
+[dt]: https://github.com/borisyankov/DefinitelyTyped
 [bower]: http://bower.io/
 [npm]: https://npmjs.org/
+[angular]: http://angularjs.org/

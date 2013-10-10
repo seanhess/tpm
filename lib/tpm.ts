@@ -11,7 +11,7 @@ import fs = require('./q-fs')
 import alias = require('../data/alias')
 
 var API_URL = "http://tpm.orbit.al:3244"
-var INDEX_URL = ""
+var INDEX_URL = "http://seanhess.github.io/tpm/data/index.json"
 
 export interface IDefinitionVersion {
     name: string;

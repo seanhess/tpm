@@ -65,13 +65,19 @@ module.exports = function(grunt) {
 
       done(true)
     })
-    
+  })
 
-    // files is an array of DESTINATIONS
-    
-    // this.files.forEach(function(file) {
-    //   console.log("FILE", file.src)
-    // })
+  grunt.registerTask('test', ['typescript'], function() {
+    var tpm = require('./lib/tpm')
+    var done = this.async()
+    tpm.loadIndex()
+    .then(function(index) {
+      grunt.log.writeln("loaded")
+      console.log(tpm.findDefinitions(index, "angularjs"))
+      console.log(tpm.findDefinitions(index, "angular"))
+      console.log(tpm.findDefinitions(index, "jquery"))
+      done(true)
+    })
   })
 
 

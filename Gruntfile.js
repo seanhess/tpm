@@ -1,5 +1,3 @@
-var tpm = require('./lib/tpm')
-
 module.exports = function(grunt) {
 
   // Project configuration
@@ -51,6 +49,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch')
 
   grunt.registerMultiTask('build', 'Build the static index', function() {
+    var tpm = require('./lib/tpm')
     var done = this.async()
 
     var files = this.files // why is this an array?

@@ -123,6 +123,8 @@ Create a single reference file pointing to all other reference files. Your appli
 
     tpm index types/**/*.d.ts -o types/all.d.ts
 
+TODO: grunt tasks for the above
+
 Later
 -----
 

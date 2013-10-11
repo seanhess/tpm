@@ -114,11 +114,11 @@ export function downloadDefinitionsToFolder(definitions:IDefinitionVersion[], fo
 
 
 export function createReferenceFile(typeFilePaths:string[], indexFilePath:string):Q.IPromise<void> {
-    var contents = typeFilePaths.map(function(path) {
-        var relativePath = path.relative(path, indexFilePath)
+    var contents = typeFilePaths.map(function(filepath) {
+        var relativePath = filepath.replace(path.dirname(indexFilePath), ".")
         return "/// <reference path='"+relativePath+"' />"
     }).join("\n")
-
+    console.log("[WROTE]", indexFilePath)
     return fs.writeFile(indexFilePath, contents)
 }
 

@@ -30,9 +30,6 @@ export function run() {
     var files = argv._
     var command = files.shift()
     var workingDir = process.cwd()
-    if (!files.length) files = ["package.json"]
-
-    // absolute file
     files = files.map((f) => path.join(workingDir, f))
 
     var promise;
@@ -40,14 +37,14 @@ export function run() {
     if (command == "install") {
         var o = argv.o || "types/"
         var out = path.join(workingDir, o)
-        
+        if (!files.length) files = [path.join(workingDir, "package.json")]
         promise = install(files[0], out)
     }
 
     else if (command == "index") {
         var o = argv.o || "types/all.d.ts"
         var out = path.join(workingDir, o)
-        if (!files.length) files = ["package.json"]
+        if (!files.length) throw new Error("You must specify files to index")
         promise = index(files, out)
     }
 

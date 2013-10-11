@@ -29,8 +29,7 @@
     "underscore": "~1.5.2",
     "request": "~2.27.0",
     "optimist": "~0.6.0",
-    "mkdirp": "~0.3.5",
-    "express": "~3.4.0"
+    "mkdirp": "~0.3.5"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

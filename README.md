@@ -1,17 +1,19 @@
-Package to Typescript Definition Mapping
-========================================
+TPM: Typescript Package Manager
+===============================
 
-This tool provides a mapping of NPM, bower, and/or generic packages to the corresponding Typescript definition file (from [DefinitelyTyped][dt]). This will allow tools to install the definition corresponding to any dependency automatically. 
+TPM provides useful programatic access to finding typescript definitions. The TPM library can be used to create other tools, like [TSD][tsd]. It will also provide tools to install definition files itself, to demonstrate how the library can be used, and to allow access to features before other tools integrate them. 
 
 Installation
 ------------
 
     npm install tpm
 
-API
----
+Finding Definition Files
+------------------------
 
-First, download the index. This is constructed from the most recent data available online. Save this and then use it to get definitions. 
+TPM has the ability to look up definition files (from [DefinitelyTyped][dt]) by name, or by NPM, bower, or other package name. This will allow tools to install the definition corresponding to any dependency automatically. 
+
+This happens in two steps. First, download the index. This is constructed from the most recent data available online. Cache this and then use it to get definitions. 
 
     import tpm = require('tpm')
     var cachedIndex
@@ -21,24 +23,33 @@ First, download the index. This is constructed from the most recent data availab
 
 Do not read the index directly. Instead use `findDefinitions` to read from a cached index. This is synchronous, as it just uses the cached index. 
 
-    var definitions:IDefinition[] = tpm.findDefinitions(cachedIndex, packageName)
-    console.log(definitions)
+    var angularDefinitions = tpm.findDefinitions(cachedIndex, "angular")
+    var jqueryDefinitions = tpm.findDefinitions(cachedIndex, "jquery")
 
-This would return an array of definitions, one per version if there are more. Usually it will just return 1. If the 
+This would return an array of definitions, one per version if there are more. Usually it will just return 1. The URL is provided for convenience. Other tools can generate their own URL. 
 
     [
         {
             "name": "angular",
             "aliases": ["angularjs", "angular-browserify"],
             "path": "angularjs/angular.d.ts",
+            "url": "https://raw.github.com/borisyankov/DefinitelyTyped/master/angularjs/angular.d.ts"
+            "commit": "master",
+            "version": "latest",
         }
     ]
 
-Get the url of the definition file for downloading
+`name` - the name of the package on [DefinitelyTyped][dt].
 
-    var url = tpm.definitionUrl(definition)
+`aliases` - other names that map to this definition
 
+`path` - the path to the definition within [DefinitelyTyped][dt]
 
+`version` - this will contain version information if multiple versions exist. Otherwise it will be "latest"
+
+`commit` - almost always equal to "master". If the definition no longer exists on [DefinitelyTyped][dt], but did at some previous commit or in another branch, `commit` will refer to a commit or branch where the definition exists
+
+'url' - for convenience, a download URL is provided for the definition file. Other tools can generate their own url from the data. 
 
 Default Definition Names
 ------------------------
@@ -50,13 +61,16 @@ The name of the definition file is used as the default name. For example, on [De
 Aliases
 -------
 
-For example: `angular-browserify` should map to the `angular` definition. To specify an alias, create the file `data/angular-browserify.json` with the following contents, then send us a pull request.
+This repository hosts the mapping of other names to the default names. 
 
-    // data/angular-browserify.json
-    {
-        "alias": "angular-browserify",
-        "name": "angular",  // the default DT name
-    }
+For example: `angular-browserify` should map to the `angular` definition. To specify an alias, edit `data/alias.ts` then send us a pull request.
+
+
+    export var all:IAlias[] = [
+        ...
+        {name: "angular", alias: "angular-browserify"},
+        ...
+    ]
 
 
 Later
@@ -78,3 +92,4 @@ Please provide feedback in one of these threads, or in an issue in this reposito
 [bower]: http://bower.io/
 [npm]: https://npmjs.org/
 [angular]: http://angularjs.org/
+[tsd]: https://github.com/Diullei/tsd/

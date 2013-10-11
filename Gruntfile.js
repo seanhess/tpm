@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 
     typescript: {
       lib: {
-        src: ['lib/tpm.ts'],
+        src: ['lib/command.ts'], // should reference everything else
         options: {
           module: 'commonjs', //or commonjs
           target: 'es5', //or es3

@@ -14,11 +14,15 @@ var API_URL = "http://tpm.orbit.al:3244"
 var INDEX_URL = "http://seanhess.github.io/tpm/data/index.json"
 
 export interface IDefinitionVersion {
+    // core properties
     name: string;
     aliases: string[];
     path: string;
+
+    // future or convenience properties
     version: string;    
-    // commit: string;
+    url: string;
+    commit: string;
 }
 
 
@@ -29,6 +33,12 @@ export interface IDefinitionIndex {
     created:Date;
     definitions:IDefinitionVersion[];
 }
+
+
+export interface IPackageData {
+    dependencies:{[key: string]: string};
+}
+
 
 // We can map names to definitely typed without having to do anything else manually
 // later we could use a command-line or web interface and a database
@@ -61,19 +71,82 @@ export function loadIndex():Q.IPromise<IDefinitionIndex> {
  * @return - an array of matching definitions, usually 1
  */
 export function findDefinitions(index:IDefinitionIndex, name:string):IDefinitionVersion[] {
+    name = name.toLowerCase()
     // Keep it simple for the first version
     return index.definitions.filter(function(def:IDefinitionVersion) {
-        return def.name == name || _.contains(def.aliases, name)
+        return def.name.toLowerCase() == name || _.contains(def.aliases, name)
+    })
+    .map(function(def:IDefinitionVersion) {
+        def.commit = "master"
+        def.url = github.rawUrl(dt.REPO_PATH, def.path, def.commit)  
+        return def
     })
 }
 
-/**
- * Returns the raw data URL for a given definition
- * @param {IDefinitionVersion} definition - A definition returned by findDefinitions
- */
-export function definitionUrl(definition:IDefinitionVersion):string {
-    return github.rawUrl(dt.REPO_PATH, definition.path)
+
+
+export function definitionContents(definition:IDefinitionVersion):Q.IPromise<NodeBuffer> {
+    return request.get({url:definition.url, json:false})
 }
+
+export function downloadDefinition(definition:IDefinitionVersion, filepath:string):Q.IPromise<void> {
+    console.log("[INSTALL]", definition.path)
+    var directory = path.dirname(filepath)
+
+    return fs.mkdirp(directory)
+    .then( () => definitionContents(definition) )
+    .then( (data) => fs.writeFile(filepath, data) )
+}
+
+
+export function downloadDefinitionToFolder(definition:IDefinitionVersion, folder:string):Q.IPromise<void> {
+    var finalPath = path.join(folder, definition.path)
+    return downloadDefinition(definition, finalPath)
+}
+
+export function downloadDefinitionsToFolder(definitions:IDefinitionVersion[], folder:string):Q.IPromise<void> {
+    return Q.all(definitions.map(function(def) {
+        return downloadDefinitionToFolder(def, folder)
+    }))
+    .then(() => null)
+}
+
+
+export function createReferenceFile(typeFilePaths:string[], indexFilePath:string):Q.IPromise<void> {
+    var contents = typeFilePaths.map(function(path) {
+        var relativePath = path.relative(path, indexFilePath)
+        return "/// <reference path='"+relativePath+"' />"
+    }).join("\n")
+
+    return fs.writeFile(indexFilePath, contents)
+}
+
+export function findPackageDefinitions(cachedIndex:IDefinitionIndex, packageData:IPackageData):IDefinitionVersion[] {
+    var definitions = _.map(packageData.dependencies, function(version, name) {
+        return findDefinitions(cachedIndex, name)
+    })
+    // also return node, just for kicks
+    definitions.push(findDefinitions(cachedIndex, "node"))
+    return _.flatten(definitions)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // PRIVATE API //////////////////////////////
@@ -98,7 +171,9 @@ function generateFullIndex(definitions:dt.IDefinition[], aliases:alias.IAlias[])
             name: def.name,
             aliases: aliasNames,
             path: def.path,
-            version: "*",
+            version: "latest",
+            url: null,
+            commit: "master",
         }
     })
 
@@ -118,91 +193,4 @@ export function loadDtAndBuildIndex():Q.IPromise<IDefinitionIndex> {
 
 
 
-// function readDependenciesIfExists(path:string):Q.IPromise<IDependency[]> {
-//     // I need to return / exist early... how?
-//     return fs.exists(path)
-//     .then(function(exists) {
-//         if (!exists) return exists
-//         return fs.readFile(path)
-//         .then(parseJSON)
-//         .then(readDependenciesFromJSON)
-//     })
-// }
 
-
-// function readDependenciesFromJSON(data:any):IDependency[] {
-//     return _.map(data.dependencies, function(version, name:string) {
-//         return {
-//             name: name,
-//             version: version,    
-//         }
-//     })
-// }
-
-
-
-// var parseJSON = (data:NodeBuffer) => JSON.parse(data.toString())
-
-
-// Command-line tool: will read bower.json and package.json
-// Will check dependencies, and create a references file for each one
-
-// How does it do the version matching? I don't know :)  It has known version compatibilities? There 
-
-// 1. Needs an online database of the compatibilities
-
-
-
-
-
-
-
-
-/*
-
-
-
-curl https://api.github.com/repos/borisyankov/DefinitelyTyped/contents/
-[
-  {
-    "name": "angularjs",
-    "path": "angularjs",
-    "sha": "f8298bf0834ca2b0411f0ffbda7b87382ae4eb47",
-    "size": null,
-    "url": "https://api.github.com/repos/borisyankov/DefinitelyTyped/contents/angularjs?ref=master",
-    "html_url": "https://github.com/borisyankov/DefinitelyTyped/tree/master/angularjs",
-    "git_url": "https://api.github.com/repos/borisyankov/DefinitelyTyped/git/trees/f8298bf0834ca2b0411f0ffbda7b87382ae4eb47",
-    "type": "dir",
-    "_links": {
-      "self": "https://api.github.com/repos/borisyankov/DefinitelyTyped/contents/angularjs?ref=master",
-      "git": "https://api.github.com/repos/borisyankov/DefinitelyTyped/git/trees/f8298bf0834ca2b0411f0ffbda7b87382ae4eb47",
-      "html": "https://github.com/borisyankov/DefinitelyTyped/tree/master/angularjs"
-    }
-  },
-]
-
-
-
-
-
-
-*/
-
-// var options = process.argv.slice(2)
-// var workingDir = process.cwd()
-
-// console.log(workingDir, options)
-
-// // check for package.json and bower.json
-// var bowerPath = path.join(workingDir, "bower.json")
-// var packagePath = path.join(workingDir, "package.json")
-
-// readDependenciesIfExists(packagePath)
-// .then(function(stuff) {
-//     console.log("HELLO", stuff)
-// })
-
-
-
-// function debug(stuff) { console.log("[DEBUG]", stuff)}
-// function error(stuff) { console.log("[ERROR]", stuff)}

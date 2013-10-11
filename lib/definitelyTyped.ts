@@ -37,12 +37,12 @@ function isDefinitionFile(file:github.ITreeItem):boolean {
 }
 
 function repoVersion(file:github.ITreeItem):IDefinition {
-    var url = github.rawUrl(REPO_PATH, file.path)
+    // var url = github.rawUrl(REPO_PATH, file.path, "master")
     return {
         name: path.basename(file.path, ".d.ts"),
-        repo: REPO_PATH,
+        // repo: REPO_PATH,
         path: file.path,
-        url: url
+        // url: url
     }
 }
 

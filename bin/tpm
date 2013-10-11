@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-require('./tpm.js')
+require('../lib/command.js')

@@ -3,6 +3,8 @@ TPM: Typescript Package Manager
 
 TPM provides useful programatic access to finding typescript definitions. The TPM library can be used to create other tools, like [TSD][tsd]. It will also provide its own tools to install definition files, to demonstrate how the library can be used, and to allow access to features before other tools integrate them. 
 
+I wouldn't mind if TPM was merged into another tool, so long as it provided similar functionality. 
+
 Installation
 ------------
 
@@ -16,18 +18,19 @@ TPM has the ability to look up definition files (from [DefinitelyTyped][dt]) by 
 This happens in two steps. First, download the index. This is constructed from the most recent data available online. Cache this and then use it to get definitions. 
 
     import tpm = require('tpm')
-    var cachedIndex
+    var cachedIndex:IDefinitionIndex
     tpm.loadIndex().then(function(index) {
         cachedIndex = index
-    })  
+    })
 
 Do not read the index directly. Instead use `findDefinitions` to read from a cached index. This is synchronous, as it just uses the cached index. 
 
-    var angularDefinitions = tpm.findDefinitions(cachedIndex, "angular")
-    var jqueryDefinitions = tpm.findDefinitions(cachedIndex, "jquery")
+    var angularVersions:IDefinitionVersion[] = tpm.findDefinitions(cachedIndex, "angular")
+    var jqueryVersions:IDefinitionVersion[] = tpm.findDefinitions(cachedIndex, "jquery")
 
 This would return an array of definitions, one per version if there are more. Usually it will just return 1. The URL is provided for convenience. Other tools can generate their own URL. 
 
+    // IDefinitionVersion[]
     [
         {
             "name": "angular",
@@ -63,13 +66,59 @@ This repository hosts the mapping of other names to the default names.
 
 For example: `angular-browserify` should map to the `angular` definition. To specify an alias, edit `data/alias.ts` then send us a pull request.
 
-
     export var all:IAlias[] = [
         ...
         {name: "angular", alias: "angular-browserify"},
         ...
     ]
 
+
+Utilities
+---------
+
+These features may be duplicated in other tools, but are provided here to demonstrate how to use the library, and to allow it to function if not yet implemented in other tools. 
+
+Get the contents of a definition
+    
+    definitionContents(definition:IDefinitionVersion):Q.IPromise<NodeBuffer>
+
+Download a definition to a file path.
+
+    downloadDefinition(definition:IDefinitionVersion, filepath:string):Q.IPromise<void>
+
+Download a definition to a folder. If `folder` is "types/" then it will download to "types/jquery/jquery.d.ts"
+
+    downloadDefinitionToFolder(definition, folder):Q.IPromise<void>
+
+Create a single reference file pointing to other reference files. Your application only needs to reference this one file. Note that this can be used to reference your own definition files too!
+
+    createReferenceFile(typeFilePaths:string[], indexFilePath:string):Q.IPromise<void>
+
+    // example contents of indexFilePath if definitionFilePaths contained these three files
+    /// <reference path="app/mytypes.ts" />
+    /// <reference path="types/jquery/jquery.d.ts" />
+    /// <reference path="types/jquery/jquery.d.ts" />
+
+Find definitions given a file similar to `package.json`. This will work with `bower.json` and `package.json`. 
+
+    // packageData should have a `dependencies` property
+    //   name: version/folder/package, etc
+    findPackageDefinitions(cachedIndex:IDefinitionIndex, packageData:any):IDefinitionVersion[]
+
+
+Command-line Tool
+-----------------
+
+TPM has its own definition installer to demonstrate how to use the library, and to provide early access to features. 
+
+Install dependencies by reading any `.json` file that is similar to `package.json`. This installs the dependencies to `types/:folder/:file.d.ts`. 
+
+    tpm install package.json -o types/
+    tpm install bower.json -o types/
+
+Create a single reference file pointing to all other reference files. Your application only needs to reference this single file to contain all definition files.
+
+    tpm index types/**/*.d.ts -o types/all.d.ts
 
 Later
 -----

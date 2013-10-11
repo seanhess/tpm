@@ -61,6 +61,7 @@ var RENAMES = {
  * @return - a promise for the index
  */
 export function loadIndex():Q.IPromise<IDefinitionIndex> {
+    console.log("[GET] Index")
     return request.get({url: INDEX_URL, json: true})
 }
 

@@ -116,6 +116,9 @@ Install dependencies by reading any `.json` file that is similar to `package.jso
     tpm install package.json -o types/
     tpm install bower.json -o types/
 
+    # defaults to package.json and -o types/
+    tpm install
+
 Create a single reference file pointing to all other reference files. Your application only needs to reference this single file to contain all definition files.
 
     tpm index types/**/*.d.ts -o types/all.d.ts

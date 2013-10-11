@@ -8,7 +8,13 @@ I wouldn't mind if TPM was merged into another tool, so long as it provided simi
 Installation
 ------------
 
+For API access
+
     npm install tpm
+
+For Command-line access
+
+    npm install -g tpm
 
 Command-line Tool
 -----------------

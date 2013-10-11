@@ -10,6 +10,25 @@ Installation
 
     npm install tpm
 
+Command-line Tool
+-----------------
+
+TPM has its own definition installer to demonstrate how to use the library, and to provide early access to features. 
+
+Install dependencies by reading any `.json` file that is similar to `package.json`. This installs the dependencies to `types/:folder/:file.d.ts`. 
+
+    tpm install package.json -o types/
+    tpm install bower.json -o types/
+
+    # defaults to package.json and -o types/
+    tpm install
+
+Create a single reference file pointing to all other reference files. Your application only needs to reference this single file to contain all definition files.
+
+    tpm index types/**/*.d.ts -o types/all.d.ts
+
+TODO: grunt tasks for the above
+
 Finding Definition Files
 ------------------------
 
@@ -106,24 +125,7 @@ Find definitions given a file similar to `package.json`. This will work with `bo
     findPackageDefinitions(cachedIndex:IDefinitionIndex, packageData:any):IDefinitionVersion[]
 
 
-Command-line Tool
------------------
 
-TPM has its own definition installer to demonstrate how to use the library, and to provide early access to features. 
-
-Install dependencies by reading any `.json` file that is similar to `package.json`. This installs the dependencies to `types/:folder/:file.d.ts`. 
-
-    tpm install package.json -o types/
-    tpm install bower.json -o types/
-
-    # defaults to package.json and -o types/
-    tpm install
-
-Create a single reference file pointing to all other reference files. Your application only needs to reference this single file to contain all definition files.
-
-    tpm index types/**/*.d.ts -o types/all.d.ts
-
-TODO: grunt tasks for the above
 
 Later
 -----

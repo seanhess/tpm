@@ -7,16 +7,7 @@ import path = require('path')
 
 // tpm install package.json -o types/
 var optimist = require('optimist')
-var argv = optimist
-    .usage("Usage: \n  tpm install\n  tpm install package.json -o types/\n  tpm index types/**/*.d.ts -o types/all.d.ts")
-    .demand([1])
-    .check(function() {
-        var command = optimist.argv._[0]
-        if (command != "install" && command != "index") {
-            throw new Error("Unknown Command: " + command)
-        }
-    })
-    .argv
+
 
 
 
@@ -24,7 +15,18 @@ var argv = optimist
 
 // }
 
-function run() {
+export function run() {
+    var argv = optimist
+        .usage("Usage: \n  tpm install\n  tpm install package.json -o types/\n  tpm index types/**/*.d.ts -o types/all.d.ts")
+        .demand([1])
+        .check(function() {
+            var command = optimist.argv._[0]
+            if (command != "install" && command != "index") {
+                throw new Error("Unknown Command: " + command)
+            }
+        })
+        .argv
+
     var files = argv._
     var command = files.shift()
     var workingDir = process.cwd()
@@ -61,24 +63,22 @@ function run() {
 
 }
 
-function install(file:string, dir:string) {
-    console.log("tpm install", file)
+export function install(file:string, dir:string) {
+    console.log("tpm install", file, "to", dir)
     return fs.readFile(file)
     .then((data) => JSON.parse(data.toString()))
     .then((packageData) => installPackages(packageData, dir))
 }
 
-function installPackages(packageData:tpm.IPackageData, dir:string) {
+export function installPackages(packageData:tpm.IPackageData, dir:string) {
     return tpm.loadIndex()    
     .then((index) => tpm.findPackageDefinitions(index, packageData))
     .then((defs) => tpm.downloadDefinitionsToFolder(defs, dir))
 }
 
-function index(files:string[], out:string) {
+export function index(files:string[], out:string) {
     return tpm.createReferenceFile(files, out)
 }
-
-run()
 
 
 

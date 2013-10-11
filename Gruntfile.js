@@ -40,6 +40,10 @@ module.exports = function(grunt) {
       all: {
         dest: "data/index.json"
       },
+    },
+
+    "tpm-install": {
+      all: {src: "package.json"}
     }
 
   });
@@ -80,6 +84,8 @@ module.exports = function(grunt) {
     })
   })
 
+  // load OUR tasks
+  grunt.loadTasks('tasks');
 
   grunt.registerTask('publish', ['typescript', 'build', 'exec:publish'])
 

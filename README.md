@@ -131,12 +131,10 @@ Find definitions given a file similar to `package.json`. This will work with `bo
     findPackageDefinitions(cachedIndex:IDefinitionIndex, packageData:any):IDefinitionVersion[]
 
 
-
-
 Later
 -----
 
-Versioning: more information in alias files, matching up versions in `generateFullIndex`
+Versioning: more information in alias files, matching up versions in `generateFullIndex`. Correct versions in `findPackageDefinitions`
 
 Feedback
 --------

@@ -12,6 +12,8 @@ import alias = require('../data/alias')
 
 var API_URL = "http://tpm.orbit.al:3244"
 var INDEX_URL = "http://seanhess.github.io/tpm/data/index.json"
+var LATEST = "latest"
+var MASTER = "master"
 
 export interface IDefinitionVersion {
     // core properties
@@ -78,7 +80,7 @@ export function findDefinitions(index:IDefinitionIndex, name:string):IDefinition
         return def.name.toLowerCase() == name || _.contains(def.aliases, name)
     })
     .map(function(def:IDefinitionVersion) {
-        def.commit = "master"
+        def.commit = MASTER
         def.url = github.rawUrl(dt.REPO_PATH, def.path, def.commit)  
         return def
     })
@@ -122,10 +124,15 @@ export function createReferenceFile(typeFilePaths:string[], indexFilePath:string
     return fs.writeFile(indexFilePath, contents)
 }
 
+// This resolves versions, not because that is TPM's main goal, but it should be able to 
+// once versions are supported
 export function findPackageDefinitions(cachedIndex:IDefinitionIndex, packageData:IPackageData):IDefinitionVersion[] {
     var definitions = _.map(packageData.dependencies, function(version, name) {
         return findDefinitions(cachedIndex, name)
+
+        // .filter((def) => def.version == LATEST)
     })
+    console.log(definitions)
     // also return node, just for kicks
     definitions.push(findDefinitions(cachedIndex, "node"))
     return _.flatten(definitions)
@@ -172,9 +179,9 @@ function generateFullIndex(definitions:dt.IDefinition[], aliases:alias.IAlias[])
             name: def.name,
             aliases: aliasNames,
             path: def.path,
-            version: "latest",
+            version: LATEST,
             url: null,
-            commit: "master",
+            commit: MASTER,
         }
     })
 

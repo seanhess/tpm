@@ -15,7 +15,7 @@ Command-line Tool
 
 TPM has its own definition installer to demonstrate how to use the library, and to provide early access to features. 
 
-Install dependencies by reading any `.json` file that is similar to `package.json`. This installs the dependencies to `types/:folder/:file.d.ts`. 
+Install dependencies by reading any `.json` file that is similar to `package.json`. This installs the dependencies to `types/:folder/:file.d.ts` by default.
 
     tpm install package.json -o types/
     tpm install bower.json -o types/

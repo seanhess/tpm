@@ -18,13 +18,12 @@ Install the `tpm` command globally:
 
 Install dependencies by reading any `.json` file that is similar to `package.json`. This installs the dependencies to `types/:folder/:file.d.ts` by default.
 
+    tpm install         # defaults to package.json and types/
+
     tpm install package.json -o types/
     tpm install bower.json -o types/
 
-    # defaults to package.json and -o types/
-    tpm install
-
-Create a single reference file pointing to all other reference files. Your application only needs to reference this single file to contain all definition files.
+Create a single reference file pointing to all other reference files. Your application only needs to reference this single file to contain all definition files. The output defaults to `types/all.d.ts`. The input files are required.
 
     tpm index types/**/*.d.ts -o types/all.d.ts
 

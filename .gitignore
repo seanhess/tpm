@@ -4,3 +4,4 @@ data/*.json
 types/*
 types/**
 npm-debug.log
+*.sublime*

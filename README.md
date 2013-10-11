@@ -1,7 +1,7 @@
 TPM: Typescript Package Manager
 ===============================
 
-TPM provides useful programatic access to finding typescript definitions. The TPM library can be used to create other tools, like [TSD][tsd]. It will also provide tools to install definition files itself, to demonstrate how the library can be used, and to allow access to features before other tools integrate them. 
+TPM provides useful programatic access to finding typescript definitions. The TPM library can be used to create other tools, like [TSD][tsd]. It will also provide its own tools to install definition files, to demonstrate how the library can be used, and to allow access to features before other tools integrate them. 
 
 Installation
 ------------
@@ -49,17 +49,15 @@ This would return an array of definitions, one per version if there are more. Us
 
 `commit` - almost always equal to "master". If the definition no longer exists on [DefinitelyTyped][dt], but did at some previous commit or in another branch, `commit` will refer to a commit or branch where the definition exists
 
-'url' - for convenience, a download URL is provided for the definition file. Other tools can generate their own url from the data. 
+`url` - for convenience, a download URL is provided for the definition file. Other tools can generate their own url from the data. 
 
-Default Definition Names
-------------------------
+### Default Definition Names
 
 The [DefinitelyTyped][dt] repository is read dynamically. This repository hosts corrections and aliases to it in the `data` directory. We do not need an alias for every package. We only need them if they differ from the name of the file on [DefinitelyTyped][dt]. 
 
 The name of the definition file is used as the default name. For example, on [DefinitelyTyped][dt], the name of the [AngularJS][angular] definition is `angular`, because its file is `/angularjs/angular.d.ts`. Angular Resource is named `angular-resource` and the file is `/angularjs/angular-resource.d.ts`. 
 
-Aliases
--------
+### Aliases
 
 This repository hosts the mapping of other names to the default names. 
 

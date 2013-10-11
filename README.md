@@ -10,11 +10,11 @@ Installation
 
 For API access
 
-    npm install tpm
+    npm install typescript-tpm
 
 For Command-line access
 
-    npm install -g tpm
+    npm install -g typescript-tpm
 
 Command-line Tool
 -----------------

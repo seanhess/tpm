@@ -1,13 +1,16 @@
 {
-  "name": "tpm",
-  "version": "0.0.0",
-  "description": "Typescript Package Manager",
+  "name": "typescript-tpm",
+  "version": "0.1.1",
+  "description": "Typescript Definition Package Manager",
   "homepage": "https://github.com/seanhess/tpm",
   "repository": {
     "type": "git",
     "url": "git://github.com/seanhess/tpm.git"
   },
   "main": "Gruntfile.js",
+  "bin": {
+    "tpm":     "./bin/tpm"
+  },
   "author": {
     "name": "Sean Hess",
     "url": "http://seanhess.github.io"

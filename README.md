@@ -1,25 +1,20 @@
 TPM: Typescript Package Manager
 ===============================
 
-TPM provides useful programatic access to finding typescript definitions. The TPM library can be used to create other tools, like [TSD][tsd]. It will also provide its own tools to install definition files, to demonstrate how the library can be used, and to allow access to features before other tools integrate them. 
+TPM provides a library to find typescript definitions. The TPM library can be used to create other tools, like [TSD][tsd]. It also provides its own command-line tools and grunt tasks to install definition files, to demonstrate how the library can be used, and to make it usable before other tools integrate them. 
 
-I wouldn't mind if TPM was merged into another tool, so long as it provided similar functionality. 
+I wouldn't mind if TPM was merged into another tool, so long as it included all the features.
 
-Installation
-------------
-
-For API access
-
-    npm install typescript-tpm
-
-For Command-line access
-
-    npm install -g typescript-tpm
+TPM is currently usable as a definition manager. Please also see [TSD][tsd] for another project with similar goals. We are working together to create a single unified tool. 
 
 Command-line Tool
 -----------------
 
 TPM has its own definition installer to demonstrate how to use the library, and to provide early access to features. 
+
+Install the `tpm` command globally:
+
+    npm install -g typescript-tpm
 
 Install dependencies by reading any `.json` file that is similar to `package.json`. This installs the dependencies to `types/:folder/:file.d.ts` by default.
 
@@ -41,13 +36,13 @@ All of the command-line options are available as grunt tasks. This plugin requir
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-plugin-test --save-dev
+npm install typescript-tpm --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-plugin-test');
+grunt.loadNpmTasks('typescript-tpm');
 ```
 
 ### Overview
@@ -68,15 +63,17 @@ grunt.initConfig({
       all: {src: ["types/**/*.d.ts", dest: "types/all.d.ts"]}
     }
 })
-
-grunt.registerTask("tpm", ['tpm-install', 'tpm-index')
 ```
+
+If you prefer, you can create a task that combines both of these into one step:
+
+    grunt.registerTask("tpm", ['tpm-install', 'tpm-index')
 
 Then, you can install definition files and build the index by typing
 
     grunt tpm
 
-Finding Definition Files
+API: Finding Definition Files
 ------------------------
 
 TPM has the ability to look up definition files (from [DefinitelyTyped][dt]) by name, or by NPM, bower, or other package name. This will allow tools to install the definition corresponding to any dependency automatically. 
@@ -139,10 +136,10 @@ For example: `angular-browserify` should map to the `angular` definition. To spe
     ]
 
 
-Utilities
----------
+API: Utilities
+--------------
 
-These features may be duplicated in other tools, but are provided here to demonstrate how to use the library, and to allow it to function if not yet implemented in other tools. 
+These features may be duplicated in other tools, but are provided here to demonstrate how to use the library, and to allow it to function if not yet implemented elsewhere. 
 
 Get the contents of a definition
     
@@ -180,11 +177,7 @@ Versioning: more information in alias files, matching up versions in `generateFu
 Feedback
 --------
 
-Please provide feedback in one of these threads, or in an issue in this repository. 
-
-- https://github.com/borisyankov/DefinitelyTyped/issues/428
-- https://typescript.codeplex.com/discussions/461449#post1104904
-
+Please file an issue in this repository
 
 [typescript]: http://typescriptlang.org/
 [dt]: https://github.com/borisyankov/DefinitelyTyped

@@ -1,6 +1,6 @@
 {
   "name": "typescript-tpm",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Typescript Definition Package Manager",
   "homepage": "https://github.com/seanhess/tpm",
   "repository": {
@@ -42,6 +42,7 @@
     "node": ">= 0.8.0"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "typescript"
   ]
 }

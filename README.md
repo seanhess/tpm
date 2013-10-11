@@ -137,8 +137,6 @@ For example: `angular-browserify` should map to the `angular` definition. To spe
 API: Utilities
 --------------
 
-These features may be duplicated in other tools, but are provided here to demonstrate how to use the library, and to allow it to function if not yet implemented elsewhere. 
-
 Get the contents of a definition
     
     definitionContents(definition:IDefinitionVersion):Q.IPromise<NodeBuffer>

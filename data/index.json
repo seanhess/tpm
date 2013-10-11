@@ -1,59 +1,50 @@
 {
-    "created": "2013-10-10T22:53:36.644Z",
+    "created": "2013-10-11T18:52:43.290Z",
     "definitions": [
         {
             "name": "lib",
             "aliases": [],
-            "path": "_infrastructure/tests/typescript/lib.d.ts",
-            "version": "*"
+            "path": "_infrastructure/tests/typescript/lib.d.ts"
         },
         {
             "name": "ace",
             "aliases": [],
-            "path": "ace/ace.d.ts",
-            "version": "*"
+            "path": "ace/ace.d.ts"
         },
         {
             "name": "AmCharts",
             "aliases": [],
-            "path": "amcharts/AmCharts.d.ts",
-            "version": "*"
+            "path": "amcharts/AmCharts.d.ts"
         },
         {
             "name": "amplifyjs",
             "aliases": [],
-            "path": "amplifyjs/amplifyjs.d.ts",
-            "version": "*"
+            "path": "amplifyjs/amplifyjs.d.ts"
         },
         {
             "name": "angular-cookies",
             "aliases": [],
-            "path": "angularjs/angular-cookies.d.ts",
-            "version": "*"
+            "path": "angularjs/angular-cookies.d.ts"
         },
         {
             "name": "angular-mocks",
             "aliases": [],
-            "path": "angularjs/angular-mocks.d.ts",
-            "version": "*"
+            "path": "angularjs/angular-mocks.d.ts"
         },
         {
             "name": "angular-resource",
             "aliases": [],
-            "path": "angularjs/angular-resource.d.ts",
-            "version": "*"
+            "path": "angularjs/angular-resource.d.ts"
         },
         {
             "name": "angular-sanitize",
             "aliases": [],
-            "path": "angularjs/angular-sanitize.d.ts",
-            "version": "*"
+            "path": "angularjs/angular-sanitize.d.ts"
         },
         {
             "name": "angular-scenario",
             "aliases": [],
-            "path": "angularjs/angular-scenario.d.ts",
-            "version": "*"
+            "path": "angularjs/angular-scenario.d.ts"
         },
         {
             "name": "angular",
@@ -61,1640 +52,1369 @@
                 "angular-browserify",
                 "angularjs"
             ],
-            "path": "angularjs/angular.d.ts",
-            "version": "*"
+            "path": "angularjs/angular.d.ts"
         },
         {
             "name": "appframework",
             "aliases": [],
-            "path": "appframework/appframework.d.ts",
-            "version": "*"
+            "path": "appframework/appframework.d.ts"
         },
         {
             "name": "Arbiter",
             "aliases": [],
-            "path": "arbiter/Arbiter.d.ts",
-            "version": "*"
+            "path": "arbiter/Arbiter.d.ts"
         },
         {
             "name": "async",
             "aliases": [],
-            "path": "async/async.d.ts",
-            "version": "*"
+            "path": "async/async.d.ts"
         },
         {
             "name": "AzureMobileServicesClient",
             "aliases": [],
-            "path": "azure-mobile-services-client/AzureMobileServicesClient.d.ts",
-            "version": "*"
+            "path": "azure-mobile-services-client/AzureMobileServicesClient.d.ts"
         },
         {
             "name": "backbone-relational",
             "aliases": [],
-            "path": "backbone-relational/backbone-relational.d.ts",
-            "version": "*"
+            "path": "backbone-relational/backbone-relational.d.ts"
         },
         {
             "name": "backbone",
             "aliases": [],
-            "path": "backbone/backbone.d.ts",
-            "version": "*"
+            "path": "backbone/backbone.d.ts"
         },
         {
             "name": "backgrid",
             "aliases": [],
-            "path": "backgrid/backgrid.d.ts",
-            "version": "*"
+            "path": "backgrid/backgrid.d.ts"
         },
         {
             "name": "typescript.bgiframe",
             "aliases": [],
-            "path": "bgiframe/typescript.bgiframe.d.ts",
-            "version": "*"
+            "path": "bgiframe/typescript.bgiframe.d.ts"
         },
         {
             "name": "bootbox",
             "aliases": [],
-            "path": "bootbox/bootbox.d.ts",
-            "version": "*"
+            "path": "bootbox/bootbox.d.ts"
         },
         {
             "name": "bootstrap-notify",
             "aliases": [],
-            "path": "bootstrap-notify/bootstrap-notify.d.ts",
-            "version": "*"
+            "path": "bootstrap-notify/bootstrap-notify.d.ts"
         },
         {
             "name": "bootstrap.datepicker",
             "aliases": [],
-            "path": "bootstrap.datepicker/bootstrap.datepicker.d.ts",
-            "version": "*"
+            "path": "bootstrap.datepicker/bootstrap.datepicker.d.ts"
         },
         {
             "name": "bootstrap.paginator",
             "aliases": [],
-            "path": "bootstrap.paginator/bootstrap.paginator.d.ts",
-            "version": "*"
+            "path": "bootstrap.paginator/bootstrap.paginator.d.ts"
         },
         {
             "name": "bootstrap.timepicker",
             "aliases": [],
-            "path": "bootstrap.timepicker/bootstrap.timepicker.d.ts",
-            "version": "*"
+            "path": "bootstrap.timepicker/bootstrap.timepicker.d.ts"
         },
         {
             "name": "bootstrap",
             "aliases": [],
-            "path": "bootstrap/bootstrap.d.ts",
-            "version": "*"
+            "path": "bootstrap/bootstrap.d.ts"
         },
         {
             "name": "box2dweb",
             "aliases": [],
-            "path": "box2d/box2dweb.d.ts",
-            "version": "*"
+            "path": "box2d/box2dweb.d.ts"
         },
         {
             "name": "breeze-1.0",
             "aliases": [],
-            "path": "breeze/breeze-1.0.d.ts",
-            "version": "*"
+            "path": "breeze/breeze-1.0.d.ts"
         },
         {
             "name": "breeze-1.2",
             "aliases": [],
-            "path": "breeze/breeze-1.2.d.ts",
-            "version": "*"
+            "path": "breeze/breeze-1.2.d.ts"
         },
         {
             "name": "breeze",
             "aliases": [],
-            "path": "breeze/breeze.d.ts",
-            "version": "*"
+            "path": "breeze/breeze.d.ts"
         },
         {
             "name": "browser-harness",
             "aliases": [],
-            "path": "browser-harness/browser-harness.d.ts",
-            "version": "*"
+            "path": "browser-harness/browser-harness.d.ts"
         },
         {
             "name": "browserify",
             "aliases": [],
-            "path": "browserify/browserify.d.ts",
-            "version": "*"
+            "path": "browserify/browserify.d.ts"
         },
         {
             "name": "camljs",
             "aliases": [],
-            "path": "camljs/camljs.d.ts",
-            "version": "*"
+            "path": "camljs/camljs.d.ts"
         },
         {
             "name": "casperjs",
             "aliases": [],
-            "path": "casperjs/casperjs.d.ts",
-            "version": "*"
+            "path": "casperjs/casperjs.d.ts"
         },
         {
             "name": "chai-fuzzy-assert",
             "aliases": [],
-            "path": "chai-fuzzy/chai-fuzzy-assert.d.ts",
-            "version": "*"
+            "path": "chai-fuzzy/chai-fuzzy-assert.d.ts"
         },
         {
             "name": "chai-jquery",
             "aliases": [],
-            "path": "chai-jquery/chai-jquery.d.ts",
-            "version": "*"
+            "path": "chai-jquery/chai-jquery.d.ts"
         },
         {
             "name": "chai-assert",
             "aliases": [],
-            "path": "chai/chai-assert.d.ts",
-            "version": "*"
+            "path": "chai/chai-assert.d.ts"
         },
         {
             "name": "chai",
             "aliases": [],
-            "path": "chai/chai.d.ts",
-            "version": "*"
+            "path": "chai/chai.d.ts"
         },
         {
             "name": "cheerio",
             "aliases": [],
-            "path": "cheerio/cheerio.d.ts",
-            "version": "*"
+            "path": "cheerio/cheerio.d.ts"
         },
         {
             "name": "chosen.jquery",
             "aliases": [],
-            "path": "chosen/chosen.jquery.d.ts",
-            "version": "*"
+            "path": "chosen/chosen.jquery.d.ts"
         },
         {
             "name": "chrome-app",
             "aliases": [],
-            "path": "chrome/chrome-app.d.ts",
-            "version": "*"
+            "path": "chrome/chrome-app.d.ts"
         },
         {
             "name": "chrome",
             "aliases": [],
-            "path": "chrome/chrome.d.ts",
-            "version": "*"
+            "path": "chrome/chrome.d.ts"
         },
         {
             "name": "codemirror",
             "aliases": [],
-            "path": "codemirror/codemirror.d.ts",
-            "version": "*"
+            "path": "codemirror/codemirror.d.ts"
         },
         {
             "name": "colors",
             "aliases": [],
-            "path": "colors/colors.d.ts",
-            "version": "*"
+            "path": "colors/colors.d.ts"
         },
         {
             "name": "cometd",
             "aliases": [],
-            "path": "cometd/cometd.d.ts",
-            "version": "*"
+            "path": "cometd/cometd.d.ts"
         },
         {
             "name": "commander",
             "aliases": [],
-            "path": "commander/commander.d.ts",
-            "version": "*"
+            "path": "commander/commander.d.ts"
         },
         {
             "name": "convert-source-map",
             "aliases": [],
-            "path": "convert-source-map/convert-source-map.d.ts",
-            "version": "*"
+            "path": "convert-source-map/convert-source-map.d.ts"
         },
         {
             "name": "crossroads",
             "aliases": [],
-            "path": "crossroads/crossroads.d.ts",
-            "version": "*"
+            "path": "crossroads/crossroads.d.ts"
         },
         {
             "name": "d3",
             "aliases": [],
-            "path": "d3/d3.d.ts",
-            "version": "*"
+            "path": "d3/d3.d.ts"
         },
         {
             "name": "d3.superformula",
             "aliases": [],
-            "path": "d3/plugins/d3.superformula.d.ts",
-            "version": "*"
+            "path": "d3/plugins/d3.superformula.d.ts"
         },
         {
             "name": "docCookies",
             "aliases": [],
-            "path": "docCookies/docCookies.d.ts",
-            "version": "*"
+            "path": "docCookies/docCookies.d.ts"
         },
         {
             "name": "domo",
             "aliases": [],
-            "path": "domo/domo.d.ts",
-            "version": "*"
+            "path": "domo/domo.d.ts"
         },
         {
             "name": "dropzone",
             "aliases": [],
-            "path": "dropzone/dropzone.d.ts",
-            "version": "*"
+            "path": "dropzone/dropzone.d.ts"
         },
         {
             "name": "durandal-1.x",
             "aliases": [],
-            "path": "durandal/durandal-1.x.d.ts",
-            "version": "*"
+            "path": "durandal/durandal-1.x.d.ts"
         },
         {
             "name": "durandal",
             "aliases": [],
-            "path": "durandal/durandal.d.ts",
-            "version": "*"
+            "path": "durandal/durandal.d.ts"
         },
         {
             "name": "dustjs-linkedin",
             "aliases": [],
-            "path": "dustjs-linkedin/dustjs-linkedin.d.ts",
-            "version": "*"
+            "path": "dustjs-linkedin/dustjs-linkedin.d.ts"
         },
         {
             "name": "easeljs",
             "aliases": [],
-            "path": "easeljs/easeljs.d.ts",
-            "version": "*"
+            "path": "easeljs/easeljs.d.ts"
         },
         {
             "name": "ember",
             "aliases": [],
-            "path": "ember/ember.d.ts",
-            "version": "*"
+            "path": "ember/ember.d.ts"
         },
         {
             "name": "epiceditor",
             "aliases": [],
-            "path": "epiceditor/epiceditor.d.ts",
-            "version": "*"
+            "path": "epiceditor/epiceditor.d.ts"
         },
         {
             "name": "expect.js",
             "aliases": [],
-            "path": "expect.js/expect.js.d.ts",
-            "version": "*"
+            "path": "expect.js/expect.js.d.ts"
         },
         {
             "name": "express-validator",
             "aliases": [],
-            "path": "express-validator/express-validator.d.ts",
-            "version": "*"
+            "path": "express-validator/express-validator.d.ts"
         },
         {
             "name": "express",
             "aliases": [],
-            "path": "express/express.d.ts",
-            "version": "*"
+            "path": "express/express.d.ts"
         },
         {
             "name": "ExtJS-4.2.0",
             "aliases": [],
-            "path": "extjs/ExtJS-4.2.0.d.ts",
-            "version": "*"
+            "path": "extjs/ExtJS-4.2.0.d.ts"
         },
         {
             "name": "ExtJS",
             "aliases": [],
-            "path": "extjs/ExtJS.d.ts",
-            "version": "*"
+            "path": "extjs/ExtJS.d.ts"
         },
         {
             "name": "fabricjs",
             "aliases": [],
-            "path": "fabricjs/fabricjs.d.ts",
-            "version": "*"
+            "path": "fabricjs/fabricjs.d.ts"
         },
         {
             "name": "fancybox",
             "aliases": [],
-            "path": "fancybox/fancybox.d.ts",
-            "version": "*"
+            "path": "fancybox/fancybox.d.ts"
         },
         {
             "name": "filesystem",
             "aliases": [],
-            "path": "filesystem/filesystem.d.ts",
-            "version": "*"
+            "path": "filesystem/filesystem.d.ts"
         },
         {
             "name": "filewriter",
             "aliases": [],
-            "path": "filewriter/filewriter.d.ts",
-            "version": "*"
+            "path": "filewriter/filewriter.d.ts"
         },
         {
             "name": "firebase",
             "aliases": [],
-            "path": "firebase/firebase.d.ts",
-            "version": "*"
+            "path": "firebase/firebase.d.ts"
         },
         {
             "name": "firefox",
             "aliases": [],
-            "path": "firefox/firefox.d.ts",
-            "version": "*"
+            "path": "firefox/firefox.d.ts"
         },
         {
             "name": "flexSlider",
             "aliases": [],
-            "path": "flexSlider/flexSlider.d.ts",
-            "version": "*"
+            "path": "flexSlider/flexSlider.d.ts"
         },
         {
             "name": "jquery.flot",
             "aliases": [],
-            "path": "flot/jquery.flot.d.ts",
-            "version": "*"
+            "path": "flot/jquery.flot.d.ts"
         },
         {
             "name": "foundation",
             "aliases": [],
-            "path": "foundation/foundation.d.ts",
-            "version": "*"
+            "path": "foundation/foundation.d.ts"
         },
         {
             "name": "FPSMeter",
             "aliases": [],
-            "path": "fpsmeter/FPSMeter.d.ts",
-            "version": "*"
+            "path": "fpsmeter/FPSMeter.d.ts"
         },
         {
             "name": "fullCalendar",
             "aliases": [],
-            "path": "fullCalendar/fullCalendar.d.ts",
-            "version": "*"
+            "path": "fullCalendar/fullCalendar.d.ts"
         },
         {
             "name": "gae.channel.api",
             "aliases": [],
-            "path": "gae.channel.api/gae.channel.api.d.ts",
-            "version": "*"
+            "path": "gae.channel.api/gae.channel.api.d.ts"
         },
         {
             "name": "gamepad",
             "aliases": [],
-            "path": "gamepad/gamepad.d.ts",
-            "version": "*"
+            "path": "gamepad/gamepad.d.ts"
         },
         {
             "name": "gamequery",
             "aliases": [],
-            "path": "gamequery/gamequery.d.ts",
-            "version": "*"
+            "path": "gamequery/gamequery.d.ts"
         },
         {
             "name": "gapi.pagespeedonline",
             "aliases": [],
-            "path": "gapi.pagespeedonline/gapi.pagespeedonline.d.ts",
-            "version": "*"
+            "path": "gapi.pagespeedonline/gapi.pagespeedonline.d.ts"
         },
         {
             "name": "gapi.translate",
             "aliases": [],
-            "path": "gapi.translate/gapi.translate.d.ts",
-            "version": "*"
+            "path": "gapi.translate/gapi.translate.d.ts"
         },
         {
             "name": "gapi.urlshortener",
             "aliases": [],
-            "path": "gapi.urlshortener/gapi.urlshortener.d.ts",
-            "version": "*"
+            "path": "gapi.urlshortener/gapi.urlshortener.d.ts"
         },
         {
             "name": "gapi.youtube",
             "aliases": [],
-            "path": "gapi.youtube/gapi.youtube.d.ts",
-            "version": "*"
+            "path": "gapi.youtube/gapi.youtube.d.ts"
         },
         {
             "name": "gapi.youtubeAnalytics",
             "aliases": [],
-            "path": "gapi.youtubeAnalytics/gapi.youtubeAnalytics.d.ts",
-            "version": "*"
+            "path": "gapi.youtubeAnalytics/gapi.youtubeAnalytics.d.ts"
         },
         {
             "name": "gapi",
             "aliases": [],
-            "path": "gapi/gapi.d.ts",
-            "version": "*"
+            "path": "gapi/gapi.d.ts"
         },
         {
             "name": "gldatepicker",
             "aliases": [],
-            "path": "gldatepicker/gldatepicker.d.ts",
-            "version": "*"
+            "path": "gldatepicker/gldatepicker.d.ts"
         },
         {
             "name": "globalize",
             "aliases": [],
-            "path": "globalize/globalize.d.ts",
-            "version": "*"
+            "path": "globalize/globalize.d.ts"
         },
         {
             "name": "goJS",
             "aliases": [],
-            "path": "goJS/goJS.d.ts",
-            "version": "*"
+            "path": "goJS/goJS.d.ts"
         },
         {
             "name": "ga",
             "aliases": [],
-            "path": "google.analytics/ga.d.ts",
-            "version": "*"
+            "path": "google.analytics/ga.d.ts"
         },
         {
             "name": "google.feed.api",
             "aliases": [],
-            "path": "google.feeds/google.feed.api.d.ts",
-            "version": "*"
+            "path": "google.feeds/google.feed.api.d.ts"
         },
         {
             "name": "google.geolocation",
             "aliases": [],
-            "path": "google.geolocation/google.geolocation.d.ts",
-            "version": "*"
+            "path": "google.geolocation/google.geolocation.d.ts"
         },
         {
             "name": "google.maps",
             "aliases": [],
-            "path": "googlemaps/google.maps.d.ts",
-            "version": "*"
+            "path": "googlemaps/google.maps.d.ts"
         },
         {
             "name": "greensock",
             "aliases": [],
-            "path": "greensock/greensock.d.ts",
-            "version": "*"
+            "path": "greensock/greensock.d.ts"
         },
         {
             "name": "gruntjs",
             "aliases": [],
-            "path": "gruntjs/gruntjs.d.ts",
-            "version": "*"
+            "path": "gruntjs/gruntjs.d.ts"
         },
         {
             "name": "hammerjs",
             "aliases": [],
-            "path": "hammerjs/hammerjs.d.ts",
-            "version": "*"
+            "path": "hammerjs/hammerjs.d.ts"
         },
         {
             "name": "handlebars",
             "aliases": [],
-            "path": "handlebars/handlebars.d.ts",
-            "version": "*"
+            "path": "handlebars/handlebars.d.ts"
         },
         {
             "name": "highcharts",
             "aliases": [],
-            "path": "highcharts/highcharts.d.ts",
-            "version": "*"
+            "path": "highcharts/highcharts.d.ts"
         },
         {
             "name": "highlightjs",
             "aliases": [],
-            "path": "highlightjs/highlightjs.d.ts",
-            "version": "*"
+            "path": "highlightjs/highlightjs.d.ts"
         },
         {
             "name": "history",
             "aliases": [],
-            "path": "history/history.d.ts",
-            "version": "*"
+            "path": "history/history.d.ts"
         },
         {
             "name": "humane",
             "aliases": [],
-            "path": "humane/humane.d.ts",
-            "version": "*"
+            "path": "humane/humane.d.ts"
         },
         {
             "name": "i18next",
             "aliases": [],
-            "path": "i18next/i18next.d.ts",
-            "version": "*"
+            "path": "i18next/i18next.d.ts"
         },
         {
             "name": "icheck",
             "aliases": [],
-            "path": "icheck/icheck.d.ts",
-            "version": "*"
+            "path": "icheck/icheck.d.ts"
         },
         {
             "name": "impress",
             "aliases": [],
-            "path": "impress/impress.d.ts",
-            "version": "*"
+            "path": "impress/impress.d.ts"
         },
         {
             "name": "iscroll-lite",
             "aliases": [],
-            "path": "iscroll/iscroll-lite.d.ts",
-            "version": "*"
+            "path": "iscroll/iscroll-lite.d.ts"
         },
         {
             "name": "iscroll",
             "aliases": [],
-            "path": "iscroll/iscroll.d.ts",
-            "version": "*"
+            "path": "iscroll/iscroll.d.ts"
         },
         {
             "name": "jake",
             "aliases": [],
-            "path": "jake/jake.d.ts",
-            "version": "*"
+            "path": "jake/jake.d.ts"
         },
         {
             "name": "jasmine-jquery",
             "aliases": [],
-            "path": "jasmine-jquery/jasmine-jquery.d.ts",
-            "version": "*"
+            "path": "jasmine-jquery/jasmine-jquery.d.ts"
         },
         {
             "name": "jasmine-matchers",
             "aliases": [],
-            "path": "jasmine-matchers/jasmine-matchers.d.ts",
-            "version": "*"
+            "path": "jasmine-matchers/jasmine-matchers.d.ts"
         },
         {
             "name": "jasmine",
             "aliases": [],
-            "path": "jasmine/jasmine.d.ts",
-            "version": "*"
+            "path": "jasmine/jasmine.d.ts"
         },
         {
             "name": "jointjs",
             "aliases": [],
-            "path": "jointjs/jointjs.d.ts",
-            "version": "*"
+            "path": "jointjs/jointjs.d.ts"
         },
         {
             "name": "jqrangeslider",
             "aliases": [],
-            "path": "jqrangeslider/jqrangeslider.d.ts",
-            "version": "*"
+            "path": "jqrangeslider/jqrangeslider.d.ts"
         },
         {
             "name": "jquery.address",
             "aliases": [],
-            "path": "jquery.address/jquery.address.d.ts",
-            "version": "*"
+            "path": "jquery.address/jquery.address.d.ts"
         },
         {
             "name": "jquery.are-you-sure",
             "aliases": [],
-            "path": "jquery.are-you-sure/jquery.are-you-sure.d.ts",
-            "version": "*"
+            "path": "jquery.are-you-sure/jquery.are-you-sure.d.ts"
         },
         {
             "name": "jquery.autosize",
             "aliases": [],
-            "path": "jquery.autosize/jquery.autosize.d.ts",
-            "version": "*"
+            "path": "jquery.autosize/jquery.autosize.d.ts"
         },
         {
             "name": "jquery.bbq",
             "aliases": [],
-            "path": "jquery.bbq/jquery.bbq.d.ts",
-            "version": "*"
+            "path": "jquery.bbq/jquery.bbq.d.ts"
         },
         {
             "name": "jquery.bootstrap.wizard",
             "aliases": [],
-            "path": "jquery.bootstrap.wizard/jquery.bootstrap.wizard.d.ts",
-            "version": "*"
+            "path": "jquery.bootstrap.wizard/jquery.bootstrap.wizard.d.ts"
         },
         {
             "name": "jquery.clientSideLogging",
             "aliases": [],
-            "path": "jquery.clientSideLogging/jquery.clientSideLogging.d.ts",
-            "version": "*"
+            "path": "jquery.clientSideLogging/jquery.clientSideLogging.d.ts"
         },
         {
             "name": "jquery.colorbox",
             "aliases": [],
-            "path": "jquery.colorbox/jquery.colorbox.d.ts",
-            "version": "*"
+            "path": "jquery.colorbox/jquery.colorbox.d.ts"
         },
         {
             "name": "jquery.contextMenu",
             "aliases": [],
-            "path": "jquery.contextMenu/jquery.contextMenu.d.ts",
-            "version": "*"
+            "path": "jquery.contextMenu/jquery.contextMenu.d.ts"
         },
         {
             "name": "jquery.cookie",
             "aliases": [],
-            "path": "jquery.cookie/jquery.cookie.d.ts",
-            "version": "*"
+            "path": "jquery.cookie/jquery.cookie.d.ts"
         },
         {
             "name": "jquery.cycle",
             "aliases": [],
-            "path": "jquery.cycle/jquery.cycle.d.ts",
-            "version": "*"
+            "path": "jquery.cycle/jquery.cycle.d.ts"
         },
         {
             "name": "jquery.dataTables",
             "aliases": [],
-            "path": "jquery.dataTables/jquery.dataTables.d.ts",
-            "version": "*"
+            "path": "jquery.dataTables/jquery.dataTables.d.ts"
         },
         {
             "name": "jquery.dynatree",
             "aliases": [],
-            "path": "jquery.dynatree/jquery.dynatree.d.ts",
-            "version": "*"
+            "path": "jquery.dynatree/jquery.dynatree.d.ts"
         },
         {
             "name": "jquery.elang",
             "aliases": [],
-            "path": "jquery.elang/jquery.elang.d.ts",
-            "version": "*"
+            "path": "jquery.elang/jquery.elang.d.ts"
         },
         {
             "name": "jquery.form",
             "aliases": [],
-            "path": "jquery.form/jquery.form.d.ts",
-            "version": "*"
+            "path": "jquery.form/jquery.form.d.ts"
         },
         {
             "name": "gridster",
             "aliases": [],
-            "path": "jquery.gridster/gridster.d.ts",
-            "version": "*"
+            "path": "jquery.gridster/gridster.d.ts"
         },
         {
             "name": "jquery.jnotify",
             "aliases": [],
-            "path": "jquery.jnotify/jquery.jnotify.d.ts",
-            "version": "*"
+            "path": "jquery.jnotify/jquery.jnotify.d.ts"
         },
         {
             "name": "jquery.livestampjs",
             "aliases": [],
-            "path": "jquery.livestampjs/jquery.livestampjs.d.ts",
-            "version": "*"
+            "path": "jquery.livestampjs/jquery.livestampjs.d.ts"
         },
         {
             "name": "jquery.menuaim",
             "aliases": [],
-            "path": "jquery.menuaim/jquery.menuaim.d.ts",
-            "version": "*"
+            "path": "jquery.menuaim/jquery.menuaim.d.ts"
         },
         {
             "name": "jquery.noty",
             "aliases": [],
-            "path": "jquery.noty/jquery.noty.d.ts",
-            "version": "*"
+            "path": "jquery.noty/jquery.noty.d.ts"
         },
         {
             "name": "jquery.payment",
             "aliases": [],
-            "path": "jquery.payment/jquery.payment.d.ts",
-            "version": "*"
+            "path": "jquery.payment/jquery.payment.d.ts"
         },
         {
             "name": "jquery.pickadate",
             "aliases": [],
-            "path": "jquery.pickadate/jquery.pickadate.d.ts",
-            "version": "*"
+            "path": "jquery.pickadate/jquery.pickadate.d.ts"
         },
         {
             "name": "jquery.scrollTo",
             "aliases": [],
-            "path": "jquery.scrollTo/jquery.scrollTo.d.ts",
-            "version": "*"
+            "path": "jquery.scrollTo/jquery.scrollTo.d.ts"
         },
         {
             "name": "jquery.simplePagination",
             "aliases": [],
-            "path": "jquery.simplePagination/jquery.simplePagination.d.ts",
-            "version": "*"
+            "path": "jquery.simplePagination/jquery.simplePagination.d.ts"
         },
         {
             "name": "jquery.sortElement",
             "aliases": [],
-            "path": "jquery.sortElements/jquery.sortElement.d.ts",
-            "version": "*"
+            "path": "jquery.sortElements/jquery.sortElement.d.ts"
         },
         {
             "name": "jquery.superLink",
             "aliases": [],
-            "path": "jquery.superLink/jquery.superLink.d.ts",
-            "version": "*"
+            "path": "jquery.superLink/jquery.superLink.d.ts"
         },
         {
             "name": "jquery.tagsmanager",
             "aliases": [],
-            "path": "jquery.tagsmanager/jquery.tagsmanager.d.ts",
-            "version": "*"
+            "path": "jquery.tagsmanager/jquery.tagsmanager.d.ts"
         },
         {
             "name": "jquery.timeago",
             "aliases": [],
-            "path": "jquery.timeago/jquery.timeago.d.ts",
-            "version": "*"
+            "path": "jquery.timeago/jquery.timeago.d.ts"
         },
         {
             "name": "jquery.timepicker",
             "aliases": [],
-            "path": "jquery.timepicker/jquery.timepicker.d.ts",
-            "version": "*"
+            "path": "jquery.timepicker/jquery.timepicker.d.ts"
         },
         {
             "name": "jquery.tinycarousel",
             "aliases": [],
-            "path": "jquery.tinycarousel/jquery.tinycarousel.d.ts",
-            "version": "*"
+            "path": "jquery.tinycarousel/jquery.tinycarousel.d.ts"
         },
         {
             "name": "jquery.tinyscrollbar",
             "aliases": [],
-            "path": "jquery.tinyscrollbar/jquery.tinyscrollbar.d.ts",
-            "version": "*"
+            "path": "jquery.tinyscrollbar/jquery.tinyscrollbar.d.ts"
         },
         {
             "name": "jquery.transit",
             "aliases": [],
-            "path": "jquery.transit/jquery.transit.d.ts",
-            "version": "*"
+            "path": "jquery.transit/jquery.transit.d.ts"
         },
         {
             "name": "jquery.ui.layout",
             "aliases": [],
-            "path": "jquery.ui.layout/jquery.ui.layout.d.ts",
-            "version": "*"
+            "path": "jquery.ui.layout/jquery.ui.layout.d.ts"
         },
         {
             "name": "jquery.validation",
             "aliases": [],
-            "path": "jquery.validation/jquery.validation.d.ts",
-            "version": "*"
+            "path": "jquery.validation/jquery.validation.d.ts"
         },
         {
             "name": "jquery.watermark",
             "aliases": [],
-            "path": "jquery.watermark/jquery.watermark.d.ts",
-            "version": "*"
+            "path": "jquery.watermark/jquery.watermark.d.ts"
         },
         {
             "name": "jquery",
-            "aliases": [],
-            "path": "jquery/jquery.d.ts",
-            "version": "*"
+            "aliases": [
+                "jquery-browserify"
+            ],
+            "path": "jquery/jquery.d.ts"
         },
         {
             "name": "jquerymobile",
             "aliases": [],
-            "path": "jquerymobile/jquerymobile.d.ts",
-            "version": "*"
+            "path": "jquerymobile/jquerymobile.d.ts"
         },
         {
             "name": "jqueryui",
             "aliases": [],
-            "path": "jqueryui/jqueryui.d.ts",
-            "version": "*"
+            "path": "jqueryui/jqueryui.d.ts"
         },
         {
             "name": "fixtures",
             "aliases": [],
-            "path": "js-fixtures/fixtures.d.ts",
-            "version": "*"
+            "path": "js-fixtures/fixtures.d.ts"
         },
         {
             "name": "js-signals",
             "aliases": [],
-            "path": "js-signals/js-signals.d.ts",
-            "version": "*"
+            "path": "js-signals/js-signals.d.ts"
         },
         {
             "name": "jscrollpane",
             "aliases": [],
-            "path": "jscrollpane/jscrollpane.d.ts",
-            "version": "*"
+            "path": "jscrollpane/jscrollpane.d.ts"
         },
         {
             "name": "jsdeferred",
             "aliases": [],
-            "path": "jsdeferred/jsdeferred.d.ts",
-            "version": "*"
+            "path": "jsdeferred/jsdeferred.d.ts"
         },
         {
             "name": "jsfl",
             "aliases": [],
-            "path": "jsfl/jsfl.d.ts",
-            "version": "*"
+            "path": "jsfl/jsfl.d.ts"
         },
         {
             "name": "xJSFL",
             "aliases": [],
-            "path": "jsfl/xJSFL.d.ts",
-            "version": "*"
+            "path": "jsfl/xJSFL.d.ts"
         },
         {
             "name": "jsoneditoronline",
             "aliases": [],
-            "path": "jsoneditoronline/jsoneditoronline.d.ts",
-            "version": "*"
+            "path": "jsoneditoronline/jsoneditoronline.d.ts"
         },
         {
             "name": "jquery.jsPlumb",
             "aliases": [],
-            "path": "jsplumb/jquery.jsPlumb.d.ts",
-            "version": "*"
+            "path": "jsplumb/jquery.jsPlumb.d.ts"
         },
         {
             "name": "jstorage",
             "aliases": [],
-            "path": "jstorage/jstorage.d.ts",
-            "version": "*"
+            "path": "jstorage/jstorage.d.ts"
         },
         {
             "name": "jszip",
             "aliases": [],
-            "path": "jszip/jszip.d.ts",
-            "version": "*"
+            "path": "jszip/jszip.d.ts"
         },
         {
             "name": "jwplayer",
             "aliases": [],
-            "path": "jwplayer/jwplayer.d.ts",
-            "version": "*"
+            "path": "jwplayer/jwplayer.d.ts"
         },
         {
             "name": "keyboardjs",
             "aliases": [],
-            "path": "keyboardjs/keyboardjs.d.ts",
-            "version": "*"
+            "path": "keyboardjs/keyboardjs.d.ts"
         },
         {
             "name": "knockback",
             "aliases": [],
-            "path": "knockback/knockback.d.ts",
-            "version": "*"
+            "path": "knockback/knockback.d.ts"
         },
         {
             "name": "knockout.deferred.updates",
             "aliases": [],
-            "path": "knockout.deferred.updates/knockout.deferred.updates.d.ts",
-            "version": "*"
+            "path": "knockout.deferred.updates/knockout.deferred.updates.d.ts"
         },
         {
             "name": "ko.editables",
             "aliases": [],
-            "path": "knockout.editables/ko.editables.d.ts",
-            "version": "*"
+            "path": "knockout.editables/ko.editables.d.ts"
         },
         {
             "name": "knockout.es5",
             "aliases": [],
-            "path": "knockout.es5/knockout.es5.d.ts",
-            "version": "*"
+            "path": "knockout.es5/knockout.es5.d.ts"
         },
         {
             "name": "knockout.mapper",
             "aliases": [],
-            "path": "knockout.mapper/knockout.mapper.d.ts",
-            "version": "*"
+            "path": "knockout.mapper/knockout.mapper.d.ts"
         },
         {
             "name": "knockout.mapping",
             "aliases": [],
-            "path": "knockout.mapping/knockout.mapping.d.ts",
-            "version": "*"
+            "path": "knockout.mapping/knockout.mapping.d.ts"
         },
         {
             "name": "knockout-postbox",
             "aliases": [],
-            "path": "knockout.postbox/knockout-postbox.d.ts",
-            "version": "*"
+            "path": "knockout.postbox/knockout-postbox.d.ts"
         },
         {
             "name": "knockout.validation",
             "aliases": [],
-            "path": "knockout.validation/knockout.validation.d.ts",
-            "version": "*"
+            "path": "knockout.validation/knockout.validation.d.ts"
         },
         {
             "name": "knockout.viewmodel",
             "aliases": [],
-            "path": "knockout.viewmodel/knockout.viewmodel.d.ts",
-            "version": "*"
+            "path": "knockout.viewmodel/knockout.viewmodel.d.ts"
         },
         {
             "name": "knockout.amd",
             "aliases": [],
-            "path": "knockout/knockout.amd.d.ts",
-            "version": "*"
+            "path": "knockout/knockout.amd.d.ts"
         },
         {
             "name": "knockout",
             "aliases": [],
-            "path": "knockout/knockout.d.ts",
-            "version": "*"
+            "path": "knockout/knockout.d.ts"
         },
         {
             "name": "kolite",
             "aliases": [],
-            "path": "kolite/kolite.d.ts",
-            "version": "*"
+            "path": "kolite/kolite.d.ts"
         },
         {
             "name": "ladda",
             "aliases": [],
-            "path": "ladda/ladda.d.ts",
-            "version": "*"
+            "path": "ladda/ladda.d.ts"
         },
         {
             "name": "leaflet",
             "aliases": [],
-            "path": "leaflet/leaflet.d.ts",
-            "version": "*"
+            "path": "leaflet/leaflet.d.ts"
         },
         {
             "name": "LeapMotionTS",
             "aliases": [],
-            "path": "leapmotionTS/LeapMotionTS.d.ts",
-            "version": "*"
+            "path": "leapmotionTS/LeapMotionTS.d.ts"
         },
         {
             "name": "less",
             "aliases": [],
-            "path": "less/less.d.ts",
-            "version": "*"
+            "path": "less/less.d.ts"
         },
         {
             "name": "levelup",
             "aliases": [],
-            "path": "levelup/levelup.d.ts",
-            "version": "*"
+            "path": "levelup/levelup.d.ts"
         },
         {
             "name": "libxmljs",
             "aliases": [],
-            "path": "libxmljs/libxmljs.d.ts",
-            "version": "*"
+            "path": "libxmljs/libxmljs.d.ts"
         },
         {
             "name": "linq.3.0.3-Beta4",
             "aliases": [],
-            "path": "linq/linq.3.0.3-Beta4.d.ts",
-            "version": "*"
+            "path": "linq/linq.3.0.3-Beta4.d.ts"
         },
         {
             "name": "linq",
             "aliases": [],
-            "path": "linq/linq.d.ts",
-            "version": "*"
+            "path": "linq/linq.d.ts"
         },
         {
             "name": "linq.jquery",
             "aliases": [],
-            "path": "linq/linq.jquery.d.ts",
-            "version": "*"
+            "path": "linq/linq.jquery.d.ts"
         },
         {
             "name": "logg",
             "aliases": [],
-            "path": "logg/logg.d.ts",
-            "version": "*"
+            "path": "logg/logg.d.ts"
         },
         {
             "name": "mCustomScrollbar",
             "aliases": [],
-            "path": "mCustomScrollbar/mCustomScrollbar.d.ts",
-            "version": "*"
+            "path": "mCustomScrollbar/mCustomScrollbar.d.ts"
         },
         {
             "name": "marionette",
             "aliases": [],
-            "path": "marionette/marionette.d.ts",
-            "version": "*"
+            "path": "marionette/marionette.d.ts"
         },
         {
             "name": "marked",
             "aliases": [],
-            "path": "marked/marked.d.ts",
-            "version": "*"
+            "path": "marked/marked.d.ts"
         },
         {
             "name": "meteor",
             "aliases": [],
-            "path": "meteor/meteor.d.ts",
-            "version": "*"
+            "path": "meteor/meteor.d.ts"
         },
         {
             "name": "mocha",
             "aliases": [],
-            "path": "mocha/mocha.d.ts",
-            "version": "*"
+            "path": "mocha/mocha.d.ts"
         },
         {
             "name": "modernizr",
             "aliases": [],
-            "path": "modernizr/modernizr.d.ts",
-            "version": "*"
+            "path": "modernizr/modernizr.d.ts"
         },
         {
             "name": "moment",
             "aliases": [],
-            "path": "moment/moment.d.ts",
-            "version": "*"
+            "path": "moment/moment.d.ts"
         },
         {
             "name": "mongodb",
             "aliases": [],
-            "path": "mongodb/mongodb.d.ts",
-            "version": "*"
+            "path": "mongodb/mongodb.d.ts"
         },
         {
             "name": "mousetrap",
             "aliases": [],
-            "path": "mousetrap/mousetrap.d.ts",
-            "version": "*"
+            "path": "mousetrap/mousetrap.d.ts"
         },
         {
             "name": "msnodesql",
             "aliases": [],
-            "path": "msnodesql/msnodesql.d.ts",
-            "version": "*"
+            "path": "msnodesql/msnodesql.d.ts"
         },
         {
             "name": "mustache",
             "aliases": [],
-            "path": "mustache/mustache.d.ts",
-            "version": "*"
+            "path": "mustache/mustache.d.ts"
         },
         {
             "name": "noVNC",
             "aliases": [],
-            "path": "noVNC/noVNC.d.ts",
-            "version": "*"
+            "path": "noVNC/noVNC.d.ts"
         },
         {
             "name": "azure",
             "aliases": [],
-            "path": "node-azure/azure.d.ts",
-            "version": "*"
+            "path": "node-azure/azure.d.ts"
         },
         {
             "name": "node-ffi",
             "aliases": [],
-            "path": "node-ffi/node-ffi.d.ts",
-            "version": "*"
+            "path": "node-ffi/node-ffi.d.ts"
         },
         {
             "name": "node-fibers",
             "aliases": [],
-            "path": "node-fibers/node-fibers.d.ts",
-            "version": "*"
+            "path": "node-fibers/node-fibers.d.ts"
         },
         {
             "name": "node-0.8.8",
             "aliases": [],
-            "path": "node/node-0.8.8.d.ts",
-            "version": "*"
+            "path": "node/node-0.8.8.d.ts"
         },
         {
             "name": "node",
             "aliases": [],
-            "path": "node/node.d.ts",
-            "version": "*"
+            "path": "node/node.d.ts"
         },
         {
             "name": "node_redis",
             "aliases": [],
-            "path": "node_redis/node_redis.d.ts",
-            "version": "*"
+            "path": "node_redis/node_redis.d.ts"
         },
         {
             "name": "zmq",
             "aliases": [],
-            "path": "node_zeromq/zmq.d.ts",
-            "version": "*"
+            "path": "node_zeromq/zmq.d.ts"
         },
         {
             "name": "nodemailer",
             "aliases": [],
-            "path": "nodemailer/nodemailer.d.ts",
-            "version": "*"
+            "path": "nodemailer/nodemailer.d.ts"
         },
         {
             "name": "numeraljs",
             "aliases": [],
-            "path": "numeraljs/numeraljs.d.ts",
-            "version": "*"
+            "path": "numeraljs/numeraljs.d.ts"
         },
         {
             "name": "parallel",
             "aliases": [],
-            "path": "parallel/parallel.d.ts",
-            "version": "*"
+            "path": "parallel/parallel.d.ts"
         },
         {
             "name": "pdf",
             "aliases": [],
-            "path": "pdf/pdf.d.ts",
-            "version": "*"
+            "path": "pdf/pdf.d.ts"
         },
         {
             "name": "persona",
             "aliases": [],
-            "path": "persona/persona.d.ts",
-            "version": "*"
+            "path": "persona/persona.d.ts"
         },
         {
             "name": "phantomjs",
             "aliases": [],
-            "path": "phantomjs/phantomjs.d.ts",
-            "version": "*"
+            "path": "phantomjs/phantomjs.d.ts"
         },
         {
             "name": "phonegap",
             "aliases": [],
-            "path": "phonegap/phonegap.d.ts",
-            "version": "*"
+            "path": "phonegap/phonegap.d.ts"
         },
         {
             "name": "pixi",
             "aliases": [],
-            "path": "pixi/pixi.d.ts",
-            "version": "*"
+            "path": "pixi/pixi.d.ts"
         },
         {
             "name": "webgl",
             "aliases": [],
-            "path": "pixi/webgl.d.ts",
-            "version": "*"
+            "path": "pixi/webgl.d.ts"
         },
         {
             "name": "platform",
             "aliases": [],
-            "path": "platform/platform.d.ts",
-            "version": "*"
+            "path": "platform/platform.d.ts"
         },
         {
             "name": "popcorn",
             "aliases": [],
-            "path": "popcorn/popcorn.d.ts",
-            "version": "*"
+            "path": "popcorn/popcorn.d.ts"
         },
         {
             "name": "pouch",
             "aliases": [],
-            "path": "pouchDB/pouch.d.ts",
-            "version": "*"
+            "path": "pouchDB/pouch.d.ts"
         },
         {
             "name": "preloadjs",
             "aliases": [],
-            "path": "preloadjs/preloadjs.d.ts",
-            "version": "*"
+            "path": "preloadjs/preloadjs.d.ts"
         },
         {
             "name": "pubsub",
             "aliases": [],
-            "path": "pubsubjs/pubsub.d.ts",
-            "version": "*"
+            "path": "pubsubjs/pubsub.d.ts"
         },
         {
             "name": "Q",
             "aliases": [],
-            "path": "q/Q.d.ts",
-            "version": "*"
+            "path": "q/Q.d.ts"
         },
         {
             "name": "qunit",
             "aliases": [],
-            "path": "qunit/qunit.d.ts",
-            "version": "*"
+            "path": "qunit/qunit.d.ts"
         },
         {
             "name": "raphael",
             "aliases": [],
-            "path": "raphael/raphael.d.ts",
-            "version": "*"
+            "path": "raphael/raphael.d.ts"
         },
         {
             "name": "ravenjs",
             "aliases": [],
-            "path": "ravenjs/ravenjs.d.ts",
-            "version": "*"
+            "path": "ravenjs/ravenjs.d.ts"
         },
         {
             "name": "require",
             "aliases": [],
-            "path": "requirejs/require.d.ts",
-            "version": "*"
+            "path": "requirejs/require.d.ts"
         },
         {
             "name": "restangular",
             "aliases": [],
-            "path": "restangular/restangular.d.ts",
-            "version": "*"
+            "path": "restangular/restangular.d.ts"
         },
         {
             "name": "restify",
             "aliases": [],
-            "path": "restify/restify.d.ts",
-            "version": "*"
+            "path": "restify/restify.d.ts"
         },
         {
             "name": "reveal",
             "aliases": [],
-            "path": "reveal/reveal.d.ts",
-            "version": "*"
+            "path": "reveal/reveal.d.ts"
         },
         {
             "name": "rickshaw",
             "aliases": [],
-            "path": "rickshaw/rickshaw.d.ts",
-            "version": "*"
+            "path": "rickshaw/rickshaw.d.ts"
         },
         {
             "name": "routie",
             "aliases": [],
-            "path": "routie/routie.d.ts",
-            "version": "*"
+            "path": "routie/routie.d.ts"
         },
         {
             "name": "royalslider",
             "aliases": [],
-            "path": "royalslider/royalslider.d.ts",
-            "version": "*"
+            "path": "royalslider/royalslider.d.ts"
         },
         {
             "name": "rx.js.aggregates",
             "aliases": [],
-            "path": "rx.js/rx.js.aggregates.d.ts",
-            "version": "*"
+            "path": "rx.js/rx.js.aggregates.d.ts"
         },
         {
             "name": "rx.js.binding",
             "aliases": [],
-            "path": "rx.js/rx.js.binding.d.ts",
-            "version": "*"
+            "path": "rx.js/rx.js.binding.d.ts"
         },
         {
             "name": "rx.js.coincidence",
             "aliases": [],
-            "path": "rx.js/rx.js.coincidence.d.ts",
-            "version": "*"
+            "path": "rx.js/rx.js.coincidence.d.ts"
         },
         {
             "name": "rx.js",
             "aliases": [],
-            "path": "rx.js/rx.js.d.ts",
-            "version": "*"
+            "path": "rx.js/rx.js.d.ts"
         },
         {
             "name": "rx.js.joinpatterns",
             "aliases": [],
-            "path": "rx.js/rx.js.joinpatterns.d.ts",
-            "version": "*"
+            "path": "rx.js/rx.js.joinpatterns.d.ts"
         },
         {
             "name": "rx.js.jquery",
             "aliases": [],
-            "path": "rx.js/rx.js.jquery.d.ts",
-            "version": "*"
+            "path": "rx.js/rx.js.jquery.d.ts"
         },
         {
             "name": "rx.js.time",
             "aliases": [],
-            "path": "rx.js/rx.js.time.d.ts",
-            "version": "*"
+            "path": "rx.js/rx.js.time.d.ts"
         },
         {
             "name": "sammyjs",
             "aliases": [],
-            "path": "sammyjs/sammyjs.d.ts",
-            "version": "*"
+            "path": "sammyjs/sammyjs.d.ts"
         },
         {
             "name": "easyscroller",
             "aliases": [],
-            "path": "scroller/easyscroller.d.ts",
-            "version": "*"
+            "path": "scroller/easyscroller.d.ts"
         },
         {
             "name": "scroller",
             "aliases": [],
-            "path": "scroller/scroller.d.ts",
-            "version": "*"
+            "path": "scroller/scroller.d.ts"
         },
         {
             "name": "select2",
             "aliases": [],
-            "path": "select2/select2.d.ts",
-            "version": "*"
+            "path": "select2/select2.d.ts"
         },
         {
             "name": "SenchaTouch",
             "aliases": [],
-            "path": "sencha_touch/SenchaTouch.d.ts",
-            "version": "*"
+            "path": "sencha_touch/SenchaTouch.d.ts"
         },
         {
             "name": "SharePoint",
             "aliases": [],
-            "path": "sharepoint/SharePoint.d.ts",
-            "version": "*"
+            "path": "sharepoint/SharePoint.d.ts"
         },
         {
             "name": "should",
             "aliases": [],
-            "path": "should/should.d.ts",
-            "version": "*"
+            "path": "should/should.d.ts"
         },
         {
             "name": "siesta",
             "aliases": [],
-            "path": "siesta/siesta.d.ts",
-            "version": "*"
+            "path": "siesta/siesta.d.ts"
         },
         {
             "name": "signalr",
             "aliases": [],
-            "path": "signalr/signalr.d.ts",
-            "version": "*"
+            "path": "signalr/signalr.d.ts"
         },
         {
             "name": "sinon-chai",
             "aliases": [],
-            "path": "sinon-chai/sinon-chai.d.ts",
-            "version": "*"
+            "path": "sinon-chai/sinon-chai.d.ts"
         },
         {
             "name": "sinon",
             "aliases": [],
-            "path": "sinon/sinon.d.ts",
-            "version": "*"
+            "path": "sinon/sinon.d.ts"
         },
         {
             "name": "SlickGrid",
             "aliases": [],
-            "path": "slickgrid/SlickGrid.d.ts",
-            "version": "*"
+            "path": "slickgrid/SlickGrid.d.ts"
         },
         {
             "name": "socket.io",
             "aliases": [],
-            "path": "socket.io/socket.io.d.ts",
-            "version": "*"
+            "path": "socket.io/socket.io.d.ts"
         },
         {
             "name": "sockjs",
             "aliases": [],
-            "path": "sockjs/sockjs.d.ts",
-            "version": "*"
+            "path": "sockjs/sockjs.d.ts"
         },
         {
             "name": "soundjs",
             "aliases": [],
-            "path": "soundjs/soundjs.d.ts",
-            "version": "*"
+            "path": "soundjs/soundjs.d.ts"
         },
         {
             "name": "spin",
             "aliases": [],
-            "path": "spin/spin.d.ts",
-            "version": "*"
+            "path": "spin/spin.d.ts"
         },
         {
             "name": "state-machine",
             "aliases": [],
-            "path": "state-machine/state-machine.d.ts",
-            "version": "*"
+            "path": "state-machine/state-machine.d.ts"
         },
         {
             "name": "storejs",
             "aliases": [],
-            "path": "storejs/storejs.d.ts",
-            "version": "*"
+            "path": "storejs/storejs.d.ts"
         },
         {
             "name": "stripe",
             "aliases": [],
-            "path": "stripe/stripe.d.ts",
-            "version": "*"
+            "path": "stripe/stripe.d.ts"
         },
         {
             "name": "sugar",
             "aliases": [],
-            "path": "sugar/sugar.d.ts",
-            "version": "*"
+            "path": "sugar/sugar.d.ts"
         },
         {
             "name": "superagent",
             "aliases": [],
-            "path": "superagent/superagent.d.ts",
-            "version": "*"
+            "path": "superagent/superagent.d.ts"
         },
         {
             "name": "supertest",
             "aliases": [],
-            "path": "supertest/supertest.d.ts",
-            "version": "*"
+            "path": "supertest/supertest.d.ts"
         },
         {
             "name": "swiper",
             "aliases": [],
-            "path": "swiper/swiper.d.ts",
-            "version": "*"
+            "path": "swiper/swiper.d.ts"
         },
         {
             "name": "swipeview",
             "aliases": [],
-            "path": "swipeview/swipeview.d.ts",
-            "version": "*"
+            "path": "swipeview/swipeview.d.ts"
         },
         {
             "name": "teechart",
             "aliases": [],
-            "path": "teechart/teechart.d.ts",
-            "version": "*"
+            "path": "teechart/teechart.d.ts"
         },
         {
             "name": "three-r55",
             "aliases": [],
-            "path": "threejs/three-r55.d.ts",
-            "version": "*"
+            "path": "threejs/three-r55.d.ts"
         },
         {
             "name": "three",
             "aliases": [],
-            "path": "threejs/three.d.ts",
-            "version": "*"
+            "path": "threejs/three.d.ts"
         },
         {
             "name": "through",
             "aliases": [],
-            "path": "through/through.d.ts",
-            "version": "*"
+            "path": "through/through.d.ts"
         },
         {
             "name": "toastr",
             "aliases": [],
-            "path": "toastr/toastr.d.ts",
-            "version": "*"
+            "path": "toastr/toastr.d.ts"
         },
         {
             "name": "trunk8",
             "aliases": [],
-            "path": "trunk8/trunk8.d.ts",
-            "version": "*"
+            "path": "trunk8/trunk8.d.ts"
         },
         {
             "name": "tween.js",
             "aliases": [],
-            "path": "tween.js/tween.js.d.ts",
-            "version": "*"
+            "path": "tween.js/tween.js.d.ts"
         },
         {
             "name": "tweenjs",
             "aliases": [],
-            "path": "tweenjs/tweenjs.d.ts",
-            "version": "*"
+            "path": "tweenjs/tweenjs.d.ts"
         },
         {
             "name": "underscore-ko",
             "aliases": [],
-            "path": "underscore-ko/underscore-ko.d.ts",
-            "version": "*"
+            "path": "underscore-ko/underscore-ko.d.ts"
         },
         {
             "name": "underscore.string",
             "aliases": [],
-            "path": "underscore.string/underscore.string.d.ts",
-            "version": "*"
+            "path": "underscore.string/underscore.string.d.ts"
         },
         {
             "name": "underscore",
             "aliases": [],
-            "path": "underscore/underscore.d.ts",
-            "version": "*"
+            "path": "underscore/underscore.d.ts"
         },
         {
             "name": "unity-webapi",
             "aliases": [],
-            "path": "unity-webapi/unity-webapi.d.ts",
-            "version": "*"
+            "path": "unity-webapi/unity-webapi.d.ts"
         },
         {
             "name": "URI",
             "aliases": [],
-            "path": "urijs/URI.d.ts",
-            "version": "*"
+            "path": "urijs/URI.d.ts"
         },
         {
             "name": "UUID",
             "aliases": [],
-            "path": "uuid/UUID.d.ts",
-            "version": "*"
+            "path": "uuid/UUID.d.ts"
         },
         {
             "name": "videojs",
             "aliases": [],
-            "path": "videojs/videojs.d.ts",
-            "version": "*"
+            "path": "videojs/videojs.d.ts"
         },
         {
             "name": "viewporter",
             "aliases": [],
-            "path": "viewporter/viewporter.d.ts",
-            "version": "*"
+            "path": "viewporter/viewporter.d.ts"
         },
         {
             "name": "froogaloop",
             "aliases": [],
-            "path": "vimeo/froogaloop.d.ts",
-            "version": "*"
+            "path": "vimeo/froogaloop.d.ts"
         },
         {
             "name": "waa-20120802",
             "aliases": [],
-            "path": "webaudioapi/waa-20120802.d.ts",
-            "version": "*"
+            "path": "webaudioapi/waa-20120802.d.ts"
         },
         {
             "name": "waa-nightly",
             "aliases": [],
-            "path": "webaudioapi/waa-nightly.d.ts",
-            "version": "*"
+            "path": "webaudioapi/waa-nightly.d.ts"
         },
         {
             "name": "waa",
             "aliases": [],
-            "path": "webaudioapi/waa.d.ts",
-            "version": "*"
+            "path": "webaudioapi/waa.d.ts"
         },
         {
             "name": "MediaStream",
             "aliases": [],
-            "path": "webrtc/MediaStream.d.ts",
-            "version": "*"
+            "path": "webrtc/MediaStream.d.ts"
         },
         {
             "name": "RTCPeerConnection",
             "aliases": [],
-            "path": "webrtc/RTCPeerConnection.d.ts",
-            "version": "*"
+            "path": "webrtc/RTCPeerConnection.d.ts"
         },
         {
             "name": "when",
             "aliases": [],
-            "path": "when/when.d.ts",
-            "version": "*"
+            "path": "when/when.d.ts"
         },
         {
             "name": "winjs",
             "aliases": [],
-            "path": "winjs/winjs.d.ts",
-            "version": "*"
+            "path": "winjs/winjs.d.ts"
         },
         {
             "name": "winrt",
             "aliases": [],
-            "path": "winrt/winrt.d.ts",
-            "version": "*"
+            "path": "winrt/winrt.d.ts"
         },
         {
             "name": "youtube",
             "aliases": [],
-            "path": "youtube/youtube.d.ts",
-            "version": "*"
+            "path": "youtube/youtube.d.ts"
         },
         {
             "name": "zepto",
             "aliases": [],
-            "path": "zepto/zepto.d.ts",
-            "version": "*"
+            "path": "zepto/zepto.d.ts"
         },
         {
             "name": "zeroclipboard",
             "aliases": [],
-            "path": "zeroclipboard/zeroclipboard.d.ts",
-            "version": "*"
+            "path": "zeroclipboard/zeroclipboard.d.ts"
         }
     ]
 }

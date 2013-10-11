@@ -1,5 +1,5 @@
-TPM: Typescript Package Manager
-===============================
+TPM: Typescript Definition Package Manager
+==========================================
 
 TPM provides a library to find typescript definitions. The TPM library can be used to create other tools, like [TSD][tsd]. It also provides its own command-line tools and grunt tasks to install definition files, to demonstrate how the library can be used, and to make it usable before other tools integrate them. 
 
@@ -44,12 +44,7 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('typescript-tpm');
 ```
 
-### Overview
 In your project's Gruntfile, add a section named `tpm-install` or `tpm-index` to the data object passed into `grunt.initConfig()`.
-
-`tpm-install` installs the definitions for a given `package.json` or `bower.json`.
-
-`tpm-index` creates a reference file pointing to all the definition files specified, so you only have to include one.
 
 ```js
 // dest is optional on both of these, the default is shown here
@@ -63,6 +58,10 @@ grunt.initConfig({
     }
 })
 ```
+
+`tpm-install` installs the definitions for a given `package.json` or `bower.json`.
+
+`tpm-index` creates a reference file pointing to all the definition files specified, so you only have to include one.
 
 If you prefer, you can create a task that combines both of these into one step:
 

@@ -33,7 +33,48 @@ Create a single reference file pointing to all other reference files. Your appli
 
     tpm index types/**/*.d.ts -o types/all.d.ts
 
-TODO: grunt tasks for the above
+Grunt Tasks
+-----------
+
+All of the command-line options are available as grunt tasks. This plugin requires Grunt `~0.4.1`
+
+If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
+
+```shell
+npm install grunt-plugin-test --save-dev
+```
+
+Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
+
+```js
+grunt.loadNpmTasks('grunt-plugin-test');
+```
+
+### Overview
+In your project's Gruntfile, add a section named `tpm-install` or `tpm-index` to the data object passed into `grunt.initConfig()`.
+
+`tpm-install` installs the definitions for a given `package.json` or `bower.json`.
+
+`tpm-index` creates a reference file pointing to all the definition files specified, so you only have to include one.
+
+```js
+// dest is optional on both of these, the default is shown here
+grunt.initConfig({
+    "tpm-install": {
+      all: {src: "package.json", dest: "types/"}
+    },
+
+    "tpm-index": {
+      all: {src: ["types/**/*.d.ts", dest: "types/all.d.ts"]}
+    }
+})
+
+grunt.registerTask("tpm", ['tpm-install', 'tpm-index')
+```
+
+Then, you can install definition files and build the index by typing
+
+    grunt tpm
 
 Finding Definition Files
 ------------------------

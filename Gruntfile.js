@@ -44,6 +44,10 @@ module.exports = function(grunt) {
 
     "tpm-install": {
       all: {src: "package.json"}
+    },
+
+    "tpm-index": {
+      all: {src: ["types/**/*.d.ts"]}
     }
 
   });
@@ -84,13 +88,13 @@ module.exports = function(grunt) {
     })
   })
 
-  // load OUR tasks
+  // load OUR tasks. I guess loadNPMTasks looks for a tasks folder
   grunt.loadTasks('tasks');
 
   grunt.registerTask('publish', ['typescript', 'build', 'exec:publish'])
 
   // Default task(s).
   grunt.registerTask('default', ['typescript'])
-  grunt.registerTask('install', ['exec:npminstall'])
+  grunt.registerTask('install', ['exec:npminstall', 'tpm-install', 'tpm-index'])
   // grunt.registerTask('deploy', ['exec:upload', 'exec:deploy'])
 };

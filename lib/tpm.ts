@@ -22,9 +22,9 @@ export interface IDefinitionVersion {
     path: string;
 
     // future or convenience properties
-    version: string;    
-    url: string;
-    commit: string;
+    version?: string;    
+    url?: string;
+    commit?: string;
 }
 
 
@@ -65,6 +65,10 @@ var RENAMES = {
 export function loadIndex():Q.IPromise<IDefinitionIndex> {
     console.log("[GET] Index")
     return request.get({url: INDEX_URL, json: true})
+    .then(function(data) {
+        // console.log(" - index done")
+        return data    
+    })
 }
 
 /**
@@ -80,6 +84,7 @@ export function findDefinitions(index:IDefinitionIndex, name:string):IDefinition
         return def.name.toLowerCase() == name || _.contains(def.aliases, name)
     })
     .map(function(def:IDefinitionVersion) {
+        def.version = LATEST
         def.commit = MASTER
         def.url = github.rawUrl(dt.REPO_PATH, def.path, def.commit)  
         return def
@@ -129,10 +134,8 @@ export function createReferenceFile(typeFilePaths:string[], indexFilePath:string
 export function findPackageDefinitions(cachedIndex:IDefinitionIndex, packageData:IPackageData):IDefinitionVersion[] {
     var definitions = _.map(packageData.dependencies, function(version, name) {
         return findDefinitions(cachedIndex, name)
-
-        // .filter((def) => def.version == LATEST)
+        .filter((def) => def.version == LATEST)
     })
-    console.log(definitions)
     // also return node, just for kicks
     definitions.push(findDefinitions(cachedIndex, "node"))
     return _.flatten(definitions)
@@ -179,9 +182,8 @@ function generateFullIndex(definitions:dt.IDefinition[], aliases:alias.IAlias[])
             name: def.name,
             aliases: aliasNames,
             path: def.path,
-            version: LATEST,
-            url: null,
-            commit: MASTER,
+            // version: LATEST, these are the defaults. They are added on findDefinitions
+            // commit: MASTER,
         }
     })
 

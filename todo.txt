@@ -1,6 +1,0 @@
-
-GOAL: statically build a map, create a tool that downloads it and provides the information. 
-
-[ ] Include the correct node version
-[ ] Grunt: install
-[ ] Grunt: index

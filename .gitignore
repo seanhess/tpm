@@ -5,3 +5,4 @@ types/*
 types/**
 npm-debug.log
 *.sublime*
+todo.txt

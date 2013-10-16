@@ -54,7 +54,7 @@ grunt.initConfig({
     },
 
     "tpm-index": {
-      all: {src: ["types/**/*.d.ts", dest: "types/all.d.ts"]}
+      all: {src: ["types/**/*.d.ts"], dest: "types/all.d.ts"}
     }
 })
 ```
@@ -65,7 +65,7 @@ grunt.initConfig({
 
 If you prefer, you can create a task that combines both of these into one step:
 
-    grunt.registerTask("tpm", ['tpm-install', 'tpm-index')
+    grunt.registerTask("tpm", ['tpm-install', 'tpm-index'])
 
 Then, you can install definition files and build the index by typing
 

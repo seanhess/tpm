@@ -1,5 +1,5 @@
 {
-    "created": "2013-10-11T18:52:43.290Z",
+    "created": "2013-10-22T19:39:49.601Z",
     "definitions": [
         {
             "name": "lib",
@@ -12,14 +12,29 @@
             "path": "ace/ace.d.ts"
         },
         {
+            "name": "ace.d.ts.tscparams",
+            "aliases": [],
+            "path": "ace/ace.d.ts.tscparams"
+        },
+        {
             "name": "AmCharts",
             "aliases": [],
             "path": "amcharts/AmCharts.d.ts"
         },
         {
+            "name": "AmCharts.d.ts.tscparams",
+            "aliases": [],
+            "path": "amcharts/AmCharts.d.ts.tscparams"
+        },
+        {
             "name": "amplifyjs",
             "aliases": [],
             "path": "amplifyjs/amplifyjs.d.ts"
+        },
+        {
+            "name": "amplifyjs.d.ts.tscparams",
+            "aliases": [],
+            "path": "amplifyjs/amplifyjs.d.ts.tscparams"
         },
         {
             "name": "angular-cookies",
@@ -47,6 +62,11 @@
             "path": "angularjs/angular-scenario.d.ts"
         },
         {
+            "name": "angular-scenario.d.ts.tscparams",
+            "aliases": [],
+            "path": "angularjs/angular-scenario.d.ts.tscparams"
+        },
+        {
             "name": "angular",
             "aliases": [
                 "angular-browserify",
@@ -65,9 +85,19 @@
             "path": "arbiter/Arbiter.d.ts"
         },
         {
+            "name": "Arbiter.d.ts.tscparams",
+            "aliases": [],
+            "path": "arbiter/Arbiter.d.ts.tscparams"
+        },
+        {
             "name": "async",
             "aliases": [],
             "path": "async/async.d.ts"
+        },
+        {
+            "name": "async.d.ts.tscparams",
+            "aliases": [],
+            "path": "async/async.d.ts.tscparams"
         },
         {
             "name": "AzureMobileServicesClient",
@@ -80,14 +110,29 @@
             "path": "backbone-relational/backbone-relational.d.ts"
         },
         {
+            "name": "backbone-relational.d.ts.tscparams",
+            "aliases": [],
+            "path": "backbone-relational/backbone-relational.d.ts.tscparams"
+        },
+        {
             "name": "backbone",
             "aliases": [],
             "path": "backbone/backbone.d.ts"
         },
         {
+            "name": "backbone.d.ts.tscparams",
+            "aliases": [],
+            "path": "backbone/backbone.d.ts.tscparams"
+        },
+        {
             "name": "backgrid",
             "aliases": [],
             "path": "backgrid/backgrid.d.ts"
+        },
+        {
+            "name": "backgrid.d.ts.tscparams",
+            "aliases": [],
+            "path": "backgrid/backgrid.d.ts.tscparams"
         },
         {
             "name": "typescript.bgiframe",
@@ -105,6 +150,11 @@
             "path": "bootstrap-notify/bootstrap-notify.d.ts"
         },
         {
+            "name": "bootstrap-notify.d.ts.tscparams",
+            "aliases": [],
+            "path": "bootstrap-notify/bootstrap-notify.d.ts.tscparams"
+        },
+        {
             "name": "bootstrap.datepicker",
             "aliases": [],
             "path": "bootstrap.datepicker/bootstrap.datepicker.d.ts"
@@ -113,6 +163,11 @@
             "name": "bootstrap.paginator",
             "aliases": [],
             "path": "bootstrap.paginator/bootstrap.paginator.d.ts"
+        },
+        {
+            "name": "bootstrap.paginator.d.ts.tscparams",
+            "aliases": [],
+            "path": "bootstrap.paginator/bootstrap.paginator.d.ts.tscparams"
         },
         {
             "name": "bootstrap.timepicker",
@@ -130,9 +185,19 @@
             "path": "box2d/box2dweb.d.ts"
         },
         {
+            "name": "box2dweb.d.ts.tscparams",
+            "aliases": [],
+            "path": "box2d/box2dweb.d.ts.tscparams"
+        },
+        {
             "name": "breeze-1.0",
             "aliases": [],
             "path": "breeze/breeze-1.0.d.ts"
+        },
+        {
+            "name": "breeze-1.0.d.ts.tscparams",
+            "aliases": [],
+            "path": "breeze/breeze-1.0.d.ts.tscparams"
         },
         {
             "name": "breeze-1.2",
@@ -140,9 +205,19 @@
             "path": "breeze/breeze-1.2.d.ts"
         },
         {
+            "name": "breeze-1.2.d.ts.tscparams",
+            "aliases": [],
+            "path": "breeze/breeze-1.2.d.ts.tscparams"
+        },
+        {
             "name": "breeze",
             "aliases": [],
             "path": "breeze/breeze.d.ts"
+        },
+        {
+            "name": "breeze.d.ts.tscparams",
+            "aliases": [],
+            "path": "breeze/breeze.d.ts.tscparams"
         },
         {
             "name": "browser-harness",
@@ -150,9 +225,19 @@
             "path": "browser-harness/browser-harness.d.ts"
         },
         {
+            "name": "browser-harness.d.ts.tscparams",
+            "aliases": [],
+            "path": "browser-harness/browser-harness.d.ts.tscparams"
+        },
+        {
             "name": "browserify",
             "aliases": [],
             "path": "browserify/browserify.d.ts"
+        },
+        {
+            "name": "browserify.d.ts.tscparams",
+            "aliases": [],
+            "path": "browserify/browserify.d.ts.tscparams"
         },
         {
             "name": "camljs",
@@ -160,9 +245,19 @@
             "path": "camljs/camljs.d.ts"
         },
         {
+            "name": "camljs.d.ts.tscparams",
+            "aliases": [],
+            "path": "camljs/camljs.d.ts.tscparams"
+        },
+        {
             "name": "casperjs",
             "aliases": [],
             "path": "casperjs/casperjs.d.ts"
+        },
+        {
+            "name": "casperjs.d.ts.tscparams",
+            "aliases": [],
+            "path": "casperjs/casperjs.d.ts.tscparams"
         },
         {
             "name": "chai-fuzzy-assert",
@@ -170,9 +265,19 @@
             "path": "chai-fuzzy/chai-fuzzy-assert.d.ts"
         },
         {
+            "name": "chai-fuzzy-assert.d.ts.tscparams",
+            "aliases": [],
+            "path": "chai-fuzzy/chai-fuzzy-assert.d.ts.tscparams"
+        },
+        {
             "name": "chai-jquery",
             "aliases": [],
             "path": "chai-jquery/chai-jquery.d.ts"
+        },
+        {
+            "name": "chai-jquery.d.ts.tscparams",
+            "aliases": [],
+            "path": "chai-jquery/chai-jquery.d.ts.tscparams"
         },
         {
             "name": "chai-assert",
@@ -185,9 +290,19 @@
             "path": "chai/chai.d.ts"
         },
         {
+            "name": "chai.d.ts.tscparams",
+            "aliases": [],
+            "path": "chai/chai.d.ts.tscparams"
+        },
+        {
             "name": "cheerio",
             "aliases": [],
             "path": "cheerio/cheerio.d.ts"
+        },
+        {
+            "name": "cheerio.d.ts.tscparams",
+            "aliases": [],
+            "path": "cheerio/cheerio.d.ts.tscparams"
         },
         {
             "name": "chosen.jquery",
@@ -200,14 +315,29 @@
             "path": "chrome/chrome-app.d.ts"
         },
         {
+            "name": "chrome-app.d.ts.tscparams",
+            "aliases": [],
+            "path": "chrome/chrome-app.d.ts.tscparams"
+        },
+        {
             "name": "chrome",
             "aliases": [],
             "path": "chrome/chrome.d.ts"
         },
         {
+            "name": "chrome.d.ts.tscparams",
+            "aliases": [],
+            "path": "chrome/chrome.d.ts.tscparams"
+        },
+        {
             "name": "codemirror",
             "aliases": [],
             "path": "codemirror/codemirror.d.ts"
+        },
+        {
+            "name": "codemirror.d.ts.tscparams",
+            "aliases": [],
+            "path": "codemirror/codemirror.d.ts.tscparams"
         },
         {
             "name": "colors",
@@ -230,9 +360,19 @@
             "path": "convert-source-map/convert-source-map.d.ts"
         },
         {
+            "name": "convert-source-map.d.ts.tscparams",
+            "aliases": [],
+            "path": "convert-source-map/convert-source-map.d.ts.tscparams"
+        },
+        {
             "name": "crossroads",
             "aliases": [],
             "path": "crossroads/crossroads.d.ts"
+        },
+        {
+            "name": "crossroads.d.ts.tscparams",
+            "aliases": [],
+            "path": "crossroads/crossroads.d.ts.tscparams"
         },
         {
             "name": "d3",
@@ -240,9 +380,39 @@
             "path": "d3/d3.d.ts"
         },
         {
+            "name": "d3.d.ts.tscparams",
+            "aliases": [],
+            "path": "d3/d3.d.ts.tscparams"
+        },
+        {
             "name": "d3.superformula",
             "aliases": [],
             "path": "d3/plugins/d3.superformula.d.ts"
+        },
+        {
+            "name": "d3.superformula.d.ts.tscparams",
+            "aliases": [],
+            "path": "d3/plugins/d3.superformula.d.ts.tscparams"
+        },
+        {
+            "name": "dhtmlxgantt",
+            "aliases": [],
+            "path": "dhtmlxgantt/dhtmlxgantt.d.ts"
+        },
+        {
+            "name": "dhtmlxgantt.d.ts.tscparams",
+            "aliases": [],
+            "path": "dhtmlxgantt/dhtmlxgantt.d.ts.tscparams"
+        },
+        {
+            "name": "dhtmlxscheduler",
+            "aliases": [],
+            "path": "dhtmlxscheduler/dhtmlxscheduler.d.ts"
+        },
+        {
+            "name": "dhtmlxscheduler.d.ts.tscparams",
+            "aliases": [],
+            "path": "dhtmlxscheduler/dhtmlxscheduler.d.ts.tscparams"
         },
         {
             "name": "docCookies",
@@ -260,9 +430,19 @@
             "path": "dropzone/dropzone.d.ts"
         },
         {
+            "name": "dropzone.d.ts.tscparams",
+            "aliases": [],
+            "path": "dropzone/dropzone.d.ts.tscparams"
+        },
+        {
             "name": "durandal-1.x",
             "aliases": [],
             "path": "durandal/durandal-1.x.d.ts"
+        },
+        {
+            "name": "durandal-1.x.d.ts.tscparams",
+            "aliases": [],
+            "path": "durandal/durandal-1.x.d.ts.tscparams"
         },
         {
             "name": "durandal",
@@ -270,9 +450,19 @@
             "path": "durandal/durandal.d.ts"
         },
         {
+            "name": "durandal.d.ts.tscparams",
+            "aliases": [],
+            "path": "durandal/durandal.d.ts.tscparams"
+        },
+        {
             "name": "dustjs-linkedin",
             "aliases": [],
             "path": "dustjs-linkedin/dustjs-linkedin.d.ts"
+        },
+        {
+            "name": "dustjs-linkedin.d.ts.tscparams",
+            "aliases": [],
+            "path": "dustjs-linkedin/dustjs-linkedin.d.ts.tscparams"
         },
         {
             "name": "easeljs",
@@ -285,9 +475,19 @@
             "path": "ember/ember.d.ts"
         },
         {
+            "name": "ember.d.ts.tscparams",
+            "aliases": [],
+            "path": "ember/ember.d.ts.tscparams"
+        },
+        {
             "name": "epiceditor",
             "aliases": [],
             "path": "epiceditor/epiceditor.d.ts"
+        },
+        {
+            "name": "epiceditor.d.ts.tscparams",
+            "aliases": [],
+            "path": "epiceditor/epiceditor.d.ts.tscparams"
         },
         {
             "name": "expect.js",
@@ -320,9 +520,19 @@
             "path": "fabricjs/fabricjs.d.ts"
         },
         {
+            "name": "fabricjs.d.ts.tscparams",
+            "aliases": [],
+            "path": "fabricjs/fabricjs.d.ts.tscparams"
+        },
+        {
             "name": "fancybox",
             "aliases": [],
             "path": "fancybox/fancybox.d.ts"
+        },
+        {
+            "name": "fancybox.d.ts.tscparams",
+            "aliases": [],
+            "path": "fancybox/fancybox.d.ts.tscparams"
         },
         {
             "name": "filesystem",
@@ -340,6 +550,11 @@
             "path": "firebase/firebase.d.ts"
         },
         {
+            "name": "firebase.d.ts.tscparams",
+            "aliases": [],
+            "path": "firebase/firebase.d.ts.tscparams"
+        },
+        {
             "name": "firefox",
             "aliases": [],
             "path": "firefox/firefox.d.ts"
@@ -350,14 +565,29 @@
             "path": "flexSlider/flexSlider.d.ts"
         },
         {
+            "name": "flexSlider.d.ts.tscparams",
+            "aliases": [],
+            "path": "flexSlider/flexSlider.d.ts.tscparams"
+        },
+        {
             "name": "jquery.flot",
             "aliases": [],
             "path": "flot/jquery.flot.d.ts"
         },
         {
+            "name": "jquery.flot.d.ts.tscparams",
+            "aliases": [],
+            "path": "flot/jquery.flot.d.ts.tscparams"
+        },
+        {
             "name": "foundation",
             "aliases": [],
             "path": "foundation/foundation.d.ts"
+        },
+        {
+            "name": "foundation.d.ts.tscparams",
+            "aliases": [],
+            "path": "foundation/foundation.d.ts.tscparams"
         },
         {
             "name": "FPSMeter",
@@ -390,9 +620,19 @@
             "path": "gapi.pagespeedonline/gapi.pagespeedonline.d.ts"
         },
         {
+            "name": "gapi.pagespeedonline.d.ts.tscparams",
+            "aliases": [],
+            "path": "gapi.pagespeedonline/gapi.pagespeedonline.d.ts.tscparams"
+        },
+        {
             "name": "gapi.translate",
             "aliases": [],
             "path": "gapi.translate/gapi.translate.d.ts"
+        },
+        {
+            "name": "gapi.translate.d.ts.tscparams",
+            "aliases": [],
+            "path": "gapi.translate/gapi.translate.d.ts.tscparams"
         },
         {
             "name": "gapi.urlshortener",
@@ -400,9 +640,19 @@
             "path": "gapi.urlshortener/gapi.urlshortener.d.ts"
         },
         {
+            "name": "gapi.urlshortener.d.ts.tscparams",
+            "aliases": [],
+            "path": "gapi.urlshortener/gapi.urlshortener.d.ts.tscparams"
+        },
+        {
             "name": "gapi.youtube",
             "aliases": [],
             "path": "gapi.youtube/gapi.youtube.d.ts"
+        },
+        {
+            "name": "gapi.youtube.d.ts.tscparams",
+            "aliases": [],
+            "path": "gapi.youtube/gapi.youtube.d.ts.tscparams"
         },
         {
             "name": "gapi.youtubeAnalytics",
@@ -410,9 +660,29 @@
             "path": "gapi.youtubeAnalytics/gapi.youtubeAnalytics.d.ts"
         },
         {
+            "name": "gapi.youtubeAnalytics.d.ts.tscparams",
+            "aliases": [],
+            "path": "gapi.youtubeAnalytics/gapi.youtubeAnalytics.d.ts.tscparams"
+        },
+        {
             "name": "gapi",
             "aliases": [],
             "path": "gapi/gapi.d.ts"
+        },
+        {
+            "name": "gapi.d.ts.tscparams",
+            "aliases": [],
+            "path": "gapi/gapi.d.ts.tscparams"
+        },
+        {
+            "name": "giraffe",
+            "aliases": [],
+            "path": "giraffe/giraffe.d.ts"
+        },
+        {
+            "name": "giraffe.d.ts.tscparams",
+            "aliases": [],
+            "path": "giraffe/giraffe.d.ts.tscparams"
         },
         {
             "name": "gldatepicker",
@@ -425,14 +695,29 @@
             "path": "globalize/globalize.d.ts"
         },
         {
+            "name": "globalize.d.ts.tscparams",
+            "aliases": [],
+            "path": "globalize/globalize.d.ts.tscparams"
+        },
+        {
             "name": "goJS",
             "aliases": [],
             "path": "goJS/goJS.d.ts"
         },
         {
+            "name": "goJS.d.ts.tscparams",
+            "aliases": [],
+            "path": "goJS/goJS.d.ts.tscparams"
+        },
+        {
             "name": "ga",
             "aliases": [],
             "path": "google.analytics/ga.d.ts"
+        },
+        {
+            "name": "ga.d.ts.tscparams",
+            "aliases": [],
+            "path": "google.analytics/ga.d.ts.tscparams"
         },
         {
             "name": "google.feed.api",
@@ -475,6 +760,11 @@
             "path": "highcharts/highcharts.d.ts"
         },
         {
+            "name": "highcharts.d.ts.tscparams",
+            "aliases": [],
+            "path": "highcharts/highcharts.d.ts.tscparams"
+        },
+        {
             "name": "highlightjs",
             "aliases": [],
             "path": "highlightjs/highlightjs.d.ts"
@@ -485,14 +775,29 @@
             "path": "history/history.d.ts"
         },
         {
+            "name": "history.d.ts.tscparams",
+            "aliases": [],
+            "path": "history/history.d.ts.tscparams"
+        },
+        {
             "name": "humane",
             "aliases": [],
             "path": "humane/humane.d.ts"
         },
         {
+            "name": "humane.d.ts.tscparams",
+            "aliases": [],
+            "path": "humane/humane.d.ts.tscparams"
+        },
+        {
             "name": "i18next",
             "aliases": [],
             "path": "i18next/i18next.d.ts"
+        },
+        {
+            "name": "i18next.d.ts.tscparams",
+            "aliases": [],
+            "path": "i18next/i18next.d.ts.tscparams"
         },
         {
             "name": "icheck",
@@ -520,9 +825,19 @@
             "path": "jake/jake.d.ts"
         },
         {
+            "name": "jake.d.ts.tscparams",
+            "aliases": [],
+            "path": "jake/jake.d.ts.tscparams"
+        },
+        {
             "name": "jasmine-jquery",
             "aliases": [],
             "path": "jasmine-jquery/jasmine-jquery.d.ts"
+        },
+        {
+            "name": "jasmine-jquery.d.ts.tscparams",
+            "aliases": [],
+            "path": "jasmine-jquery/jasmine-jquery.d.ts.tscparams"
         },
         {
             "name": "jasmine-matchers",
@@ -540,14 +855,29 @@
             "path": "jointjs/jointjs.d.ts"
         },
         {
+            "name": "jointjs.d.ts.tscparams",
+            "aliases": [],
+            "path": "jointjs/jointjs.d.ts.tscparams"
+        },
+        {
             "name": "jqrangeslider",
             "aliases": [],
             "path": "jqrangeslider/jqrangeslider.d.ts"
         },
         {
+            "name": "jqrangeslider.d.ts.tscparams",
+            "aliases": [],
+            "path": "jqrangeslider/jqrangeslider.d.ts.tscparams"
+        },
+        {
             "name": "jquery.address",
             "aliases": [],
             "path": "jquery.address/jquery.address.d.ts"
+        },
+        {
+            "name": "jquery.address.d.ts.tscparams",
+            "aliases": [],
+            "path": "jquery.address/jquery.address.d.ts.tscparams"
         },
         {
             "name": "jquery.are-you-sure",
@@ -565,6 +895,11 @@
             "path": "jquery.bbq/jquery.bbq.d.ts"
         },
         {
+            "name": "jquery.bbq.d.ts.tscparams",
+            "aliases": [],
+            "path": "jquery.bbq/jquery.bbq.d.ts.tscparams"
+        },
+        {
             "name": "jquery.bootstrap.wizard",
             "aliases": [],
             "path": "jquery.bootstrap.wizard/jquery.bootstrap.wizard.d.ts"
@@ -580,9 +915,19 @@
             "path": "jquery.colorbox/jquery.colorbox.d.ts"
         },
         {
+            "name": "jquery.colorbox.d.ts.tscparams",
+            "aliases": [],
+            "path": "jquery.colorbox/jquery.colorbox.d.ts.tscparams"
+        },
+        {
             "name": "jquery.contextMenu",
             "aliases": [],
             "path": "jquery.contextMenu/jquery.contextMenu.d.ts"
+        },
+        {
+            "name": "jquery.contextMenu.d.ts.tscparams",
+            "aliases": [],
+            "path": "jquery.contextMenu/jquery.contextMenu.d.ts.tscparams"
         },
         {
             "name": "jquery.cookie",
@@ -605,6 +950,11 @@
             "path": "jquery.dynatree/jquery.dynatree.d.ts"
         },
         {
+            "name": "jquery.dynatree.d.ts.tscparams",
+            "aliases": [],
+            "path": "jquery.dynatree/jquery.dynatree.d.ts.tscparams"
+        },
+        {
             "name": "jquery.elang",
             "aliases": [],
             "path": "jquery.elang/jquery.elang.d.ts"
@@ -625,6 +975,11 @@
             "path": "jquery.jnotify/jquery.jnotify.d.ts"
         },
         {
+            "name": "jquery.jnotify.d.ts.tscparams",
+            "aliases": [],
+            "path": "jquery.jnotify/jquery.jnotify.d.ts.tscparams"
+        },
+        {
             "name": "jquery.livestampjs",
             "aliases": [],
             "path": "jquery.livestampjs/jquery.livestampjs.d.ts"
@@ -640,14 +995,29 @@
             "path": "jquery.noty/jquery.noty.d.ts"
         },
         {
+            "name": "jquery.noty.d.ts.tscparams",
+            "aliases": [],
+            "path": "jquery.noty/jquery.noty.d.ts.tscparams"
+        },
+        {
             "name": "jquery.payment",
             "aliases": [],
             "path": "jquery.payment/jquery.payment.d.ts"
         },
         {
+            "name": "jquery.payment.d.ts.tscparams",
+            "aliases": [],
+            "path": "jquery.payment/jquery.payment.d.ts.tscparams"
+        },
+        {
             "name": "jquery.pickadate",
             "aliases": [],
             "path": "jquery.pickadate/jquery.pickadate.d.ts"
+        },
+        {
+            "name": "jquery.pickadate.d.ts.tscparams",
+            "aliases": [],
+            "path": "jquery.pickadate/jquery.pickadate.d.ts.tscparams"
         },
         {
             "name": "jquery.scrollTo",
@@ -685,6 +1055,21 @@
             "path": "jquery.timepicker/jquery.timepicker.d.ts"
         },
         {
+            "name": "jquery.timepicker.d.ts.tscparams",
+            "aliases": [],
+            "path": "jquery.timepicker/jquery.timepicker.d.ts.tscparams"
+        },
+        {
+            "name": "jquery.timer",
+            "aliases": [],
+            "path": "jquery.timer/jquery.timer.d.ts"
+        },
+        {
+            "name": "jquery.timer.d.ts.tscparams",
+            "aliases": [],
+            "path": "jquery.timer/jquery.timer.d.ts.tscparams"
+        },
+        {
             "name": "jquery.tinycarousel",
             "aliases": [],
             "path": "jquery.tinycarousel/jquery.tinycarousel.d.ts"
@@ -703,6 +1088,11 @@
             "name": "jquery.ui.layout",
             "aliases": [],
             "path": "jquery.ui.layout/jquery.ui.layout.d.ts"
+        },
+        {
+            "name": "jquery.ui.layout.d.ts.tscparams",
+            "aliases": [],
+            "path": "jquery.ui.layout/jquery.ui.layout.d.ts.tscparams"
         },
         {
             "name": "jquery.validation",
@@ -727,9 +1117,19 @@
             "path": "jquerymobile/jquerymobile.d.ts"
         },
         {
+            "name": "jquerymobile.d.ts.tscparams",
+            "aliases": [],
+            "path": "jquerymobile/jquerymobile.d.ts.tscparams"
+        },
+        {
             "name": "jqueryui",
             "aliases": [],
             "path": "jqueryui/jqueryui.d.ts"
+        },
+        {
+            "name": "jqueryui.d.ts.tscparams",
+            "aliases": [],
+            "path": "jqueryui/jqueryui.d.ts.tscparams"
         },
         {
             "name": "fixtures",
@@ -742,9 +1142,19 @@
             "path": "js-signals/js-signals.d.ts"
         },
         {
+            "name": "js-signals.d.ts.tscparams",
+            "aliases": [],
+            "path": "js-signals/js-signals.d.ts.tscparams"
+        },
+        {
             "name": "jscrollpane",
             "aliases": [],
             "path": "jscrollpane/jscrollpane.d.ts"
+        },
+        {
+            "name": "jscrollpane.d.ts.tscparams",
+            "aliases": [],
+            "path": "jscrollpane/jscrollpane.d.ts.tscparams"
         },
         {
             "name": "jsdeferred",
@@ -752,9 +1162,19 @@
             "path": "jsdeferred/jsdeferred.d.ts"
         },
         {
+            "name": "jsdeferred.d.ts.tscparams",
+            "aliases": [],
+            "path": "jsdeferred/jsdeferred.d.ts.tscparams"
+        },
+        {
             "name": "jsfl",
             "aliases": [],
             "path": "jsfl/jsfl.d.ts"
+        },
+        {
+            "name": "jsfl.d.ts.tscparams",
+            "aliases": [],
+            "path": "jsfl/jsfl.d.ts.tscparams"
         },
         {
             "name": "xJSFL",
@@ -762,14 +1182,29 @@
             "path": "jsfl/xJSFL.d.ts"
         },
         {
+            "name": "xJSFL.d.ts.tscparams",
+            "aliases": [],
+            "path": "jsfl/xJSFL.d.ts.tscparams"
+        },
+        {
             "name": "jsoneditoronline",
             "aliases": [],
             "path": "jsoneditoronline/jsoneditoronline.d.ts"
         },
         {
+            "name": "jsoneditoronline.d.ts.tscparams",
+            "aliases": [],
+            "path": "jsoneditoronline/jsoneditoronline.d.ts.tscparams"
+        },
+        {
             "name": "jquery.jsPlumb",
             "aliases": [],
             "path": "jsplumb/jquery.jsPlumb.d.ts"
+        },
+        {
+            "name": "jquery.jsPlumb.d.ts.tscparams",
+            "aliases": [],
+            "path": "jsplumb/jquery.jsPlumb.d.ts.tscparams"
         },
         {
             "name": "jstorage",
@@ -797,9 +1232,19 @@
             "path": "knockback/knockback.d.ts"
         },
         {
+            "name": "knockback.d.ts.tscparams",
+            "aliases": [],
+            "path": "knockback/knockback.d.ts.tscparams"
+        },
+        {
             "name": "knockout.deferred.updates",
             "aliases": [],
             "path": "knockout.deferred.updates/knockout.deferred.updates.d.ts"
+        },
+        {
+            "name": "knockout.deferred.updates.d.ts.tscparams",
+            "aliases": [],
+            "path": "knockout.deferred.updates/knockout.deferred.updates.d.ts.tscparams"
         },
         {
             "name": "ko.editables",
@@ -807,9 +1252,19 @@
             "path": "knockout.editables/ko.editables.d.ts"
         },
         {
+            "name": "ko.editables.d.ts.tscparams",
+            "aliases": [],
+            "path": "knockout.editables/ko.editables.d.ts.tscparams"
+        },
+        {
             "name": "knockout.es5",
             "aliases": [],
             "path": "knockout.es5/knockout.es5.d.ts"
+        },
+        {
+            "name": "knockout.es5.d.ts.tscparams",
+            "aliases": [],
+            "path": "knockout.es5/knockout.es5.d.ts.tscparams"
         },
         {
             "name": "knockout.mapper",
@@ -817,9 +1272,19 @@
             "path": "knockout.mapper/knockout.mapper.d.ts"
         },
         {
+            "name": "knockout.mapper.d.ts.tscparams",
+            "aliases": [],
+            "path": "knockout.mapper/knockout.mapper.d.ts.tscparams"
+        },
+        {
             "name": "knockout.mapping",
             "aliases": [],
             "path": "knockout.mapping/knockout.mapping.d.ts"
+        },
+        {
+            "name": "knockout.mapping.d.ts.tscparams",
+            "aliases": [],
+            "path": "knockout.mapping/knockout.mapping.d.ts.tscparams"
         },
         {
             "name": "knockout-postbox",
@@ -827,9 +1292,19 @@
             "path": "knockout.postbox/knockout-postbox.d.ts"
         },
         {
+            "name": "knockout-postbox.d.ts.tscparams",
+            "aliases": [],
+            "path": "knockout.postbox/knockout-postbox.d.ts.tscparams"
+        },
+        {
             "name": "knockout.validation",
             "aliases": [],
             "path": "knockout.validation/knockout.validation.d.ts"
+        },
+        {
+            "name": "knockout.validation.d.ts.tscparams",
+            "aliases": [],
+            "path": "knockout.validation/knockout.validation.d.ts.tscparams"
         },
         {
             "name": "knockout.viewmodel",
@@ -837,9 +1312,19 @@
             "path": "knockout.viewmodel/knockout.viewmodel.d.ts"
         },
         {
+            "name": "knockout.viewmodel.d.ts.tscparams",
+            "aliases": [],
+            "path": "knockout.viewmodel/knockout.viewmodel.d.ts.tscparams"
+        },
+        {
             "name": "knockout.amd",
             "aliases": [],
             "path": "knockout/knockout.amd.d.ts"
+        },
+        {
+            "name": "knockout.amd.d.ts.tscparams",
+            "aliases": [],
+            "path": "knockout/knockout.amd.d.ts.tscparams"
         },
         {
             "name": "knockout",
@@ -847,9 +1332,19 @@
             "path": "knockout/knockout.d.ts"
         },
         {
+            "name": "knockout.d.ts.tscparams",
+            "aliases": [],
+            "path": "knockout/knockout.d.ts.tscparams"
+        },
+        {
             "name": "kolite",
             "aliases": [],
             "path": "kolite/kolite.d.ts"
+        },
+        {
+            "name": "kolite.d.ts.tscparams",
+            "aliases": [],
+            "path": "kolite/kolite.d.ts.tscparams"
         },
         {
             "name": "ladda",
@@ -872,9 +1367,19 @@
             "path": "less/less.d.ts"
         },
         {
+            "name": "less.d.ts.tscparams",
+            "aliases": [],
+            "path": "less/less.d.ts.tscparams"
+        },
+        {
             "name": "levelup",
             "aliases": [],
             "path": "levelup/levelup.d.ts"
+        },
+        {
+            "name": "levelup.d.ts.tscparams",
+            "aliases": [],
+            "path": "levelup/levelup.d.ts.tscparams"
         },
         {
             "name": "libxmljs",
@@ -882,9 +1387,19 @@
             "path": "libxmljs/libxmljs.d.ts"
         },
         {
+            "name": "libxmljs.d.ts.tscparams",
+            "aliases": [],
+            "path": "libxmljs/libxmljs.d.ts.tscparams"
+        },
+        {
             "name": "linq.3.0.3-Beta4",
             "aliases": [],
             "path": "linq/linq.3.0.3-Beta4.d.ts"
+        },
+        {
+            "name": "linq.3.0.3-Beta4.d.ts.tscparams",
+            "aliases": [],
+            "path": "linq/linq.3.0.3-Beta4.d.ts.tscparams"
         },
         {
             "name": "linq",
@@ -892,9 +1407,19 @@
             "path": "linq/linq.d.ts"
         },
         {
+            "name": "linq.d.ts.tscparams",
+            "aliases": [],
+            "path": "linq/linq.d.ts.tscparams"
+        },
+        {
             "name": "linq.jquery",
             "aliases": [],
             "path": "linq/linq.jquery.d.ts"
+        },
+        {
+            "name": "linq.jquery.d.ts.tscparams",
+            "aliases": [],
+            "path": "linq/linq.jquery.d.ts.tscparams"
         },
         {
             "name": "logg",
@@ -912,6 +1437,11 @@
             "path": "marionette/marionette.d.ts"
         },
         {
+            "name": "marionette.d.ts.tscparams",
+            "aliases": [],
+            "path": "marionette/marionette.d.ts.tscparams"
+        },
+        {
             "name": "marked",
             "aliases": [],
             "path": "marked/marked.d.ts"
@@ -920,6 +1450,11 @@
             "name": "meteor",
             "aliases": [],
             "path": "meteor/meteor.d.ts"
+        },
+        {
+            "name": "meteor.d.ts.tscparams",
+            "aliases": [],
+            "path": "meteor/meteor.d.ts.tscparams"
         },
         {
             "name": "mocha",
@@ -932,6 +1467,11 @@
             "path": "modernizr/modernizr.d.ts"
         },
         {
+            "name": "modernizr.d.ts.tscparams",
+            "aliases": [],
+            "path": "modernizr/modernizr.d.ts.tscparams"
+        },
+        {
             "name": "moment",
             "aliases": [],
             "path": "moment/moment.d.ts"
@@ -940,6 +1480,11 @@
             "name": "mongodb",
             "aliases": [],
             "path": "mongodb/mongodb.d.ts"
+        },
+        {
+            "name": "mongodb.d.ts.tscparams",
+            "aliases": [],
+            "path": "mongodb/mongodb.d.ts.tscparams"
         },
         {
             "name": "mousetrap",
@@ -952,9 +1497,19 @@
             "path": "msnodesql/msnodesql.d.ts"
         },
         {
+            "name": "msnodesql.d.ts.tscparams",
+            "aliases": [],
+            "path": "msnodesql/msnodesql.d.ts.tscparams"
+        },
+        {
             "name": "mustache",
             "aliases": [],
             "path": "mustache/mustache.d.ts"
+        },
+        {
+            "name": "mustache.d.ts.tscparams",
+            "aliases": [],
+            "path": "mustache/mustache.d.ts.tscparams"
         },
         {
             "name": "noVNC",
@@ -962,9 +1517,19 @@
             "path": "noVNC/noVNC.d.ts"
         },
         {
+            "name": "noVNC.d.ts.tscparams",
+            "aliases": [],
+            "path": "noVNC/noVNC.d.ts.tscparams"
+        },
+        {
             "name": "azure",
             "aliases": [],
             "path": "node-azure/azure.d.ts"
+        },
+        {
+            "name": "azure.d.ts.tscparams",
+            "aliases": [],
+            "path": "node-azure/azure.d.ts.tscparams"
         },
         {
             "name": "node-ffi",
@@ -972,14 +1537,29 @@
             "path": "node-ffi/node-ffi.d.ts"
         },
         {
+            "name": "node-ffi.d.ts.tscparams",
+            "aliases": [],
+            "path": "node-ffi/node-ffi.d.ts.tscparams"
+        },
+        {
             "name": "node-fibers",
             "aliases": [],
             "path": "node-fibers/node-fibers.d.ts"
         },
         {
+            "name": "node-fibers.d.ts.tscparams",
+            "aliases": [],
+            "path": "node-fibers/node-fibers.d.ts.tscparams"
+        },
+        {
             "name": "node-0.8.8",
             "aliases": [],
             "path": "node/node-0.8.8.d.ts"
+        },
+        {
+            "name": "node-0.8.8.d.ts.tscparams",
+            "aliases": [],
+            "path": "node/node-0.8.8.d.ts.tscparams"
         },
         {
             "name": "node",
@@ -992,6 +1572,11 @@
             "path": "node_redis/node_redis.d.ts"
         },
         {
+            "name": "node_redis.d.ts.tscparams",
+            "aliases": [],
+            "path": "node_redis/node_redis.d.ts.tscparams"
+        },
+        {
             "name": "zmq",
             "aliases": [],
             "path": "node_zeromq/zmq.d.ts"
@@ -1000,6 +1585,11 @@
             "name": "nodemailer",
             "aliases": [],
             "path": "nodemailer/nodemailer.d.ts"
+        },
+        {
+            "name": "nodemailer.d.ts.tscparams",
+            "aliases": [],
+            "path": "nodemailer/nodemailer.d.ts.tscparams"
         },
         {
             "name": "numeraljs",
@@ -1017,9 +1607,19 @@
             "path": "pdf/pdf.d.ts"
         },
         {
+            "name": "pdf.d.ts.tscparams",
+            "aliases": [],
+            "path": "pdf/pdf.d.ts.tscparams"
+        },
+        {
             "name": "persona",
             "aliases": [],
             "path": "persona/persona.d.ts"
+        },
+        {
+            "name": "persona.d.ts.tscparams",
+            "aliases": [],
+            "path": "persona/persona.d.ts.tscparams"
         },
         {
             "name": "phantomjs",
@@ -1027,14 +1627,29 @@
             "path": "phantomjs/phantomjs.d.ts"
         },
         {
+            "name": "phantomjs.d.ts.tscparams",
+            "aliases": [],
+            "path": "phantomjs/phantomjs.d.ts.tscparams"
+        },
+        {
             "name": "phonegap",
             "aliases": [],
             "path": "phonegap/phonegap.d.ts"
         },
         {
+            "name": "phonegap.d.ts.tscparams",
+            "aliases": [],
+            "path": "phonegap/phonegap.d.ts.tscparams"
+        },
+        {
             "name": "pixi",
             "aliases": [],
             "path": "pixi/pixi.d.ts"
+        },
+        {
+            "name": "pixi.d.ts.tscparams",
+            "aliases": [],
+            "path": "pixi/pixi.d.ts.tscparams"
         },
         {
             "name": "webgl",
@@ -1052,9 +1667,19 @@
             "path": "popcorn/popcorn.d.ts"
         },
         {
+            "name": "popcorn.d.ts.tscparams",
+            "aliases": [],
+            "path": "popcorn/popcorn.d.ts.tscparams"
+        },
+        {
             "name": "pouch",
             "aliases": [],
             "path": "pouchDB/pouch.d.ts"
+        },
+        {
+            "name": "pouch.d.ts.tscparams",
+            "aliases": [],
+            "path": "pouchDB/pouch.d.ts.tscparams"
         },
         {
             "name": "preloadjs",
@@ -1072,14 +1697,29 @@
             "path": "q/Q.d.ts"
         },
         {
+            "name": "Q.d.ts.tscparams",
+            "aliases": [],
+            "path": "q/Q.d.ts.tscparams"
+        },
+        {
             "name": "qunit",
             "aliases": [],
             "path": "qunit/qunit.d.ts"
         },
         {
+            "name": "qunit.d.ts.tscparams",
+            "aliases": [],
+            "path": "qunit/qunit.d.ts.tscparams"
+        },
+        {
             "name": "raphael",
             "aliases": [],
             "path": "raphael/raphael.d.ts"
+        },
+        {
+            "name": "raphael.d.ts.tscparams",
+            "aliases": [],
+            "path": "raphael/raphael.d.ts.tscparams"
         },
         {
             "name": "ravenjs",
@@ -1097,14 +1737,39 @@
             "path": "restangular/restangular.d.ts"
         },
         {
+            "name": "restangular.d.ts.tscparams",
+            "aliases": [],
+            "path": "restangular/restangular.d.ts.tscparams"
+        },
+        {
             "name": "restify",
             "aliases": [],
             "path": "restify/restify.d.ts"
         },
         {
+            "name": "restify.d.ts.tscparams",
+            "aliases": [],
+            "path": "restify/restify.d.ts.tscparams"
+        },
+        {
+            "name": "rethinkdb",
+            "aliases": [],
+            "path": "rethinkdb/rethinkdb.d.ts"
+        },
+        {
+            "name": "rethinkdb.d.ts.tscparams",
+            "aliases": [],
+            "path": "rethinkdb/rethinkdb.d.ts.tscparams"
+        },
+        {
             "name": "reveal",
             "aliases": [],
             "path": "reveal/reveal.d.ts"
+        },
+        {
+            "name": "reveal.d.ts.tscparams",
+            "aliases": [],
+            "path": "reveal/reveal.d.ts.tscparams"
         },
         {
             "name": "rickshaw",
@@ -1117,6 +1782,11 @@
             "path": "routie/routie.d.ts"
         },
         {
+            "name": "routie.d.ts.tscparams",
+            "aliases": [],
+            "path": "routie/routie.d.ts.tscparams"
+        },
+        {
             "name": "royalslider",
             "aliases": [],
             "path": "royalslider/royalslider.d.ts"
@@ -1127,9 +1797,19 @@
             "path": "rx.js/rx.js.aggregates.d.ts"
         },
         {
+            "name": "rx.js.aggregates.d.ts.tscparams",
+            "aliases": [],
+            "path": "rx.js/rx.js.aggregates.d.ts.tscparams"
+        },
+        {
             "name": "rx.js.binding",
             "aliases": [],
             "path": "rx.js/rx.js.binding.d.ts"
+        },
+        {
+            "name": "rx.js.binding.d.ts.tscparams",
+            "aliases": [],
+            "path": "rx.js/rx.js.binding.d.ts.tscparams"
         },
         {
             "name": "rx.js.coincidence",
@@ -1137,9 +1817,19 @@
             "path": "rx.js/rx.js.coincidence.d.ts"
         },
         {
+            "name": "rx.js.coincidence.d.ts.tscparams",
+            "aliases": [],
+            "path": "rx.js/rx.js.coincidence.d.ts.tscparams"
+        },
+        {
             "name": "rx.js",
             "aliases": [],
             "path": "rx.js/rx.js.d.ts"
+        },
+        {
+            "name": "rx.js.d.ts.tscparams",
+            "aliases": [],
+            "path": "rx.js/rx.js.d.ts.tscparams"
         },
         {
             "name": "rx.js.joinpatterns",
@@ -1147,9 +1837,19 @@
             "path": "rx.js/rx.js.joinpatterns.d.ts"
         },
         {
+            "name": "rx.js.joinpatterns.d.ts.tscparams",
+            "aliases": [],
+            "path": "rx.js/rx.js.joinpatterns.d.ts.tscparams"
+        },
+        {
             "name": "rx.js.jquery",
             "aliases": [],
             "path": "rx.js/rx.js.jquery.d.ts"
+        },
+        {
+            "name": "rx.js.jquery.d.ts.tscparams",
+            "aliases": [],
+            "path": "rx.js/rx.js.jquery.d.ts.tscparams"
         },
         {
             "name": "rx.js.time",
@@ -1157,9 +1857,19 @@
             "path": "rx.js/rx.js.time.d.ts"
         },
         {
+            "name": "rx.js.time.d.ts.tscparams",
+            "aliases": [],
+            "path": "rx.js/rx.js.time.d.ts.tscparams"
+        },
+        {
             "name": "sammyjs",
             "aliases": [],
             "path": "sammyjs/sammyjs.d.ts"
+        },
+        {
+            "name": "sammyjs.d.ts.tscparams",
+            "aliases": [],
+            "path": "sammyjs/sammyjs.d.ts.tscparams"
         },
         {
             "name": "easyscroller",
@@ -1187,6 +1897,11 @@
             "path": "sharepoint/SharePoint.d.ts"
         },
         {
+            "name": "SharePoint.d.ts.tscparams",
+            "aliases": [],
+            "path": "sharepoint/SharePoint.d.ts.tscparams"
+        },
+        {
             "name": "should",
             "aliases": [],
             "path": "should/should.d.ts"
@@ -1197,14 +1912,29 @@
             "path": "siesta/siesta.d.ts"
         },
         {
+            "name": "siesta.d.ts.tscparams",
+            "aliases": [],
+            "path": "siesta/siesta.d.ts.tscparams"
+        },
+        {
             "name": "signalr",
             "aliases": [],
             "path": "signalr/signalr.d.ts"
         },
         {
+            "name": "signalr.d.ts.tscparams",
+            "aliases": [],
+            "path": "signalr/signalr.d.ts.tscparams"
+        },
+        {
             "name": "sinon-chai",
             "aliases": [],
             "path": "sinon-chai/sinon-chai.d.ts"
+        },
+        {
+            "name": "sinon-chai.d.ts.tscparams",
+            "aliases": [],
+            "path": "sinon-chai/sinon-chai.d.ts.tscparams"
         },
         {
             "name": "sinon",
@@ -1217,9 +1947,19 @@
             "path": "slickgrid/SlickGrid.d.ts"
         },
         {
+            "name": "SlickGrid.d.ts.tscparams",
+            "aliases": [],
+            "path": "slickgrid/SlickGrid.d.ts.tscparams"
+        },
+        {
             "name": "socket.io",
             "aliases": [],
             "path": "socket.io/socket.io.d.ts"
+        },
+        {
+            "name": "socket.io.d.ts.tscparams",
+            "aliases": [],
+            "path": "socket.io/socket.io.d.ts.tscparams"
         },
         {
             "name": "sockjs",
@@ -1232,9 +1972,19 @@
             "path": "soundjs/soundjs.d.ts"
         },
         {
+            "name": "soundjs.d.ts.tscparams",
+            "aliases": [],
+            "path": "soundjs/soundjs.d.ts.tscparams"
+        },
+        {
             "name": "spin",
             "aliases": [],
             "path": "spin/spin.d.ts"
+        },
+        {
+            "name": "spin.d.ts.tscparams",
+            "aliases": [],
+            "path": "spin/spin.d.ts.tscparams"
         },
         {
             "name": "state-machine",
@@ -1250,6 +2000,11 @@
             "name": "stripe",
             "aliases": [],
             "path": "stripe/stripe.d.ts"
+        },
+        {
+            "name": "stripe.d.ts.tscparams",
+            "aliases": [],
+            "path": "stripe/stripe.d.ts.tscparams"
         },
         {
             "name": "sugar",
@@ -1272,6 +2027,11 @@
             "path": "swiper/swiper.d.ts"
         },
         {
+            "name": "swiper.d.ts.tscparams",
+            "aliases": [],
+            "path": "swiper/swiper.d.ts.tscparams"
+        },
+        {
             "name": "swipeview",
             "aliases": [],
             "path": "swipeview/swipeview.d.ts"
@@ -1282,9 +2042,19 @@
             "path": "teechart/teechart.d.ts"
         },
         {
+            "name": "teechart.d.ts.tscparams",
+            "aliases": [],
+            "path": "teechart/teechart.d.ts.tscparams"
+        },
+        {
             "name": "three-r55",
             "aliases": [],
             "path": "threejs/three-r55.d.ts"
+        },
+        {
+            "name": "three-r55.d.ts.tscparams",
+            "aliases": [],
+            "path": "threejs/three-r55.d.ts.tscparams"
         },
         {
             "name": "three",
@@ -1292,9 +2062,24 @@
             "path": "threejs/three.d.ts"
         },
         {
+            "name": "three.d.ts.tscparams",
+            "aliases": [],
+            "path": "threejs/three.d.ts.tscparams"
+        },
+        {
             "name": "through",
             "aliases": [],
             "path": "through/through.d.ts"
+        },
+        {
+            "name": "through.d.ts.tscparams",
+            "aliases": [],
+            "path": "through/through.d.ts.tscparams"
+        },
+        {
+            "name": "titanium",
+            "aliases": [],
+            "path": "titanium/titanium.d.ts"
         },
         {
             "name": "toastr",
@@ -1312,6 +2097,11 @@
             "path": "tween.js/tween.js.d.ts"
         },
         {
+            "name": "tween.js.d.ts.tscparams",
+            "aliases": [],
+            "path": "tween.js/tween.js.d.ts.tscparams"
+        },
+        {
             "name": "tweenjs",
             "aliases": [],
             "path": "tweenjs/tweenjs.d.ts"
@@ -1320,6 +2110,11 @@
             "name": "underscore-ko",
             "aliases": [],
             "path": "underscore-ko/underscore-ko.d.ts"
+        },
+        {
+            "name": "underscore-ko.d.ts.tscparams",
+            "aliases": [],
+            "path": "underscore-ko/underscore-ko.d.ts.tscparams"
         },
         {
             "name": "underscore.string",
@@ -1337,9 +2132,19 @@
             "path": "unity-webapi/unity-webapi.d.ts"
         },
         {
+            "name": "unity-webapi.d.ts.tscparams",
+            "aliases": [],
+            "path": "unity-webapi/unity-webapi.d.ts.tscparams"
+        },
+        {
             "name": "URI",
             "aliases": [],
             "path": "urijs/URI.d.ts"
+        },
+        {
+            "name": "URI.d.ts.tscparams",
+            "aliases": [],
+            "path": "urijs/URI.d.ts.tscparams"
         },
         {
             "name": "UUID",
@@ -1362,6 +2167,11 @@
             "path": "vimeo/froogaloop.d.ts"
         },
         {
+            "name": "froogaloop.d.ts.tscparams",
+            "aliases": [],
+            "path": "vimeo/froogaloop.d.ts.tscparams"
+        },
+        {
             "name": "waa-20120802",
             "aliases": [],
             "path": "webaudioapi/waa-20120802.d.ts"
@@ -1372,9 +2182,19 @@
             "path": "webaudioapi/waa-nightly.d.ts"
         },
         {
+            "name": "waa-nightly.d.ts.tscparams",
+            "aliases": [],
+            "path": "webaudioapi/waa-nightly.d.ts.tscparams"
+        },
+        {
             "name": "waa",
             "aliases": [],
             "path": "webaudioapi/waa.d.ts"
+        },
+        {
+            "name": "waa.d.ts.tscparams",
+            "aliases": [],
+            "path": "webaudioapi/waa.d.ts.tscparams"
         },
         {
             "name": "MediaStream",
@@ -1382,9 +2202,19 @@
             "path": "webrtc/MediaStream.d.ts"
         },
         {
+            "name": "MediaStream.d.ts.tscparams",
+            "aliases": [],
+            "path": "webrtc/MediaStream.d.ts.tscparams"
+        },
+        {
             "name": "RTCPeerConnection",
             "aliases": [],
             "path": "webrtc/RTCPeerConnection.d.ts"
+        },
+        {
+            "name": "RTCPeerConnection.d.ts.tscparams",
+            "aliases": [],
+            "path": "webrtc/RTCPeerConnection.d.ts.tscparams"
         },
         {
             "name": "when",
@@ -1397,6 +2227,11 @@
             "path": "winjs/winjs.d.ts"
         },
         {
+            "name": "winjs.d.ts.tscparams",
+            "aliases": [],
+            "path": "winjs/winjs.d.ts.tscparams"
+        },
+        {
             "name": "winrt",
             "aliases": [],
             "path": "winrt/winrt.d.ts"
@@ -1405,6 +2240,11 @@
             "name": "youtube",
             "aliases": [],
             "path": "youtube/youtube.d.ts"
+        },
+        {
+            "name": "youtube.d.ts.tscparams",
+            "aliases": [],
+            "path": "youtube/youtube.d.ts.tscparams"
         },
         {
             "name": "zepto",

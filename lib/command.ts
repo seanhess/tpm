@@ -37,8 +37,9 @@ export function run() {
     if (command == "install") {
         var o = argv.o || "types/"
         var out = path.join(workingDir, o)
+        var useDev = !!argv.dev
         if (!files.length) files = [path.join(workingDir, "package.json")]
-        promise = install(files[0], out)
+        promise = install(files[0], out, useDev)
     }
 
     else if (command == "index") {
@@ -60,16 +61,25 @@ export function run() {
 
 }
 
-export function install(file:string, dir:string) {
+export function install(file:string, dir:string, useDev:boolean) {
     console.log("tpm install", file, "to", dir)
     return fs.readFile(file)
     .then((data) => JSON.parse(data.toString()))
-    .then((packageData) => installPackages(packageData, dir))
+    .then((packageData) => installPackages(packageData, dir, useDev))
 }
 
-export function installPackages(packageData:tpm.IPackageData, dir:string) {
+export function installPackages(packageData:tpm.IPackageData, dir:string, useDev:boolean) {
     return tpm.loadIndex()    
-    .then((index) => tpm.findPackageDefinitions(index, packageData))
+    .then(function(index) {
+        var defs = tpm.findPackageDefinitions(index, packageData.dependencies)
+        if (useDev)
+            defs = defs.concat(tpm.findPackageDefinitions(index, packageData.devDependencies))
+
+        // also return node, just for kicks
+        defs = defs.concat(tpm.findDefinitions(index, "node"))
+
+        return defs
+    })
     .then((defs) => tpm.downloadDefinitionsToFolder(defs, dir))
 }
 

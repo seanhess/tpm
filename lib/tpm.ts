@@ -38,7 +38,12 @@ export interface IDefinitionIndex {
 
 
 export interface IPackageData {
-    dependencies:{[key: string]: string};
+    dependencies:IDependenciesHash;
+    devDependencies?:IDependenciesHash;
+}
+
+export interface IDependenciesHash {
+    [key: string]: string;
 }
 
 
@@ -131,15 +136,15 @@ export function createReferenceFile(typeFilePaths:string[], indexFilePath:string
 
 // This resolves versions, not because that is TPM's main goal, but it should be able to 
 // once versions are supported
-export function findPackageDefinitions(cachedIndex:IDefinitionIndex, packageData:IPackageData):IDefinitionVersion[] {
-    var definitions = _.map(packageData.dependencies, function(version, name) {
+export function findPackageDefinitions(cachedIndex:IDefinitionIndex, dependencies:IDependenciesHash):IDefinitionVersion[] {
+    var definitions = _.map(dependencies, function(version, name) {
         return findDefinitions(cachedIndex, name)
         .filter((def) => def.version == LATEST)
     })
-    // also return node, just for kicks
-    definitions.push(findDefinitions(cachedIndex, "node"))
     return _.flatten(definitions)
 }
+
+
 
 
 

@@ -43,6 +43,7 @@ module.exports = function(grunt) {
     },
 
     "tpm-install": {
+      options: {dev:true},
       all: {src: "package.json"}
     },
 

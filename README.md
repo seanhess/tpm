@@ -23,6 +23,10 @@ Install dependencies by reading any `.json` file that is similar to `package.jso
     tpm install package.json -o types/
     tpm install bower.json -o types/
 
+To read the devDependencies field as well, just add the `--dev` flag.
+
+    tpm install --dev [something.json]
+
 Create a single reference file pointing to all other reference files. Your application only needs to reference this single file to contain all definition files. The output defaults to `types/all.d.ts`. The input files are required.
 
     tpm index types/**/*.d.ts -o types/all.d.ts
@@ -50,6 +54,7 @@ In your project's Gruntfile, add a section named `tpm-install` or `tpm-index` to
 // dest is optional on both of these, the default is shown here
 grunt.initConfig({
     "tpm-install": {
+      options: {dev: false},
       all: {src: "package.json", dest: "types/"}
     },
 
@@ -59,7 +64,7 @@ grunt.initConfig({
 })
 ```
 
-`tpm-install` installs the definitions for a given `package.json` or `bower.json`.
+`tpm-install` installs the definitions for a given `package.json` or `bower.json`. You may pass in `dev:true` in the options to read the `devDependencies` as well.
 
 `tpm-index` creates a reference file pointing to all the definition files specified, so you only have to include one.
 
@@ -158,12 +163,16 @@ Create a single reference file pointing to other reference files. Your applicati
     /// <reference path="types/jquery/jquery.d.ts" />
     /// <reference path="types/jquery/jquery.d.ts" />
 
-Find definitions given a file similar to `package.json`. This will work with `bower.json` and `package.json`. 
+Find definitions given a hash of dependencies to versions, like what is found in the `dependencies` field of `package.json` or `bower.json`.
 
-    // packageData should have a `dependencies` property
-    //   name: version/folder/package, etc
-    findPackageDefinitions(cachedIndex:IDefinitionIndex, packageData:any):IDefinitionVersion[]
+    // dependencies is a hash of "name: version", etc
+    findPackageDefinitions(cachedIndex:IDefinitionIndex, dependencies:IDependenciesHash):IDefinitionVersion[]
 
+
+History
+-------
+
+*0.1.6* Added support for `--dev` and `dev:true` to parse `devDependencies
 
 Later
 -----

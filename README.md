@@ -172,7 +172,7 @@ Find definitions given a hash of dependencies to versions, like what is found in
 History
 -------
 
-*0.1.6* Added support for `--dev` and `dev:true` to parse `devDependencies
+*0.1.7* Added support for `--dev` and `dev:true` to parse `devDependencies
 
 Later
 -----

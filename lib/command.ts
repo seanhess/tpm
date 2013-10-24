@@ -15,6 +15,11 @@ var optimist = require('optimist')
 
 // }
 
+function warning(message) {
+    console.log("[Error]", message)
+    process.exit(1)
+}
+
 export function run() {
     var argv = optimist
         .usage("Usage: \n  tpm install\n  tpm install package.json -o types/\n  tpm index types/**/*.d.ts -o types/all.d.ts")
@@ -37,6 +42,7 @@ export function run() {
     if (command == "install") {
         var o = argv.o || "types/"
         var out = path.join(workingDir, o)
+        if (argv.dev.length) warning("Please put --dev at the end of the command: tpm install package.json --dev")
         var useDev = !!argv.dev
         if (!files.length) files = [path.join(workingDir, "package.json")]
         promise = install(files[0], out, useDev)
@@ -45,12 +51,12 @@ export function run() {
     else if (command == "index") {
         var o = argv.o || "types/all.d.ts"
         var out = path.join(workingDir, o)
-        if (!files.length) throw new Error("You must specify files to index")
+        if (!files.length) warning("You must specify files to index")
         promise = index(files, out)
     }
 
     else {
-        throw new Error("Unknown Command: " + command)
+        warning("Unknown Command: " + command)
     }
 
     if (promise) {

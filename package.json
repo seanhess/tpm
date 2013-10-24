@@ -1,6 +1,6 @@
 {
   "name": "typescript-tpm",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Typescript Definition Package Manager",
   "homepage": "https://github.com/seanhess/tpm",
   "repository": {

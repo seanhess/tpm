@@ -23,9 +23,9 @@ Install dependencies by reading any `.json` file that is similar to `package.jso
     tpm install package.json -o types/
     tpm install bower.json -o types/
 
-To read the devDependencies field as well, just add the `--dev` flag.
+To read the devDependencies field as well, just add the `--dev` flag. Make sure to add it to the end.
 
-    tpm install --dev [something.json]
+    tpm install [something.json] --dev
 
 Create a single reference file pointing to all other reference files. Your application only needs to reference this single file to contain all definition files. The output defaults to `types/all.d.ts`. The input files are required.
 

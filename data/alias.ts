@@ -10,4 +10,5 @@ export var all:IAlias[] = [
     {name: "angular", alias: "angular-browserify"},
     {name: "angular", alias: "angularjs"},
     {name: "jquery", alias: "jquery-browserify"},
+    {name: "jasmine-core", alias: "jasmine"},
 ]
